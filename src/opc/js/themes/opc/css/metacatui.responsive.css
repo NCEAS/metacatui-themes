@@ -1,0 +1,28 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+
+    #Navbar {
+        background-color: #13828e;
+    }
+
+    #Navbar .navbar li {
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    body > section > article {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+  .has-temporary-message #Content {
+      padding-top: 128px;
+  }
+}
+@media only screen and (max-width : 550px) {
+  .has-temporary-message #Content {
+      padding-top: 148px;
+  }
+}

@@ -2,6 +2,8 @@
 
 This repository contains files for public themes for [MetacatUI](https://nceas.github.io/metacatui/), mainly themes created for [DataONE Plus Hosted Repositories](https://www.dataone.org/hosted-repo/).
 
+Themes distributed with MetacatUI can be found [here](https://github.com/NCEAS/metacatui/tree/main/src/js/themes).
+
 For detailed instructions on how to create a custom theme, see the [MetacatUI Themes docs](https://nceas.github.io/metacatui/install/configuration/index.html)
 
 

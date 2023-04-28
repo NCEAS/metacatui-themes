@@ -24,6 +24,11 @@ function ($, _, Backbone, BaseRouter) {
                 }
 
             this.renderText(options);
+        },
+        renderData: function () {
+            // navigate to the data portal rather than the data catalog
+            window.location.href = "http://sctld.test.dataone.org/portals/6A4B8C2D1E3F7G/Data";
+
         }
     });
     return UIRouter;

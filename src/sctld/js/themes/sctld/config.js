@@ -51,6 +51,7 @@ MetacatUI.AppConfig = Object.assign({
   },
   enableSolrJoins: true,
   // TESTING
+  // quickAddTaxa: "urn:uuid:c09345f8-172e-450f-ad40-e6561477b464" // <- old
   quickAddTaxa: [
     {
       label: "Coral Species",
@@ -252,7 +253,7 @@ MetacatUI.AppConfig = Object.assign({
           taxonRankValue: "Orbicella annularis",
           taxonRankName: "Species",
           taxonId: {
-            value: "",
+            value: "53256",
             provider: "https://www.itis.gov",
           },
         },
@@ -268,7 +269,7 @@ MetacatUI.AppConfig = Object.assign({
           taxonRankValue: "Orbicella faveolata",
           taxonRankName: "Species",
           taxonId: {
-            value: "",
+            value: "572291",
             provider: "https://www.itis.gov",
           },
         },
@@ -300,7 +301,7 @@ MetacatUI.AppConfig = Object.assign({
           taxonRankValue: "Pseudodiploria clivosa",
           taxonRankName: "Species",
           taxonId: {
-            value: "",
+            value: "53285",
             provider: "https://www.itis.gov",
           },
         },
@@ -308,7 +309,7 @@ MetacatUI.AppConfig = Object.assign({
           taxonRankValue: "Pseudodiploria strigosa",
           taxonRankName: "Species",
           taxonId: {
-            value: "",
+            value: "53287",
             provider: "https://www.itis.gov",
           },
         },

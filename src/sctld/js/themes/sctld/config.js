@@ -49,7 +49,8 @@ MetacatUI.AppConfig = Object.assign({
     temporalCoverage: true,
     title: true
   },
-  enableSolrJoins: true
+  enableSolrJoins: true,
+  quickAddTaxa: "urn:uuid:b786cb52-59ab-458d-962a-3308cb90007b"
 }, (MetacatUI.AppConfig || {}));
 
 MetacatUI.themeMap =

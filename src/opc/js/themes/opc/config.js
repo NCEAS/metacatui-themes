@@ -6,7 +6,7 @@ MetacatUI.AppConfig = Object.assign({
   title: "California Ocean Protection Council Data Repository",
   description: "The California Ocean Protection Council (OPC) serves as the California Governor's advisor on ocean and coastal policy and is charged with safeguarding coastal and ocean ecosystems for the benefit of all Californians. OPC provides best available science to decisionmakers, develops science-based policy recommendations, strategically deploys funding and other resources, and collaborates across jurisdictional, programmatic, and regional boundaries.",
   emailContact: "Michael.Esgro@resources.ca.gov",
-  googleAnalyticsKey: "UA-172872791-1",
+  googleAnalyticsKey: "G-L1MH2BPD52",
 
   //Temporary Message
   temporaryMessage: "The California OPC Data Repository will be unavailable between 11 p.m. PT on Monday, June 15 and 6:30 a.m. PT on Tuesday, June 16 due to upgrades. We apologize for the inconvenience.",

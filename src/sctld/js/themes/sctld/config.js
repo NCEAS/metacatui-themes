@@ -7,6 +7,7 @@ MetacatUI.AppConfig = Object.assign({
   description: "The SCTLD portal is a searchable inventory of existing SCTLD information related to research, surveillance, and intervention activities conducted for each susceptible species.",
   nodeId: "urn:node:SCTLD",
   mapKey: "AIzaSyBOotcxktBCRVUbbRTQoyy1d4IdA57S8cg",
+  googleAnalyticsKey: "G-D7L4MVTNYX",
 
   /* Metadata View */
 

@@ -284,8 +284,52 @@ MetacatUI.AppConfig = Object.assign({
         moreInfoLink: "https://usicecenter.gov/Products/ImsHome"
       },
       {
+        label: "Ice-Wedge Polygons",
+        /*icon: "urn:uuid:73f234f7-a2ae-46b4-9bc2-8d75f69b25a8",*/
+        type: "WebMapTileServiceImageryProvider",
+        visible: false,
+        description: "Ice-wedge polygons are ubiquitous ground features in landscapes underlain by ice-rich permafrost. Ice-wedge polygons are bounded by wedges of ice, which develop from millenia of repeated frost-cracking during cold winters and snowmelt water infiltrating into the cracks in spring. High resolution satellite imagery combined with deep learning tools were used to detect ice-wedge polygons across the Arctic tundra. To learn more about how this data was produced, see this publication: <a href='https://arcticdata.io/catalog/view/doi:10.18739/A2KW57K57' target='_blank'>https://arcticdata.io/catalog/view/doi:10.18739/A2KW57K57</a>",
+        attribution: "Chandi Witharana, Mahendra R Udawalpola, Amal S Perera, Amit Hasan, Elias Manos, Anna Liljedahl, Mikhail Kanevskiy, M Torre Jorgenson, Ronald Daanen, Benjamin Jones, Howard Epstein, Matthew B Jones, Robyn Thiessen-Bock, Juliet Cohen, & Kastan Day. (2023). Ice-wedge polygon detection in satellite imagery from pan-Arctic regions, Permafrost Discovery Gateway, 2001-2021. Arctic Data Center. doi:<a href='https://doi.org/10.18739/A2KW57K57' target='_blank'>10.18739/A2KW57K57</a>.",
+        cesiumOptions: {
+          url: "https://demo.arcticdata.io/tiles/layers/iwp_high_all_20230608/iwp_coverage/WGS1984Quad/{TileMatrix}/{TileCol}/{TileRow}.png",
+          tilingScheme: "GeographicTilingScheme",
+          rectangle: [ -179.91531896747117, 50.16996707215903, 179.91531896747247, 80.0978646943821 ] },
+          colorPalette: {
+            paletteType: "continuous", property: "Percent area covered by polygons",
+          colors: [
+            { color: "#f8ff1f" }
+          ]
+        }
+      },
+      /*{
+        label: "Permafrost Zones",
+        icon: "urn:uuid:25d227f8-bc97-403f-a64d-5b76e741f31a",
+        type: "Cesium3DTileset",
+        visible: false,
+        opacity: 0.4,
+        description: "This biophysical permafrost zonation map was produced using a rule-based GIS model that integrated a new permafrost extent, climate conditions, vegetation structure, soil and topographic conditions, as well as a yedoma map. Permafrost in this map is classified into five types: climate-driven, climate-driven/ecosystem-modified, climate-driven/ecosystem protected, ecosystem-driven, and ecosystem-protected. 81% of the permafrost regions in the Northern Hemisphere are modified, driven, or protected by ecosystems, indicating the dominant role of ecosystems in permafrost stability in the Northern Hemisphere. Permafrost driven solely by climate occupies 19% of permafrost regions, mainly in High Arctic and high mountains areas, such as the Qinghai-Tibet Plateau.",
+        moreInfoLink: "https://iopscience.iop.org/article/10.1088/1748-9326/ac20f3",
+        downloadLink: "https://doi.org/10.11888/Geocry.tpdc.271659",
+        attribution: "Y.Ran, Y.; M. Torre Jorgenson.; Li, X.; Jin, H.; Wu, T.; Li, R.; Cheng, G. (2021): A biophysical permafrost zonation map in the Northern Hemisphere (2000-2016). National Tibetan Plateau Data Center, https://doi.org/10.11888/Geocry.tpdc.271659",
+        cesiumOptions: { ionAssetId: "634560" },
+        colorPalette: {
+          paletteType: "categorical",
+          property: "Type",
+          label: "Zone type",
+          colors: [
+            { value: "Climate-driven", color: "#FF3720" },
+            { value: "Climate-driven/ecosystem-modified", color: "#0370FE" },
+            { value: "Climate-driven/ecosystem protected", color: "#BFD1FF" },
+            { value: "Ecosystem-driven", color: "#4DE603" },
+            { value: "Ecosystem-protected", color: "#267301" },
+            { value: "null", color: "#ffffff" }
+          ]
+        }
+      },*/
+      {
         type: "WebMapServiceImageryProvider",
-        label: "River Ice Breakup Status (in development)",
+        label: "River Ice Breakup Status",
+        /*icon: "urn:uuid:c4b53e6f-814d-4c22-a159-a4164daaf86f",*/
         description: "The ice breakup/flood status of major rivers in Alaska",
         visible: false,
         opacity: 0.4,
@@ -315,11 +359,12 @@ MetacatUI.AppConfig = Object.assign({
           ]
         },
         "attribution": "Alaska-Pacific River Forecast Service",
-        "moreInfoLink": "https://www.weather.gov/aprfc/breakupMap"
+        "moreInfoLink": "https://www.weather.gov/aprfc/breakupMap",
+        "notification": { "badge": "In development", "style": "yellow", "message": "This layer is under development by the NOAA Map Services office and will be available soon." }
       },
       {
         type: "WebMapServiceImageryProvider",
-        label: "Temperature (in development)",
+        label: "Temperature",
         description: "This service provides weather forecasts from the National Digital Forecast Database. Day 1-3 forecasts are updated every 30 minutes.",
         visible: false,
         opacity: 0.4,
@@ -333,7 +378,8 @@ MetacatUI.AppConfig = Object.assign({
           },
         },
         attribution: "National Digital Forecast Database, National Weather Service",
-        moreInfoLink: "https://digital.weather.gov/?zoom=3&lat=62.86094&lon=-158.80078&layers=F000BTTTFTT&region=1&element=6&mxmz=false&barbs=false&subl=TFFFF&units=english&wunits=nautical&coords=latlon&tunits=localt"
+        moreInfoLink: "https://digital.weather.gov/?zoom=3&lat=62.86094&lon=-158.80078&layers=F000BTTTFTT&region=1&element=6&mxmz=false&barbs=false&subl=TFFFF&units=english&wunits=nautical&coords=latlon&tunits=localt",
+        notification: { badge: "In development", style: "yellow", message: "This layer is under development by the National Weather Service and will be available soon." }
       },
       {
         label: "Satellite imagery",

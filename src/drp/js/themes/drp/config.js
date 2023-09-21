@@ -479,6 +479,7 @@ MetacatUI.AppConfig = Object.assign({
   allowAccessPolicyChangesPortalsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=drp-data-admins,DC=dataone,DC=org"],
   showDatasetPublicToggle: true,
   showDatasetPublicToggleForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=drp-data-admins,DC=dataone,DC=org", "CN=drp-pis,DC=dataone,DC=org"],
+  limitPortalsToSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=drp-data-admins,DC=dataone,DC=org", "CN=drp-portal-admins,DC=dataone,DC=org"],
   emlEditorRequiredFields: {
       abstract: true,
       alternateIdentifier: false,

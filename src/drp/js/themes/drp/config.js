@@ -345,7 +345,52 @@ MetacatUI.AppConfig = Object.assign({
           }
         },
         "attribution": "NWS National Digital Forecast Database (NDFD)",
-        "moreInfoLink": "https://nowcoast.noaa.gov/",
+        "moreInfoLink": "https://nowcoast.noaa.gov/"
+      },
+      {
+        "type": "WebMapServiceImageryProvider",
+        "label": "Active Fires",
+        "description": "Alaska Wildland Fire Perimeter Polygons geospatial data represents the daily and final perimeters for wildfires and prescribed fires. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution).",
+        "visible": false,
+        "opacity": 0.7,
+        "cesiumOptions": {
+          "url": "https://fire.ak.blm.gov/arcgis/services/MapAndFeatureServices/Fires_Perimeters/MapServer/WMSServer",
+          "layers": 3,
+          "parameters": {
+            "transparent": "true",
+            "format": "image/png"
+          }
+        },
+        "colorPalette": {
+          "colors": [
+            { "label": "Active Fires", "value": "0", "color": "#ff0000" }
+          ]
+        },
+        "attribution": "Alaska Wildland Fire Information Map Series",
+        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
+        "notification": { "badge": "New", "style": "green" }
+      },
+      {
+        "type": "WebMapServiceImageryProvider",
+        "label": "Extinguished Fires",
+        "description": "Alaska Wildland Fire Perimeter Polygons geospatial data represents the daily and final perimeters for wildfires and prescribed fires. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution).",
+        "visible": false,
+        "opacity": 0.7,
+        "cesiumOptions": {
+          "url": "https://fire.ak.blm.gov/arcgis/services/MapAndFeatureServices/Fires_Perimeters/MapServer/WMSServer",
+          "layers": 2,
+          "parameters": {
+            "transparent": "true",
+            "format": "image/png"
+          }
+        },
+        "colorPalette": {
+          "colors": [
+            { "label": "Out Fires", "value": "0", "color": "#0000ff" }
+          ]
+        },
+        "attribution": "Alaska Wildland Fire Information Map Series",
+        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
         "notification": { "badge": "New", "style": "green" }
       },
       {

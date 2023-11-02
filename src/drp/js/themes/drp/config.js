@@ -277,8 +277,7 @@ MetacatUI.AppConfig = Object.assign({
           }
         },
         "attribution": "NWS National Digital Forecast Database (NDFD)",
-        "moreInfoLink": "https://nowcoast.noaa.gov/",
-        "notification": { "badge": "New", "style": "green" }
+        "moreInfoLink": "https://nowcoast.noaa.gov/"
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -295,8 +294,7 @@ MetacatUI.AppConfig = Object.assign({
           }
         },
         "attribution": "NWS National Digital Forecast Database (NDFD)",
-        "moreInfoLink": "https://nowcoast.noaa.gov/",
-        "notification": { "badge": "New", "style": "green" }
+        "moreInfoLink": "https://nowcoast.noaa.gov/"
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -313,8 +311,7 @@ MetacatUI.AppConfig = Object.assign({
           }
         },
         "attribution": "NWS National Digital Forecast Database (NDFD)",
-        "moreInfoLink": "https://nowcoast.noaa.gov/",
-        "notification": { "badge": "New", "style": "green" }
+        "moreInfoLink": "https://nowcoast.noaa.gov/"
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -331,8 +328,7 @@ MetacatUI.AppConfig = Object.assign({
           }
         },
         "attribution": "NWS National Digital Forecast Database (NDFD)",
-        "moreInfoLink": "https://nowcoast.noaa.gov/",
-        "notification": { "badge": "New", "style": "green" }
+        "moreInfoLink": "https://nowcoast.noaa.gov/"
       },
       {
         "type": "WebMapServiceImageryProvider",

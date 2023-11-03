@@ -402,7 +402,7 @@ MetacatUI.AppConfig = Object.assign({
         "cesiumOptions": {
           "url": "https://mapservices.weather.noaa.gov/raster/services/obs/usnic_ims_snow_ice_1km/ImageServer/WMSServer",
           "layers": "usnic_ims_snow_ice_1km:rft_usnic_ims_1km",
-          // "rectangle": [-179.9, 50.0000004917383, -126.000001117587, 72.0],
+          "rectangle": [-179.9, 50.0000004917383, -126.000001117587, 72.0],
           "parameters": {
             "transparent": "true",
             "format": "image/png"

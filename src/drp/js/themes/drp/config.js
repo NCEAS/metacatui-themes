@@ -350,7 +350,7 @@ MetacatUI.AppConfig = Object.assign({
       {
         "type": "WebMapServiceImageryProvider",
         "label": "Active Fire Perimeters",
-        "description": "Alaska Wildland Fire Perimeter Polygons geospatial data represents the daily and final perimeters for wildfires and prescribed fires. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution).",
+        "description": "Wildland fire history data is made up of wildland fire locations (fire occurrence points) and wildland fire perimeter polygons. Alaska Statewide Fire History Perimeters is a time series of areas burned in each calendar year across Alaska. The polygons in this dataset represent perimeters of wildfires that occur naturally (e.g., lightning) or by humans accidentally (e.g., escaped campfire) or maliciously across Alaska. NOTE: Not all recorded wildland fires are associated with a perimeter polygon. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution). Although this is a comprehensive dataset, it is not complete and is subject to revision. Data are available as ArcGIS Server Map and Feature Services https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices or for download from https://fire.ak.blm.gov/predsvcs/maps.php.",
         "visible": false,
         "opacity": 0.7,
         "cesiumOptions": {
@@ -372,8 +372,8 @@ MetacatUI.AppConfig = Object.assign({
       },
       {
         "type": "WebMapServiceImageryProvider",
-        "label": "Extinguished Fire Perimeters",
-        "description": "Alaska Wildland Fire Perimeter Polygons geospatial data represents the daily and final perimeters for wildfires and prescribed fires. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution).",
+        "label": "Out Fire Perimeters (current year)",
+        "description": "Wildland fire history data is made up of wildland fire locations (fire occurrence points) and wildland fire perimeter polygons. Alaska Statewide Fire History Perimeters is a time series of areas burned in each calendar year across Alaska. The polygons in this dataset represent perimeters of wildfires that occur naturally (e.g., lightning) or by humans accidentally (e.g., escaped campfire) or maliciously across Alaska. NOTE: Not all recorded wildland fires are associated with a perimeter polygon. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution). Although this is a comprehensive dataset, it is not complete and is subject to revision. Data are available as ArcGIS Server Map and Feature Services https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices or for download from https://fire.ak.blm.gov/predsvcs/maps.php.",
         "visible": false,
         "opacity": 0.7,
         "cesiumOptions": {

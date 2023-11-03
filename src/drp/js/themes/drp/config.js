@@ -251,12 +251,12 @@ MetacatUI.AppConfig = Object.assign({
           "property": "WWA",
           "label": "NWS Watches and Warnings",
           "colors": [
-            { "value": "0 - Warning", "color": "#e80000" },
-            { "value": "1 - Advisory", "color": "#ffab00" },
-            { "value": "2 - Watch", "color": "#e8ea27" },
-            { "value": "3 - Special Wx Stmt", "color": "#ffe9c2" },
-            { "value": "4 - Storm Warning", "color": "#9400d3" },
-            { "value": "5 - Small Craft Advisory", "color": "#d8bfd8" }
+            { "value": "Warning", "color": "#e80000" },
+            { "value": "Advisory", "color": "#ffab00" },
+            { "value": "Watch", "color": "#e8ea27" },
+            { "value": "Special Wx Stmt", "color": "#ffe9c2" },
+            { "value": "Storm Warning", "color": "#9400d3" },
+            { "value": "Small Craft Advisory", "color": "#d8bfd8" }
           ]
         },
         "attribution": "National Weather Service",
@@ -349,7 +349,7 @@ MetacatUI.AppConfig = Object.assign({
       },
       {
         "type": "WebMapServiceImageryProvider",
-        "label": "Active Fires",
+        "label": "Active Fire Perimeters",
         "description": "Alaska Wildland Fire Perimeter Polygons geospatial data represents the daily and final perimeters for wildfires and prescribed fires. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution).",
         "visible": false,
         "opacity": 0.7,
@@ -372,7 +372,7 @@ MetacatUI.AppConfig = Object.assign({
       },
       {
         "type": "WebMapServiceImageryProvider",
-        "label": "Extinguished Fires",
+        "label": "Extinguished Fire Perimeters",
         "description": "Alaska Wildland Fire Perimeter Polygons geospatial data represents the daily and final perimeters for wildfires and prescribed fires. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution).",
         "visible": false,
         "opacity": 0.7,
@@ -402,7 +402,7 @@ MetacatUI.AppConfig = Object.assign({
         "cesiumOptions": {
           "url": "https://mapservices.weather.noaa.gov/raster/services/obs/usnic_ims_snow_ice_1km/ImageServer/WMSServer",
           "layers": "usnic_ims_snow_ice_1km:rft_usnic_ims_1km",
-          "rectangle": [-179.9, 50.0000004917383, -126.000001117587, 72.0],
+          // "rectangle": [-179.9, 50.0000004917383, -126.000001117587, 72.0],
           "parameters": {
             "transparent": "true",
             "format": "image/png"
@@ -448,15 +448,15 @@ MetacatUI.AppConfig = Object.assign({
           "property": "status",
           "label": "River Status",
           "colors": [
-            { "label": "0 - Mostly Ice", "value": "mostice", "color": "#ffffff" },
-            { "label": "1 - Some Open", "value": "someopen", "color": "#67fffe" },
-            { "label": "2 - Mostly Open", "value": "mostopen", "color": "#01a1d7" },
-            { "label": "3 - Open", "value": "open", "color": "#00009c" },
-            { "label": "4 - Flood Warning", "value": "floodwarning", "color": "#ff0000" },
-            { "label": "5 - Flood Watch", "value": "floodwatch", "color": "#ffff00" },
-            { "label": "6 - Flood Advisory", "value": "floodadv", "color": "#ff9900" },
-            { "label": "7 - No Warning", "value": "nowarn", "color": "#000000" },
-            { "label": "8 - Unknown", "value": "unknown", "color": "#f11dfe" }
+            { "label": "Mostly Ice", "value": "mostice", "color": "#ffffff" },
+            { "label": "Some Open", "value": "someopen", "color": "#67fffe" },
+            { "label": "Mostly Open", "value": "mostopen", "color": "#01a1d7" },
+            { "label": "Open", "value": "open", "color": "#00009c" },
+            { "label": "Flood Warning", "value": "floodwarning", "color": "#ff0000" },
+            { "label": "Flood Watch", "value": "floodwatch", "color": "#ffff00" }//,
+            // { "label": "Flood Advisory", "value": "floodadv", "color": "#ff9900" },
+            // { "label": "No Warning", "value": "nowarn", "color": "#000000" },
+            // { "label": "Unknown", "value": "unknown", "color": "#f11dfe" }
           ]
         },
         "attribution": "Alaska-Pacific River Forecast Service",

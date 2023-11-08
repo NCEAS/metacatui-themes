@@ -409,12 +409,12 @@ MetacatUI.AppConfig = Object.assign({
         },
         "colorPalette": {
           "colors": [
-            { "label": "0", "value": "0", "color": "#0909ff" },
-            { "label": "3", "value": "3", "color": "#93ff93" },
-            { "label": "6", "value": "6", "color": "#ffffab" },
-            { "label": "9", "value": "9", "color": "#f9a307" },
-            { "label": "14", "value": "14", "color": "#ff0000" },
-            { "label": ">18", "value": "18", "color": "#ac0000" }
+            { "label": "0", "value": 0, "color": "#0909ff" },
+            { "label": "3", "value": 3, "color": "#93ff93" },
+            { "label": "6", "value": 6, "color": "#ffffab" },
+            { "label": "9", "value": 9, "color": "#f9a307" },
+            { "label": "14", "value": 14, "color": "#ff0000" },
+            { "label": ">18", "value": 18, "color": "#ac0000" }
           ]
         },
         "attribution": "Alaska Wildland Fire Information Map Series",

@@ -372,7 +372,7 @@ MetacatUI.AppConfig = Object.assign({
       },
       {
         "type": "WebMapServiceImageryProvider",
-        "label": "Out Fire Perimeters (current year)",
+        "label": "Out Fires (current year)",
         "description": "Wildland fire history data is made up of wildland fire locations (fire occurrence points) and wildland fire perimeter polygons. Alaska Statewide Fire History Perimeters is a time series of areas burned in each calendar year across Alaska. The polygons in this dataset represent perimeters of wildfires that occur naturally (e.g., lightning) or by humans accidentally (e.g., escaped campfire) or maliciously across Alaska. NOTE: Not all recorded wildland fires are associated with a perimeter polygon. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution). Although this is a comprehensive dataset, it is not complete and is subject to revision. Data are available as ArcGIS Server Map and Feature Services <a href='https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices' target='_blank'>https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices</a> or for download from <a href='https://fire.ak.blm.gov/predsvcs/maps.php' target='_blank'>https://fire.ak.blm.gov/predsvcs/maps.php</a>.",
         "visible": false,
         "opacity": 0.7,
@@ -395,8 +395,54 @@ MetacatUI.AppConfig = Object.assign({
       },
       {
         "type": "WebMapServiceImageryProvider",
+        "label": "Active Prescribed Fires",
+        "description": "Wildland fire history data is made up of wildland fire locations (fire occurrence points) and wildland fire perimeter polygons. Alaska Statewide Fire History Perimeters is a time series of areas burned in each calendar year across Alaska. The polygons in this dataset represent perimeters of wildfires that occur naturally (e.g., lightning) or by humans accidentally (e.g., escaped campfire) or maliciously across Alaska. NOTE: Not all recorded wildland fires are associated with a perimeter polygon. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution). Although this is a comprehensive dataset, it is not complete and is subject to revision. Data are available as ArcGIS Server Map and Feature Services <a href='https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices' target='_blank'>https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices</a> or for download from <a href='https://fire.ak.blm.gov/predsvcs/maps.php' target='_blank'>https://fire.ak.blm.gov/predsvcs/maps.php</a>.",
+        "visible": false,
+        "opacity": 0.7,
+        "cesiumOptions": {
+          "url": "https://fire.ak.blm.gov/arcgis/services/MapAndFeatureServices/Fires_Perimeters/MapServer/WMSServer",
+          "layers": 5,
+          "parameters": {
+            "transparent": "true",
+            "format": "image/png"
+          }
+        },
+        "colorPalette": {
+          "colors": [
+            { "label": "Active Prescribed Fires", "value": "0", "color": "#ffa000" }
+          ]
+        },
+        "attribution": "Alaska Wildland Fire Information Map Series",
+        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
+        "notification": { "badge": "New", "style": "green" }
+      },
+      {
+        "type": "WebMapServiceImageryProvider",
+        "label": "Out Prescribed Fires",
+        "description": "Wildland fire history data is made up of wildland fire locations (fire occurrence points) and wildland fire perimeter polygons. Alaska Statewide Fire History Perimeters is a time series of areas burned in each calendar year across Alaska. The polygons in this dataset represent perimeters of wildfires that occur naturally (e.g., lightning) or by humans accidentally (e.g., escaped campfire) or maliciously across Alaska. NOTE: Not all recorded wildland fires are associated with a perimeter polygon. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution). Although this is a comprehensive dataset, it is not complete and is subject to revision. Data are available as ArcGIS Server Map and Feature Services <a href='https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices' target='_blank'>https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices</a> or for download from <a href='https://fire.ak.blm.gov/predsvcs/maps.php' target='_blank'>https://fire.ak.blm.gov/predsvcs/maps.php</a>.",
+        "visible": false,
+        "opacity": 0.7,
+        "cesiumOptions": {
+          "url": "https://fire.ak.blm.gov/arcgis/services/MapAndFeatureServices/Fires_Perimeters/MapServer/WMSServer",
+          "layers": 4,
+          "parameters": {
+            "transparent": "true",
+            "format": "image/png"
+          }
+        },
+        "colorPalette": {
+          "colors": [
+            { "label": "Out Prescribed Fires", "value": "0", "color": "#ffd995" }
+          ]
+        },
+        "attribution": "Alaska Wildland Fire Information Map Series",
+        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
+        "notification": { "badge": "New", "style": "green" }
+      },
+      {
+        "type": "WebMapServiceImageryProvider",
         "label": "Initial Spread Index (today)",
-        "description": "These features represent forecast values for Fire Danger Ratings - Initial Spread Index (ISI). Visit https://akff.mesowest.org/about/ for more information.",
+        "description": "These features represent forecast values for Fire Danger Ratings - Initial Spread Index (ISI). Visit <a href='https://akff.mesowest.org/about/' target='_blank'>https://akff.mesowest.org/about/</a> for more information.",
         "visible": false,
         "opacity": 0.7,
         "cesiumOptions": {

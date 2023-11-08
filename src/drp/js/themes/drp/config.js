@@ -395,6 +395,34 @@ MetacatUI.AppConfig = Object.assign({
       },
       {
         "type": "WebMapServiceImageryProvider",
+        "label": "Initial Spread Index (today)",
+        "description": "These features represent forecast values for Fire Danger Ratings - Initial Spread Index (ISI). Visit https://akff.mesowest.org/about/ for more information.",
+        "visible": false,
+        "opacity": 0.7,
+        "cesiumOptions": {
+          "url": "https://fire.ak.blm.gov/arcgis/services/MapAndFeatureServices/AK_FireDangerRatingForecasts/MapServer/WMSServer",
+          "layers": 2,
+          "parameters": {
+            "transparent": "true",
+            "format": "image/png"
+          }
+        },
+        "colorPalette": {
+          "colors": [
+            { "label": "0", "value": "0", "color": "#0909ff" },
+            { "label": "3", "value": "3", "color": "#93ff93" },
+            { "label": "6", "value": "6", "color": "#ffffab" },
+            { "label": "9", "value": "9", "color": "#f9a307" },
+            { "label": "14", "value": "14", "color": "#ff0000" },
+            { "label": ">18", "value": "18", "color": "#ac0000" }
+          ]
+        },
+        "attribution": "Alaska Wildland Fire Information Map Series",
+        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
+        "notification": { "badge": "New", "style": "green" }
+      },
+      {
+        "type": "WebMapServiceImageryProvider",
         "label": "Snow and Ice Extent",
         "description": "The Interactive Multisensor Snow and Ice Mapping System (IMS) is an operational software package used to demarcate the presence of snow and ice across the entire northern hemisphere. This software enables qualified analysts to access multiple sets of remotely sensed data in order to create and distribute 1 km resolution maps of snow and ice used primarily as a data assimilation observation by numerical environmental modeling. IMS creates a North American analysis valid at 18 UTC as well as the entire northern hemisphere analysis visualized within this service, valid at 00 UTC. Imagery utilized includes synthetic aperture radar (SAR), geostationary imagery such as GOES, polar orbiting imagery such as VIIRS, other optical or infrared sensors prioritized by recency and image quality, and application of an understanding of conditions gained from surface stations, radar, and forecast weather conditions in order to create a product valid at approximately 00 UTC. More information on IMS as well as access to products can be found at <a href='https://usicecenter.gov/Products/ImsHome' target='_blank'>https://usicecenter.gov/Products/ImsHome</a> or from the IMS FTP archival partners at the National Snow and Ice Data Center (NSIDC) at <a href='https://nsidc.org/data/g02156/' target='_blank'>https://nsidc.org/data/g02156/</a>. The Digital Object Identifier (DOI) for IMS information is <a href='https://doi.org/10.7265/N52R3PMC' target='_blank'>10.7265/N52R3PMC</a>.",
         "visible": false,

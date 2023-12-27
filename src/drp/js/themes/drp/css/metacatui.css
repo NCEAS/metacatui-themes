@@ -84,15 +84,8 @@
         -moz-border-radius: 4px;
     }
 
-     .container {
+    .container {
           width: calc(100% + 40px);
-          margin-top: 5%;
-          margin-right: calc(10% - 20px);
-          margin-left: calc(10% + 20px);
-          padding-left: 20px;
-          padding-right: 20px;
-          background-color: #0e689571;
-          padding-bottom: 20px;
     }
     .center {
           margin: 0 auto;
@@ -2138,7 +2131,13 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
 
 #mainContent .container {
     width: auto;
-    padding-right: auto;
+    margin-top: 5%;
+    margin-right: calc(10% - 20px);
+    margin-left: calc(10% + 20px);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0e689571;
+    padding-bottom: 20px;
 }
 
 #mainContent h1 {

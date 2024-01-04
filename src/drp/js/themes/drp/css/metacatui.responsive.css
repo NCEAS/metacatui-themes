@@ -33,7 +33,7 @@ and (max-width : 480px) {
 
 @media only screen and (min-width: 900px) and (max-width: 1050px){
     .navbar .title {
-        max-width: 200px;
+        max-width: 175px;
     }
 }
 

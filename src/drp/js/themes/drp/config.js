@@ -629,6 +629,7 @@ MetacatUI.themeMap =
         "views/TextView" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/views/TextView.js",
         // Templates
         "templates/mainContent.html" : MetacatUI.root + '/js/themes/' + MetacatUI.theme + '/templates/mainContent.html',
+        //"templates/featuredData.html" : MetacatUI.root + '/js/themes/' + MetacatUI.theme + '/templates/featuredData.html',
         "templates/navbar.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/navbar.html",
         "templates/about.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/about.html",
         "templates/support.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/support.html",

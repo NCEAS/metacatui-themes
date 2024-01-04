@@ -357,11 +357,7 @@ select {
         width: 100%;
         height: auto;
         color: #CCCCCC;
-        padding-top: 10px;
-        padding-bottom: 10px;
         align-items: center;
-        margin-bottom: -6rem;
-        padding-bottom: 6rem;
     }
 
     #Footer .container {

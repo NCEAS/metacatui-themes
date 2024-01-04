@@ -2115,8 +2115,9 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
     height: 100%;
     margin: -180px -40px -160px -80px;
     overflow: hidden;
+    padding-top: 0;
     padding-bottom: 0;
-    padding-top: 8rem;
+    padding-top: 6rem;
 }
 
 #mainContent .form-input{

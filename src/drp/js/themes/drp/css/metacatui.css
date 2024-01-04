@@ -2127,7 +2127,7 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
 
 #mainContent .container {
     width: auto;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-right: calc(10% - 20px);
     margin-left: calc(10% + 20px);
     border-radius: 6px;

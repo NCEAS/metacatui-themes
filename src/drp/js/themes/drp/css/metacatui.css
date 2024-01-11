@@ -84,8 +84,8 @@
         -moz-border-radius: 4px;
     }
 
-     .container {
-          width: 100%;
+    .container {
+          width: calc(100% + 40px);
     }
     .center {
           margin: 0 auto;
@@ -357,11 +357,7 @@ select {
         width: 100%;
         height: auto;
         color: #CCCCCC;
-        padding-top: 10px;
-        padding-bottom: 10px;
         align-items: center;
-        margin-bottom: -6rem;
-        padding-bottom: 6rem;
     }
 
     #Footer .container {
@@ -523,6 +519,41 @@ select {
         font: 300 18px/18px "Source Sans Pro", sans-serif;
 }
 
+/* FEATURES CSS
+-------------------------------------------------- */
+
+#mainContent {
+	padding-top: 20px;
+	color: #FDFDFD;
+		  min-height: 420px;
+		  width: calc(100% + 80px);
+		  margin-top: -40px;
+}
+
+section#mainContent h4 {
+	font-size: 160%;
+	font-weight: 300;
+}
+
+section#mainContent p {
+	font-size: 110%;
+	font-weight: 300;
+	line-height: 1.75;
+	margin-bottom: 30px;
+}
+
+section#mainContent a.btn-info {
+	background-color: #6C94A4;
+	color: #FFFFFF;
+	/*border: none;
+	text-shadow: none;
+	box-shadow: none;*/
+}
+
+section#mainContent a.btn-info:hover {
+	background-color: #5C7F8C;
+}
+
 
 /* NAVIGATION
 -------------------------------------------------- */
@@ -662,7 +693,7 @@ select {
     }
 
     .mapMode .navbar .nav > li > a {
-        // text-shadow: 0 1px 8px #333;
+    text-shadow: 0 1px 8px #333;
 	text-shadow: none;
         color: #FFFFFF;
     }
@@ -833,7 +864,7 @@ select {
 /* METADATA VIEW CSS
 -------------------------------------------------- */
     #Content.no-stylesheet.container > .breadcrumb {
-          width: calc(100% - 40px);
+          width: calc(100%);
     }
     #Metadata > a[href="data"]{
           display: block;
@@ -1481,7 +1512,7 @@ li.ui-menu-item > a:hover,
           content: "Datasets ";
     }
     #statcounts {
-          float: left;s
+          float: left;
     }
     .sort-by {
           float: right;
@@ -2082,11 +2113,11 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
     position: absolute;
     width: 100%;
     height: 100%;
-    margin: -80px -40px -160px -80px;
+    margin: -180px -40px 0 -80px;
+    bottom: 0px;
     overflow: hidden;
-    padding-top: 0;
     padding-bottom: 0;
-    padding-top: 6rem;
+    padding-top: 8rem;
 }
 
 #mainContent .form-input{
@@ -2096,7 +2127,14 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
 
 #mainContent .container {
     width: auto;
-    padding: 5rem;
+    margin-top: 8%;
+    margin-right: calc(10% - 20px);
+    margin-left: calc(10% + 20px);
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0e689571;
+    padding-bottom: 20px;
 }
 
 #mainContent h1 {

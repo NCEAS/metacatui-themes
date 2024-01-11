@@ -1,11 +1,34 @@
 <div class="container">
-    <form class="form-item">
-        <h1>Find Data</h1>
-	<div class="form-input">
-		<input type="text" id="search_txt_main" placeholder="Enter Search String for DRP Project Data"></input>
-            <a href="<%= MetacatUI.root %>/data" type="button" class="btn" id="search_btn_main">
-	        <i class="icon-search icon-large"></i>
-	    </a>
-	</div>
-    </form>
+  <div class="row-fluid">
+    <div class="span4 pagination-centered">
+      <img src="<%= MetacatUI.root %>/js/themes/drp/img/square-mag-glass.png">
+      <h4>Find critical data.</h4>
+      <p>
+        Rapid search with advanced filtering tools lets you
+        find data, collaborate with others, and make decisions.
+        Look for data based on interest, place, time, or people.
+      </p>
+      <a href="<%= MetacatUI.root %>/data" class="btn btn-info">Search for data</a>
+    </div>
+    <div class="span4 pagination-centered">
+      <img src="<%= MetacatUI.root %>/js/themes/drp/img/cloud-gray-blue.png">
+      <h4>Explore in 3 dimensions.</h4>
+      <p>
+        Look through numerous datasets and visualize in high
+        resolution prior to downloading. Explore the growing
+        suite of decision making tools.
+      </p>
+      <a href="<%= MetacatUI.root %>/portals/drp-data" class="btn btn-info">Explore the map</a>
+    </div>
+    <div class="span4 pagination-centered">
+      <img src="<%= MetacatUI.root %>/js/themes/drp/img/circles-up-down-arrows.png">
+      <h4 >Store privately, share confidently.</h4>
+      <p>
+        You can easily and securely upload your data to the DRP
+        repository online. Data will be kept private until it can be
+        released.
+      </p>
+      <a href="<%= MetacatUI.root %>/submit" class="btn btn-info">Submit data</a>
+      </div>
+    </div>
 </div>

@@ -415,12 +415,9 @@ select {
     }
 
     #Footer .footer-logos-list img{
-        display: block;
         max-width: 211px;
         max-height: 44px;
         width: 100%;
-        height: auto;
-        aspect-ratio: auto;
     }
 
     .mapMode footer {

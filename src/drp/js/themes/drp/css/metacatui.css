@@ -2581,7 +2581,7 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
 .Portal.Editor #Navbar, .PortalView #Navbar, .Portal.Editor .navbar-inner, .PortalView .navbar-inner {
     margin-bottom: 0;
     /*** Set for theme as primaryColor in config.js: ***/
-    background-color: #006699;
+    background-color: var(--portal-primary-color);
 }
 
 .Portal.Editor #Navbar .title, .PortalView #Navbar .title, .Portal.Editor .navbar-inner .title, .PortalView .navbar-inner .title,

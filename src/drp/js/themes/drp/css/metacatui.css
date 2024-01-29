@@ -19,7 +19,7 @@
         padding-bottom: 0px;
     }
     #Content {
-          padding: 80px 40px 180px 40px;
+          padding: 80px 40px 120px 40px;
     }
 
     a {
@@ -471,7 +471,7 @@ select {
   border-color: #04405f;
 }
 .btn-primary:hover {
-    background-color: #04405f;
+    background-color: #05557d;
     border-color: #04405f;
 }
 
@@ -553,6 +553,77 @@ section#mainContent a.btn-info:hover {
 	background-color: #5C7F8C;
 }
 
+/* FEATURED DATA CSS
+-------------------------------------------------- */
+
+    #FeaturedData {
+      background-color: #878787;
+      color: #FDFDFD;
+			width: calc(100% + 80px);
+			margin-left: -40px;
+			margin-top: -40px;
+    }
+
+    #FeaturedData > section.row {
+      border-top: 1px solid #878787;
+      height: 554px;
+      position: relative;
+    }
+
+	#FeaturedData > section:nth-child(even){
+		background-color: #333366;
+	}
+
+	#FeaturedData > section:nth-child(odd){
+		background-color: #6C94A4;
+	}
+
+	  #FeaturedData h2 {
+	  	font-weight: 300;
+      color: #FDFDFD;
+      text-decoration: none;
+	  }
+
+    #FeaturedData h2 a {
+      color: #FDFDFD;
+      text-decoration: none;
+    }
+    #FeaturedData h2 a.dark{
+    	color: #333;
+    }
+    #FeaturedData .accordion{
+	  position: absolute;
+	  color: #FDFDFD;
+	  top: 0px;
+	  padding: 20px 20px 20px 40px;
+	  width: calc(100% - 60px);
+    }
+    #FeaturedData .accordion-heading{
+    	width: 75%;
+    }
+    #FeaturedData .accordion-body{
+    	clear: both;
+    }
+    #FeaturedData .accordion-inner {
+        border-top: 0px;
+		  background-color: #555555;
+		  background: rgba(0,0,0,0.6);
+		  color: #FFFFFF;
+		  border-radius: 6px 6px 6px 6px;
+		  width: 75%;
+    }
+     #FeaturedData > section.row:nth-child(even) .accordion-inner,
+     #FeaturedData > section.row:nth-child(even) .accordion-heading,
+     #FeaturedData > section.row:nth-child(even) .accordion-body .btn{
+     	float: right;
+     }
+    #FeaturedData .accordion-inner a{
+    	color: white;
+    	text-decoration: underline;
+    }
+     #FeaturedData .accordion-inner a.btn{
+     	text-decoration: none;
+     }
 
 /* NAVIGATION
 -------------------------------------------------- */
@@ -573,7 +644,7 @@ section#mainContent a.btn-info:hover {
     }
     #Navbar .logo{
       max-height: 50px;
-      max-width: 265px;
+      max-width: 260px;
     }
 .btn.direct-search {
     padding: 4px 8px;
@@ -684,6 +755,7 @@ section#mainContent a.btn-info:hover {
         font-weight: 400;
         font-family: "Source Sans Pro", sans-serif;
         font-size: 1.2em;
+        padding: 10px 12px;
     }
 
     .navbar .nav > li  i {
@@ -2109,14 +2181,13 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: absolute;
-    width: 100%;
+    /* position: absolute; */
     height: 100%;
-    margin: -180px -40px 0 -80px;
+    margin: -80px -40px 0 -40px;
     bottom: 0px;
     overflow: hidden;
-    padding-bottom: 0;
-    padding-top: 8rem;
+    padding-bottom: 6%;
+    padding-top: 2rem;
 }
 
 #mainContent .form-input{
@@ -2127,8 +2198,9 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
 #mainContent .container {
     width: auto;
     margin-top: 8%;
-    margin-right: calc(10% - 20px);
-    margin-left: calc(10% + 20px);
+    margin-bottom: 4%;
+    margin-right: calc(10% + 20px);
+    margin-left: calc(10% - 20px);
     border-radius: 6px;
     padding-left: 20px;
     padding-right: 20px;

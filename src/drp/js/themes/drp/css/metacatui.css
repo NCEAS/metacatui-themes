@@ -525,7 +525,7 @@ select {
 	padding-top: 20px;
 	color: #FDFDFD;
 		  min-height: 420px;
-		  width: calc(100% + 80px);
+		  width: calc(100% + 40px);
 		  margin-top: -40px;
 }
 
@@ -2199,8 +2199,8 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
     width: auto;
     margin-top: 8%;
     margin-bottom: 4%;
-    margin-right: calc(10% + 20px);
-    margin-left: calc(10% - 20px);
+    margin-right: calc(10% + 0px);
+    margin-left: calc(10% - 0px);
     border-radius: 6px;
     padding-left: 20px;
     padding-right: 20px;

@@ -525,7 +525,7 @@ select {
 	padding-top: 20px;
 	color: #FDFDFD;
 		  min-height: 420px;
-		  width: calc(100% + 40px);
+		  width: calc(100% + 0);
 		  margin-top: -40px;
 }
 
@@ -559,8 +559,9 @@ section#mainContent a.btn-info:hover {
     #FeaturedData {
       background-color: #878787;
       color: #FDFDFD;
-			width: calc(100% + 80px);
+			width: calc(100% + 0);
 			margin-left: -40px;
+			margin-right: -40px;
 			margin-top: -40px;
     }
 
@@ -623,6 +624,13 @@ section#mainContent a.btn-info:hover {
     }
      #FeaturedData .accordion-inner a.btn{
      	text-decoration: none;
+     }
+
+     #FeaturedData img {
+        -webkit-object-fit: cover;
+        -moz-object-fit: cover;
+        -o-object-fit: cover;
+        object-fit: cover;
      }
 
 /* NAVIGATION

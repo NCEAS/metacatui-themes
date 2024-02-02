@@ -777,6 +777,12 @@ section#mainContent a.btn-info:hover {
           color: white;
     }
 
+    /* Keep logged-in nav dropdown from going off page right */
+    .navbar-inner .dropdown-menu {
+        left: unset;
+        right: 0;
+    }
+
     /** Backbone override for dropdowns so they dsplay on hover rather than click **/
     .dropdown-menu .sub-menu {
           left: 100%;
@@ -2589,4 +2595,12 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
     max-width: 100%;
     opacity: 0.8;
     font-weight: 100;
+}
+
+.Portal.Editor #Navbar .minimal-nav > a > .icon {
+    color: #fff;
+}
+
+.portal-logos-view .img-logo {
+    margin-bottom: 50px;
 }

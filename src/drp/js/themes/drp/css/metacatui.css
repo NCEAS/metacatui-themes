@@ -843,6 +843,7 @@ section#mainContent a.btn-info:hover {
     margin-left: 20px;
     font-size: 12px;
     text-transform: uppercase;
+    color: var(--portal-primary-color)
 }
 
 

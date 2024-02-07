@@ -563,7 +563,6 @@ section#mainContent a.btn-info:hover {
         top: 0px;
         width: 100%;
         position:fixed;
-        z-index: 1;
     }
     #bg_image {
           background-size: cover;

@@ -2598,7 +2598,7 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"]  {
     font-weight: 100;
 }
 
-.Portal.Editor #Navbar .minimal-nav > a > .icon {
+.Portal.Editor #Navbar .minimal-nav > a {
     color: #fff;
 }
 

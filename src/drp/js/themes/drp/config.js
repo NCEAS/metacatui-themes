@@ -649,6 +649,7 @@ MetacatUI.themeMap =
         "templates/about.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/about.html",
         "templates/support.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/support.html",
         "templates/metadata/metadataOverview.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/metadata/metadataOverview.html",
+        "templates/metadata/data-sensitivity.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/metadata/data-sensitivity.html",
         "templates/footer.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/footer.html"
     }
 }

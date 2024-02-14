@@ -650,6 +650,7 @@ MetacatUI.themeMap =
         "templates/support.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/support.html",
         "templates/metadata/metadataOverview.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/metadata/metadataOverview.html",
         "templates/metadata/data-sensitivity.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/metadata/data-sensitivity.html",
+        "templates/metadata/EMLMethods.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/metadata/EMLMethods.html",
         "templates/footer.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/footer.html"
     }
 }

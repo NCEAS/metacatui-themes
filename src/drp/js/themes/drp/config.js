@@ -643,6 +643,7 @@ MetacatUI.themeMap =
         "views/metadata/EML211View" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/views/metadata/EML211View.js",
         "views/BaseTextView" : MetacatUI.root + "/js/views/TextView.js",
         "views/TextView" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/views/TextView.js",
+        "views/portals/PortalsSearchView" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/views/portals/PortalsSearchView.js",
         // Templates
         "templates/mainContent.html" : MetacatUI.root + '/js/themes/' + MetacatUI.theme + '/templates/mainContent.html',
         "templates/navbar.html" : MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/navbar.html",

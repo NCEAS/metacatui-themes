@@ -1,0 +1,42 @@
+<h2>Methods &amp; Sampling</h2>
+<p class="notification" data-category="methods"></p>
+
+<div class="row-fluid custom-methods-container">
+</div>
+
+<div class="row-fluid methodStep">
+	<h4>Methods <i class="required-icon hidden" data-category="methods"></i></h4>
+	<p class="subtle">
+		For each procedure or “step” used to produce these data, describe the series
+		 of procedures. This should include any relevant descriptions of the
+		 procedures, details about software or instrumentation used, source data,
+		 and any quality control measures.
+	</p>
+	<p class="notification alert alert-info">
+		The Methods section should provide dataset users with a README-style set of steps to be able to reproduce this dataset.
+		Provide enough detail about the equipment and configuration options used—as well as steps taken to collect these data—that
+		a researcher who is unfamiliar with the work could feasibly reproduce the dataset without needing to ask how.
+	</p>
+  <div id="eml-method-steps-container"></div>
+
+</div>
+<div class="row-fluid sampling">
+	<h4>Sampling</h4>
+
+	<h5>Study Extent <i class="required-icon hidden" data-category="studyExtentDescription"></i></h5>
+	<p class="subtle">
+		Describe the geographic area sampled, the sampling frequency, how sites
+		were chosen, and the living organisms sampled to generate this dataset.
+	</p>
+  <p class="notification" data-category="studyExtentDescription"></p>
+	<textarea class="studyextent" data-attribute="studyExtentDescription" data-type="description" rows="5"><%= studyExtentDescription %></textarea>
+
+	<h5>Description <i class="required-icon hidden" data-category="samplingDescription"></i></h5>
+	<p class="subtle">
+		Describe the sampling procedures used in this research project as you would
+		describe the sampling procedures found in the methods section of a journal
+		article for this project.
+	</p>
+  <p class="notification" data-category="samplingDescription"></p>
+	<textarea class="description" data-attribute="samplingDescription" data-type="samplingDescription" rows="7"><%= samplingDescription %></textarea>
+</div>

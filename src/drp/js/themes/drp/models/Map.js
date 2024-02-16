@@ -15,8 +15,8 @@ define(["jquery", "underscore", "backbone", "gmaps", "models/BaseMap"],
                         maxZoom: 20,
                         minZoom: 3,
                         center: {
-                            lat: 38.5177276,
-                            lng: -6.817412
+                            lat: 63.5,
+                            lng: -151.0
                         },
                         disableDefaultUI: true,
                         zoomControl: true,

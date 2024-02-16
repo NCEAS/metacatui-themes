@@ -11,7 +11,7 @@ define(["jquery", "underscore", "backbone", "gmaps", "models/BaseMap"],
                 var model = this;
                 return _.extend(BaseMap.prototype.defaults, {
                     mapOptions: gmaps? {
-                        zoom: 3,
+                        zoom: 4,
                         maxZoom: 20,
                         minZoom: 3,
                         center: {

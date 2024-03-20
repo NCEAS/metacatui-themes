@@ -367,7 +367,7 @@ MetacatUI.AppConfig = Object.assign({
           ]
         },
         "attribution": "Alaska Wildland Fire Information Map Series",
-        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
+        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b"
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -389,7 +389,7 @@ MetacatUI.AppConfig = Object.assign({
           ]
         },
         "attribution": "Alaska Wildland Fire Information Map Series",
-        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
+        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b"
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -411,7 +411,7 @@ MetacatUI.AppConfig = Object.assign({
           ]
         },
         "attribution": "Alaska Wildland Fire Information Map Series",
-        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
+        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b"
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -433,7 +433,7 @@ MetacatUI.AppConfig = Object.assign({
           ]
         },
         "attribution": "Alaska Wildland Fire Information Map Series",
-        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
+        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b"
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -460,7 +460,7 @@ MetacatUI.AppConfig = Object.assign({
           ]
         },
         "attribution": "Alaska Wildland Fire Information Map Series",
-        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
+        "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b"
       },
       {
         "type": "WebMapServiceImageryProvider",

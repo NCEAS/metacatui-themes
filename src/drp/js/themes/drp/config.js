@@ -540,7 +540,7 @@ MetacatUI.AppConfig = Object.assign({
       {
         "visible": false,
         "type": "WebMapTileServiceImageryProvider",
-        "label": "Alaska High Resolution Imagery 2022",
+        "label": "Alaska 50cm Imagery 2022",
         "description": "A detailed and accurate color imagery of the State of Alaska, featuring a resolution of 50cm with images having less than 10% cloud cover.",
         "attribution": "Alaska High Resolution Imagery (RGB). 2022. Maxar Products. Maxar Technologies Inc., Alaska Geospatial Office, USGS.",
         "moreInfoLink": "https://gis.data.alaska.gov/pages/imagery",

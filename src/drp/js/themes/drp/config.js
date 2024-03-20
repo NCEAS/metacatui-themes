@@ -368,7 +368,6 @@ MetacatUI.AppConfig = Object.assign({
         },
         "attribution": "Alaska Wildland Fire Information Map Series",
         "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
-        "notification": { "badge": "New", "style": "green" }
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -391,7 +390,6 @@ MetacatUI.AppConfig = Object.assign({
         },
         "attribution": "Alaska Wildland Fire Information Map Series",
         "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
-        "notification": { "badge": "New", "style": "green" }
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -414,7 +412,6 @@ MetacatUI.AppConfig = Object.assign({
         },
         "attribution": "Alaska Wildland Fire Information Map Series",
         "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
-        "notification": { "badge": "New", "style": "green" }
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -437,7 +434,6 @@ MetacatUI.AppConfig = Object.assign({
         },
         "attribution": "Alaska Wildland Fire Information Map Series",
         "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
-        "notification": { "badge": "New", "style": "green" }
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -465,7 +461,6 @@ MetacatUI.AppConfig = Object.assign({
         },
         "attribution": "Alaska Wildland Fire Information Map Series",
         "moreInfoLink": "https://blm-egis.maps.arcgis.com/apps/instant/portfolio/index.html?appid=4841da6a16804c07849c27ea7db2a26b",
-        "notification": { "badge": "New", "style": "green" }
       },
       {
         "type": "WebMapServiceImageryProvider",
@@ -547,7 +542,8 @@ MetacatUI.AppConfig = Object.assign({
         "downloadLink": "https://geoportal.alaska.gov/portal/home/item.html?id=d462231cc1454e1abb2dccd9a709a476#overview",
         "cesiumOptions": {
           "url": "https://geoportal.alaska.gov/arcgis/rest/services/ahri_2020_rgb_cache/MapServer/WMTS/tile/1.0.0/ahri_2020_rgb_cache/default/GoogleMapsCompatible/{TileMatrix}/{TileRow}/{TileCol}"
-        }
+        },
+        "notification": { "badge": "New", "style": "green" }
       },
       {
         "label": "Satellite imagery",

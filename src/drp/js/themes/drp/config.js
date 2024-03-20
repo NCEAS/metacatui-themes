@@ -538,6 +538,18 @@ MetacatUI.AppConfig = Object.assign({
         "notification": { "badge": "In development", "style": "yellow", "message": "This layer is under development by the NOAA Map Services office and will be available soon." }
       },
       {
+        "visible": false,
+        "type": "WebMapTileServiceImageryProvider",
+        "label": "Alaska High Resolution Imagery 2022",
+        "description": "A detailed and accurate color imagery of the State of Alaska, featuring a resolution of 50cm with images having less than 10% cloud cover.",
+        "citation": "Alaska High Resolution Imagery (RGB). 2022. Maxar Products. Maxar Technologies Inc., Alaska Geospatial Office, USGS.",
+        "moreInfoLink": "https://gis.data.alaska.gov/pages/imagery",
+        "downloadLink": "https://geoportal.alaska.gov/portal/home/item.html?id=d462231cc1454e1abb2dccd9a709a476#overview",
+        "cesiumOptions": {
+          "url": "https://geoportal.alaska.gov/arcgis/rest/services/ahri_2020_rgb_cache/MapServer/WMTS/tile/1.0.0/ahri_2020_rgb_cache/default/GoogleMapsCompatible/{TileMatrix}/{TileRow}/{TileCol}"
+        }
+      },
+      {
         "label": "Satellite imagery",
         "icon": "urn:uuid:4177c2e1-3037-4964-bf00-5f13182308d9",
         "type": "IonImageryProvider",

@@ -487,7 +487,7 @@ MetacatUI.AppConfig = Object.assign({
         "description": "Ice-wedge polygons are ubiquitous ground features in landscapes underlain by ice-rich permafrost. Ice-wedge polygons are bounded by wedges of ice, which develop from millenia of repeated frost-cracking during cold winters and snowmelt water infiltrating into the cracks in spring. High resolution satellite imagery combined with deep learning tools were used to detect ice-wedge polygons across the Arctic tundra. To learn more about how this data was produced, see this publication: <a href='https://arcticdata.io/catalog/view/doi:10.18739/A2KW57K57' target='_blank'>https://arcticdata.io/catalog/view/doi:10.18739/A2KW57K57</a>",
         "attribution": "Chandi Witharana, Mahendra R Udawalpola, Amal S Perera, Amit Hasan, Elias Manos, Anna Liljedahl, Mikhail Kanevskiy, M Torre Jorgenson, Ronald Daanen, Benjamin Jones, Howard Epstein, Matthew B Jones, Robyn Thiessen-Bock, Juliet Cohen, & Kastan Day. (2023). Ice-wedge polygon detection in satellite imagery from pan-Arctic regions, Permafrost Discovery Gateway, 2001-2021. Arctic Data Center. doi:<a href='https://doi.org/10.18739/A2KW57K57' target='_blank'>10.18739/A2KW57K57</a>.",
         "cesiumOptions": {
-          "url": "https://demo.arcticdata.io/tiles/layers/iwp_high_all_20230608/iwp_coverage/WGS1984Quad/{TileMatrix}/{TileCol}/{TileRow}.png",
+          "url": "https://arcticdata.io/data/tiles/10.18739/A2KW57K57/WGS1984Quad/{TileMatrix}/{TileCol}/{TileRow}.png",
           "tilingScheme": "GeographicTilingScheme",
           "rectangle": [ -179.91531896747117, 50.16996707215903, 179.91531896747247, 80.0978646943821 ] },
           "colorPalette": {

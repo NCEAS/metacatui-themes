@@ -46,7 +46,7 @@ MetacatUI.AppConfig = Object.assign({
             read: true
         }
     ],
-    // hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org"],
+    hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=smithsonian-admins,DC=dataone,DC=org", "CN=smithsonian-curators,DC=dataone,DC=org"],
     // emlEditorRequiredFields: {
     //     abstract: true,
     //     alternateIdentifier: false,

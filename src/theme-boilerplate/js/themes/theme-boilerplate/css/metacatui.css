@@ -57,6 +57,8 @@
   --col-nav-title: var(--col-text-on-primary-emphasis);
   --col-nav-text: var(--col-text-on-primary-emphasis);
   --col-nav-item-active-bkg: var(--col-primary-muted);
+  --col-nav-muted-bkg: var(--col-neutral-3);
+  --col-nav-muted-text: var(--col-neutral-1);
 
   /* BUTTONS & TOGGLES */
   --col-button-bkg: var(--col-neutral-3);
@@ -101,9 +103,11 @@
   /* NON-COLOR VARS */
   --box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
   --font-family-main: 'Source Sans Pro', 'Arial', sans-serif;
-  --border-radius: var(--border-radius);
+  --border-radius: 3px;
+  --footer-height: 20px;
+  --nav-height: 43px;
+  --padding: 20px;
 }
-
 
 /* Body CSS
 -------------------------------------------------- */
@@ -468,9 +472,8 @@ select {
   display: grid;
   grid-template-rows: 1fr 1fr;
   background-color: var(--col-footer-bkg);
-  min-height: 20px;
+  height: var(--footer-height);
   width: 100%;
-  height: auto;
   color: var(--col-footer-text);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -480,17 +483,17 @@ select {
 #Footer .help-items {
   display: flex;
   justify-content: space-between;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
   color: var(--col-footer-text-emphasis);
 }
 
-#Footer .help-items a {
+#Footer a {
   color: var(--col-footer-text-emphasis);
 }
 
 .mapMode #Footer {
-  height: 20px;
+  height: var(--footer-height);
   position: inherit;
 }
 
@@ -586,28 +589,23 @@ nav#Navbar {
   width: 100%;
   position: fixed;
   z-index: 1;
-}
-
-#bg_image {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: background 500ms;
+  height: var(--nav-height);
 }
 
 #Navbar .logo {
-  max-height: 50px;
+  margin: 0;
+  max-height: 100%;
+}
+
+#Navbar .logo img {
+  max-height: calc(var(--nav-height) - 5px);
+  vertical-align: middle;
+  margin-bottom: 4px;
 }
 
 #Navbar .title {
   margin-left: 10px;
 }
-
-.btn.direct-search {
-  padding: 4px 8px;
-}
-
-/* Depending on the headerType, these classes apply */
 
 #altHeader {
   margin: 0px;
@@ -618,6 +616,7 @@ nav#Navbar {
   border: none;
   margin: 0px;
   z-index: 100;
+  line-height: var(--nav-height);
 }
 
 .navbar .title {
@@ -625,18 +624,14 @@ nav#Navbar {
   color: var(--col-nav-title);
   font-size: 1.2em;
   font-weight: 400;
-  vertical-align: middle;
+  line-height: var(--nav-height);
 }
 
 .navbar .nav {
   float: right;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  margin: 0px;
+  margin: 0;
   z-index: 999;
-  vertical-align: middle
 }
-
 
 .mapMode .navbar .nav {
   z-index: 999;
@@ -646,21 +641,29 @@ nav#Navbar {
   float: left;
 }
 
-.logo img {
-  transform: scale(0.7);
-}
-
 .navbar-inner {
   border: none;
-  vertical-align: middle;
   background: var(--col-nav-bkg);
   box-shadow: none;
   border-radius: 0;
-  margin-bottom: 20px;
+  height: 100%;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
 }
 
 .navbar-inner>ul {
   margin: 0px;
+}
+
+.navbar .nav>li>a {
+  line-height: var(--nav-height);
+  /* to vertically center the text */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar .nav>li:last-child>a {
+  padding-right: 0;
 }
 
 .navbar-inner>ul>li img {
@@ -688,6 +691,10 @@ nav#Navbar {
   color: var(--col-nav-text);
 }
 
+.navbar .nav>li {
+  line-height: unset !important;
+  /* bootstrap conflict */
+}
 
 .navbar .nav>li>a:focus,
 .navbar .nav>li>a:hover {
@@ -1466,9 +1473,10 @@ li.ui-menu-item>a:hover,
 /* SEARCH PAGE CSS
 -------------------------------------------------- */
 .mapMode #Content {
-  max-width: 100%;
-  padding-top: 60px;
+  width: 100vw;
+  padding-top: var(--nav-height);
   padding-left: 0px;
+  padding-bottom: var(--footer-height);
 }
 
 /*-- Results header --*/
@@ -2216,4 +2224,20 @@ pre {
 
 .has-temporary-message #Content {
   padding-top: 113px;
+}
+
+/******************************************
+* Portal View
+********************************************/
+
+.Portal.Editor, .PortalView {
+  --nav-height: 30px;
+}
+
+/* The portal nav bar should be more minimal */
+.Portal.Editor .navbar-inner, .PortalView .navbar-inner {
+  background-color: var(--col-nav-muted-bkg);
+  color: var(--col-nav-muted-text);
+  padding-top: 0;
+  padding-bottom: 0;
 }

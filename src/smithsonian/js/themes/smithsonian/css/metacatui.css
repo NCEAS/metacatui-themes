@@ -9,183 +9,218 @@
 /* BasierCircle */
 
 @font-face {
-  font-family: 'basier_circlebold_italic';
-  src: url("../font/basier/basiercircle-bolditalic-webfont.woff2") format("woff2"), url("../font/basier/basiercircle-bolditalic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'BasierCircle';
+  src: url("../font/basier/basiercircle-bolditalic-webfont.woff2") format("woff2"),
+    url("../font/basier/basiercircle-bolditalic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'basier_circlemedium_italic';
-  src: url("../font/basier/basiercircle-mediumitalic-webfont.woff2") format("woff2"), url("../font/basier/basiercircle-mediumitalic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'BasierCircle';
+  src: url("../font/basier/basiercircle-mediumitalic-webfont.woff2") format("woff2"),
+    url("../font/basier/basiercircle-mediumitalic-webfont.woff") format("woff");
+  font-weight: 500;
+  /* Medium weight */
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'BasierCircle-RegularItalic';
-  src: url("../font/basier/basiercircle-regularitalic-webfont.woff2") format("woff2"), url("../font/basier/basiercircle-regularitalic-webfont.woff") format("woff");
+  font-family: 'BasierCircle';
+  src: url("../font/basier/basiercircle-regularitalic-webfont.woff2") format("woff2"),
+    url("../font/basier/basiercircle-regularitalic-webfont.woff") format("woff");
   font-weight: normal;
-  font-style: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'basier_circlesemibold_italic';
-  src: url("../font/basier/basiercircle-semibolditalic-webfont.woff2") format("woff2"), url("../font/basier/basiercircle-semibolditalic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'BasierCircle';
+  src: url("../font/basier/basiercircle-semibolditalic-webfont.woff2") format("woff2"),
+    url("../font/basier/basiercircle-semibolditalic-webfont.woff") format("woff");
+  font-weight: 600;
+  /* Semi-Bold weight */
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'basier_circlebold';
-  src: url("../font/basier/basiercircle-bold-webfont.woff2") format("woff2"), url("../font/basier/basiercircle-bold-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: 'BasierCircle';
+  src: url("../font/basier/basiercircle-bold-webfont.woff2") format("woff2"),
+    url("../font/basier/basiercircle-bold-webfont.woff") format("woff");
+  font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'BasierCircle-Medium';
-  src: url("../font/basier/basiercircle-medium-webfont.woff2") format("woff2"), url("../font/basier/basiercircle-medium-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: 'BasierCircle';
+  src: url("../font/basier/basiercircle-medium-webfont.woff2") format("woff2"),
+    url("../font/basier/basiercircle-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  /* Medium weight */
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'BasierCircle-Regular';
-  src: url("../font/basier/basiercircle-regular-webfont.woff2") format("woff2"), url("../font/basier/basiercircle-regular-webfont.woff") format("woff");
+  font-family: 'BasierCircle';
+  src: url("../font/basier/basiercircle-regular-webfont.woff2") format("woff2"),
+    url("../font/basier/basiercircle-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'BasierCircle-SemiBold;';
-  src: url("../font/basier/basiercircle-semibold-webfont.woff2") format("woff2"), url("../font/basier/basiercircle-semibold-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: 'BasierCircle';
+  src: url("../font/basier/basiercircle-semibold-webfont.woff2") format("woff2"),
+    url("../font/basier/basiercircle-semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  /* Semi-Bold weight */
   font-style: normal;
+  font-display: swap;
 }
+
 
 /* Minion */
 
 @font-face {
-  font-family: 'MinionPro-bold';
+  font-family: 'MinionPro';
   src: url("../font/minion/MinionPro-Bold_MinionPro-BoldIt.woff") format("woff");
   font-weight: bold;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MinionPro-Cond-Italic';
+  font-family: 'MinionPro';
   src: url("../font/minion/MinionPro-BoldCnIt.eot");
-  src: url("../font/minion/MinionPro-BoldCnIt.eot?#iefix") format("embedded-opentype"), url("../font/minion/MinionPro-BoldCnIt.woff2") format("woff2"), url("../font/minion/MinionPro-BoldCnIt.woff") format("woff"), url("../font/minion/MinionPro-BoldCnIt.svg#MinionPro-BoldCnIt") format("svg");
+  src: url("../font/minion/MinionPro-BoldCnIt.eot?#iefix") format("embedded-opentype"),
+    url("../font/minion/MinionPro-BoldCnIt.woff2") format("woff2"),
+    url("../font/minion/MinionPro-BoldCnIt.woff") format("woff"),
+    url("../font/minion/MinionPro-BoldCnIt.svg#MinionPro-BoldCnIt") format("svg");
   font-weight: 700;
   font-style: italic;
   font-stretch: condensed;
   unicode-range: U+0020-00FE;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MinionPro-Cond';
+  font-family: 'MinionPro';
   src: url("../font/minion/MinionPro-BoldCn.eot");
-  src: url("../font/minion/MinionPro-BoldCn.eot?#iefix") format("embedded-opentype"), url("../font/minion/MinionPro-BoldCn.woff2") format("woff2"), url("../font/minion/MinionPro-BoldCn.woff") format("woff"), url("../font/minion/MinionPro-BoldCn.svg#MinionPro-BoldCn") format("svg");
+  src: url("../font/minion/MinionPro-BoldCn.eot?#iefix") format("embedded-opentype"),
+    url("../font/minion/MinionPro-BoldCn.woff2") format("woff2"),
+    url("../font/minion/MinionPro-BoldCn.woff") format("woff"),
+    url("../font/minion/MinionPro-BoldCn.svg#MinionPro-BoldCn") format("svg");
   font-weight: 700;
   font-style: normal;
   font-stretch: condensed;
   unicode-range: U+0020-00FE;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MinionPro-semibold';
+  font-family: 'MinionPro';
   src: url("../font/minion/MinionPro-SemiboldIt.woff") format("woff");
   font-weight: 600;
-  font-style: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MinionPro-regular';
-  src: url("../font/minion/MinionPro-Regular-MinionPro-Regular.woff") format("woff");
+  font-family: 'MinionPro';
+  src: url("../font/minion/MinionPro-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MinionPro-Italic';
+  font-family: 'MinionPro';
   src: url("../font/minion/MinionPro-It.eot");
-  src: url("../font/minion/MinionPro-It.eot?#iefix") format("embedded-opentype"), url("../font/minion/MinionPro-It.woff2") format("woff2"), url("../font/minion/MinionPro-It.woff") format("woff"), url("../font/minion/MinionPro-It.svg#MinionPro-It") format("svg");
+  src: url("../font/minion/MinionPro-It.eot?#iefix") format("embedded-opentype"),
+    url("../font/minion/MinionPro-It.woff2") format("woff2"),
+    url("../font/minion/MinionPro-It.woff") format("woff"),
+    url("../font/minion/MinionPro-It.svg#MinionPro-It") format("svg");
   font-weight: 400;
   font-style: italic;
   font-stretch: normal;
   unicode-range: U+0020-00FE;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MinionPro-Med';
+  font-family: 'MinionPro';
   src: url("../font/minion/MinionPro-Medium.eot");
-  src: url("../font/minion/MinionPro-Medium.eot?#iefix") format("embedded-opentype"), url("../font/minion/MinionPro-Medium.woff2") format("woff2"), url("../font/minion/MinionPro-Medium.woff") format("woff"), url("../font/minion/MinionPro-Medium.svg#MinionPro-Medium") format("svg");
+  src: url("../font/minion/MinionPro-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../font/minion/MinionPro-Medium.woff2") format("woff2"),
+    url("../font/minion/MinionPro-Medium.woff") format("woff"),
+    url("../font/minion/MinionPro-Medium.svg#MinionPro-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   unicode-range: U+0020-00FE;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MinionPro-Med-Italic';
+  font-family: 'MinionPro';
   src: url("../font/minion/MinionPro-MediumIt.eot");
-  src: url("../font/minion/MinionPro-MediumIt.eot?#iefix") format("embedded-opentype"), url("../font/minion/MinionPro-MediumIt.woff2") format("woff2"), url("../font/minion/MinionPro-MediumIt.woff") format("woff"), url("../font/minion/MinionPro-MediumIt.svg#MinionPro-MediumIt") format("svg");
+  src: url("../font/minion/MinionPro-MediumIt.eot?#iefix") format("embedded-opentype"),
+    url("../font/minion/MinionPro-MediumIt.woff2") format("woff2"),
+    url("../font/minion/MinionPro-MediumIt.woff") format("woff"),
+    url("../font/minion/MinionPro-MediumIt.svg#MinionPro-MediumIt") format("svg");
   font-weight: 500;
   font-style: italic;
   font-stretch: normal;
   unicode-range: U+0020-00FE;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MinionPro-Semi-Bold';
+  font-family: 'MinionPro';
   src: url("../font/minion/MinionPro-Semibold.eot");
-  src: url("../font/minion/MinionPro-Semibold.eot?#iefix") format("embedded-opentype"), url("../font/minion/MinionPro-Semibold.woff2") format("woff2"), url("../font/minion/MinionPro-Semibold.woff") format("woff"), url("../font/minion/MinionPro-Semibold.svg#MinionPro-Semibold") format("svg");
+  src: url("../font/minion/MinionPro-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("../font/minion/MinionPro-Semibold.woff2") format("woff2"),
+    url("../font/minion/MinionPro-Semibold.woff") format("woff"),
+    url("../font/minion/MinionPro-Semibold.svg#MinionPro-Semibold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   unicode-range: U+0020-00FE;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MinionPro-Semi-Bold-Italic';
+  font-family: 'MinionPro';
   src: url("../font/minion/MinionPro-SemiboldIt.eot");
-  src: url("../font/minion/MinionPro-SemiboldIt.eot?#iefix") format("embedded-opentype"), url("../font/minion/MinionPro-SemiboldIt.woff2") format("woff2"), url("../font/minion/MinionPro-SemiboldIt.woff") format("woff"), url("../font/minion/MinionPro-SemiboldIt.svg#MinionPro-SemiboldIt") format("svg");
+  src: url("../font/minion/MinionPro-SemiboldIt.eot?#iefix") format("embedded-opentype"),
+    url("../font/minion/MinionPro-SemiboldIt.woff2") format("woff2"),
+    url("../font/minion/MinionPro-SemiboldIt.woff") format("woff"),
+    url("../font/minion/MinionPro-SemiboldIt.svg#MinionPro-SemiboldIt") format("svg");
   font-weight: 600;
   font-style: italic;
   font-stretch: normal;
   unicode-range: U+0020-00FE;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MinionPro-Bold-Italic';
+  font-family: 'MinionPro-Bold';
   src: url("../font/minion/MinionPro-BoldIt.eot");
-  src: url("../font/minion/MinionPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../font/minion/MinionPro-BoldIt.woff2") format("woff2"), url("../font/minion/MinionPro-BoldIt.woff") format("woff"), url("../font/minion/MinionPro-BoldIt.svg#MinionPro-BoldIt") format("svg");
+  src: url("../font/minion/MinionPro-BoldIt.eot?#iefix") format("embedded-opentype"),
+    url("../font/minion/MinionPro-BoldIt.woff2") format("woff2"),
+    url("../font/minion/MinionPro-BoldIt.woff") format("woff"),
+    url("../font/minion/MinionPro-BoldIt.svg#MinionPro-BoldIt") format("svg");
   font-weight: 700;
   font-style: italic;
   font-stretch: normal;
   unicode-range: U+0020-00FE;
-}
-
-@font-face {
-  font-family: 'Ionicons';
-  src: url("../font/ionicons.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'material';
-  src: url("../font/material.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'simple-line-icons';
-  src: url("../font/simple-line-icons.ttf");
-  font-weight: normal;
-  font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -228,8 +263,8 @@
   /**
    * FONTS
   */
-  --si-fontface-primary: 'MinionPro-regular';
-  --si-fontface-secondary: 'BasierCircle-Regular';
+  --si-fontface-primary: 'MinionPro', Georgia, Times, "Times New Roman", serif;
+  --si-fontface-secondary: 'BasierCircle';
 
   /**
    * SPACING
@@ -237,30 +272,23 @@
   --si-min-logo-width: 108px;
 
 
-}
-
-
-/* Below: CSS included with every HR MetacatUI theme */
-
-:root {
-
   /* COLOR SCHEME */
-  --col-neutral-1: #FFF;
-  --col-neutral-2: #f9f8f8;
-  --col-neutral-3: #CCC;
-  --col-neutral-4: #999999;
-  --col-neutral-5: #5f6064;
-  --col-neutral-6: #555555;
-  --col-neutral-7: #3C3C3C;
-  --col-neutral-8: #2a2a2a;
-  --col-neutral-9: #222222;
+  --col-neutral-1: var(--si-secondary-white);
+  --col-neutral-2: var(--si-tertiary-grey-1);
+  --col-neutral-3: color-mix(in srgb, var(--si-tertiary-grey-1) 66%, var(--si-tertiary-grey-2) 33%);
+  --col-neutral-4: color-mix(in srgb, var(--si-tertiary-grey-1) 33%, var(--si-tertiary-grey-2) 66%);
+  --col-neutral-5: var(--si-tertiary-grey-2);
+  --col-neutral-6: color-mix(in srgb, var(--si-tertiary-grey-2) 66%, var(--si-tertiary-grey-3) 33%);
+  --col-neutral-7: color-mix(in srgb, var(--si-tertiary-grey-2) 33%, var(--si-tertiary-grey-3) 66%);
+  --col-neutral-8: var(--si-tertiary-grey-3);
+  --col-neutral-9: var(--si-primary-black);
 
-  --col-primary: #23487A;
-  --col-secondary: #0E69A1;
-  --col-tertiary: #05ab8f;
-  --col-error: #c5351c;
+  --col-primary: var(--si-secondary-blue-3);
+  --col-secondary: var(--si-secondary-blue-2);
+  --col-tertiary: var(--si-secondary-yellow);
+  --col-error: var(--si-tertiary-red);
 
-  --col-primary-muted: #597F99;
+  --col-primary-muted: var(--si-secondary-blue-1);
   --col-primary-transparent-70: color-mix(in srgb, var(--col-primary) 70%, transparent);
   --col-primary-transparent-20: color-mix(in srgb, var(--col-primary) 20%, transparent);
 
@@ -279,7 +307,7 @@
   --col-text-on-primary-emphasis: var(--col-neutral-1);
   --col-text-on-inactive: var(--col-neutral-2);
 
-  --col-link: #046B99;
+  --col-link: var(--si-secondary-blue-2);
 
   /* BORDERS */
   --col-border: var(--col-neutral-4);
@@ -290,7 +318,7 @@
   --col-table-row-odd: var(--col-neutral-2);
 
   /* FOOTER */
-  --col-footer-bkg: var(--col-neutral-8);
+  --col-footer-bkg: var(--col-neutral-9);
   --col-footer-text: var(--col-neutral-3);
   --col-footer-text-emphasis: var(--col-neutral-1);
 
@@ -315,7 +343,6 @@
   --col-button-reverse-icon: var(--col-primary-muted);
   --col-button-reverse-hover-text: var(--col-primary);
   --col-button-primary-hover-bkg: var(--col-primary-muted);
-  /* TODO */
   --col-button-primary-hover-text: var(--col-primary);
 
   --col-toggle: var(--col-primary-transparent-20);
@@ -323,9 +350,7 @@
 
   /* FORM ELEMENTS */
   --col-form-bkg: var(--col-neutral-1);
-  /* TODO */
   --col-form-text: var(--col-text);
-  /* TODO */
   --col-form-text-muted: var(--col-text-muted);
   --col-form-placeholder: var(--col-neutral-4);
 
@@ -342,9 +367,9 @@
   --col-chart-neutral: var(--col-neutral-3);
 
   /* NON-COLOR VARS */
-  --font-family-main: 'Source Sans Pro', 'Arial', sans-serif;
-  --font-family-title: 'Source Sans Pro', 'Arial', sans-serif;
-  --home-page-bkg-img: url('../img/home-page-bkg.jpg');
+  --font-family-main: var(--si-fontface-primary);
+  --font-family-title: var(--si-fontface-secondary);
+  --home-page-bkg-img: url('../img/home-page-bkg.png');
   --box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
   --border-radius: 10px;
   --footer-height: 1.25rem;
@@ -352,6 +377,10 @@
   --padding: 1.25rem;
 
 }
+
+/* ============================================================
+  * Base CSS: Included with every HR Theme, overwrites at the end
+  * ============================================================ */
 
 /* Body CSS
 -------------------------------------------------- */
@@ -525,7 +554,7 @@ div.row-fluid>a[name] {
 
 #mainContent .container {
   max-width: 70rem;
-  background-color: color-mix(in srgb, var(--col-neutral-9) 70%, transparent);
+  background-color: color-mix(in srgb, var(--col-neutral-9) 80%, transparent);
   padding: 30px 40px;
   border-radius: var(--border-radius);
 }
@@ -537,8 +566,6 @@ div.row-fluid>a[name] {
   font-weight: 200;
   font-family: var(--font-family-title);
 }
-
-
 
 /** Ellipsis Styles - both single line and multi-line, which needs particular markup structure to work. See http://codepen.io/romanrudenko/pen/ymHFh **/
 .ellipsis {
@@ -2494,4 +2521,18 @@ pre {
   color: var(--col-nav-muted-text);
   padding-top: 0;
   padding-bottom: 0;
+}
+
+/* ============================================================
+  *  OVERWRITES FOR SMITHSONIAN THEME
+  * ============================================================ */
+
+#Navbar .logo img {
+  width: calc(var(--si-min-logo-width) + 20px);
+}
+#search_btn_main {
+  --sch-btn-col: var(--si-secondary-blue-2);
+  width: 4.2rem;
+  background-color: var(--sch-btn-col);
+  border-color: var(--sch-btn-col);
 }

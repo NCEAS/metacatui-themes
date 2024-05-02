@@ -37,7 +37,7 @@
   --col-text-on-primary-emphasis: var(--col-neutral-1);
   --col-text-on-inactive: var(--col-neutral-2);
 
-  --col-link: #046B99;
+  --col-link: var(--col-secondary);
 
   /* BORDERS */
   --col-border: var(--col-neutral-4);
@@ -73,7 +73,6 @@
   --col-button-reverse-icon: var(--col-primary-muted);
   --col-button-reverse-hover-text: var(--col-primary);
   --col-button-primary-hover-bkg: var(--col-primary-muted);
-  /* TODO */
   --col-button-primary-hover-text: var(--col-primary);
 
   --col-toggle: var(--col-primary-transparent-20);
@@ -81,9 +80,7 @@
 
   /* FORM ELEMENTS */
   --col-form-bkg: var(--col-neutral-1);
-  /* TODO */
   --col-form-text: var(--col-text);
-  /* TODO */
   --col-form-text-muted: var(--col-text-muted);
   --col-form-placeholder: var(--col-neutral-4);
 
@@ -283,7 +280,7 @@ div.row-fluid>a[name] {
 
 #mainContent .container {
   max-width: 70rem;
-  background-color: color-mix(in srgb, var(--col-neutral-9) 70%, transparent);
+  background-color: color-mix(in srgb, var(--col-neutral-9) 80%, transparent);
   padding: 30px 40px;
   border-radius: var(--border-radius);
 }

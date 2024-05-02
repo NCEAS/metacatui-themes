@@ -3,24 +3,27 @@ MetacatUI.AppConfig = Object.assign({
     theme: "smithsonian",
     title: "Smithsonian Research Data Repository",
     repositoryName: "Smithsonian Research Data Repository",
-    nodeId: "urn: node:SI",
+    nodeId: "urn:node:SI",
     description: "The Smithsonian Research Data Repository is intended to facilitate open and discoverable reuse of Smithsonian research data products.",
     baseUrl: "https://smithsonian.dataone.org/",
     emailContact: "support@dataone.org",
 
     useDeprecatedDataCatalogView: false,
     enableCesium: true,
-    cesiumToken: "",
+    // temporary token restricted to smithsonian, for testing
+    cesiumToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzZDVkZjdhMi04YzBmLTQ1ODktODUwOS01MzFkYWU0ZTE0YjAiLCJpZCI6NjkzOTcsImlhdCI6MTcxNDY4MzU3OX0.xfhLge9St8YmpUgKL8XFqkHVOrMVRZFDoebASOqZsu0",
+    mapKey: "AIzaSyDGzLLaG3iiTUA8CQ1hLvgmekQOsEZ94ac",
+    googleAnalyticsKey: "G-Z4Z285RHKC",
+
 
     /* Metadata View */
 
     // /* Metrics */
-    // displayDatasetQualityMetric: true,
-    // hideSummaryMetadataAssessment: false,
-    // hideSummaryDownloadsChart: false,
-    // hideSummaryCitationsChart: false,
-    // hideSummaryViewsChart: false,
-
+    displayDatasetQualityMetric: true,
+    hideSummaryMetadataAssessment: false,
+    hideSummaryDownloadsChart: false,
+    hideSummaryCitationsChart: false,
+    hideSummaryViewsChart: false,
     // /* Editor */
     defaultAccessPolicy: [
         {
@@ -47,22 +50,22 @@ MetacatUI.AppConfig = Object.assign({
         }
     ],
     hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=smithsonian-admins,DC=dataone,DC=org", "CN=smithsonian-curators,DC=dataone,DC=org"],
-    // emlEditorRequiredFields: {
-    //     abstract: true,
-    //     alternateIdentifier: false,
-    //     funding: false,
-    //     generalTaxonomicCoverage: false,
-    //     geoCoverage: true,
-    //     intellectualRights: true,
-    //     keywordSets: false,
-    //     methods: false,
-    //     samplingDescription: false,
-    //     studyExtentDescription: false,
-    //     taxonCoverage: false,
-    //     temporalCoverage: true,
-    //     title: true
-    // },
-    // enableSolrJoins: true
+    emlEditorRequiredFields: {
+        abstract: true,
+        alternateIdentifier: false,
+        funding: false,
+        generalTaxonomicCoverage: false,
+        geoCoverage: true,
+        intellectualRights: true,
+        keywordSets: false,
+        methods: false,
+        samplingDescription: false,
+        studyExtentDescription: false,
+        taxonCoverage: false,
+        temporalCoverage: true,
+        title: true
+    },
+    enableSolrJoins: true
 }, (MetacatUI.AppConfig || {}));
 
 MetacatUI.themeMap =

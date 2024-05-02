@@ -8,9 +8,9 @@ MetacatUI.AppConfig = Object.assign({
     baseUrl: "https://smithsonian.dataone.org/",
     emailContact: "support@dataone.org",
 
-    // useDeprecatedDataCatalogView: false,
-    // enableCesium: true,
-    // cesiumToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiMTE3MTBiYy1iODY1LTQxNjMtODUzNS0yMzM1NGE3M2JhMWIiLCJpZCI6NjkzOTcsImlhdCI6MTY3ODkwMDg5M30.xzIlG_tPIzB9FmYPzPTzOJ49R2J4yIG2y0ittFqdbMc",
+    useDeprecatedDataCatalogView: false,
+    enableCesium: true,
+    cesiumToken: "",
 
     /* Metadata View */
 
@@ -84,6 +84,7 @@ MetacatUI.themeMap =
         "templates/about.html": MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/about.html",
         "templates/support.html": MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/support.html",
         "templates/metadata/metadataOverview.html": MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/metadata/metadataOverview.html",
-        "templates/footer.html": MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/footer.html"
+        "templates/footer.html": MetacatUI.root + "/js/themes/" + MetacatUI.theme + "/templates/footer.html",
+        "templates/mainContent.html": MetacatUI.root + '/js/themes/' + MetacatUI.theme + '/templates/mainContent.html'
     }
 }

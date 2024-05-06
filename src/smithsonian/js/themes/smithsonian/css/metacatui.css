@@ -2548,3 +2548,15 @@ pre {
   background-color: var(--sch-btn-col);
   border-color: var(--sch-btn-col);
 }
+
+/******************************************
+* Portal search
+********************************************/
+
+.portal-title {
+  color: var(--si-secondary-blue-1);
+}
+
+.portals-list-entry .portal-description p {
+  color: var(--si-tertiary-grey-1)
+}

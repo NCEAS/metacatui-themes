@@ -1015,6 +1015,12 @@ nav#Navbar {
   width: 5px;
 }
 
+/* Keep logged-in nav dropdown from going off page right */
+.navbar-inner .dropdown-menu {
+  left: unset;
+  right: 0;
+}
+
 #Navbar .dropdown-menu:before,
 #Navbar .dropdown-menu:after {
   left: 80%;

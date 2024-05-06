@@ -178,6 +178,14 @@ MetacatUI.AppConfig = Object.assign({
               "ionAssetId": "1",
               "requestVertexNormals": true
             }
+          },
+          {
+            "label": "Cesium World Bathymetry",
+            "type": "CesiumTerrainProvider",
+            "cesiumOptions": {
+              "ionAssetId": "2426648",
+              "requestVertexNormals": true
+            }
           }
         ],
         "showToolbar": true,

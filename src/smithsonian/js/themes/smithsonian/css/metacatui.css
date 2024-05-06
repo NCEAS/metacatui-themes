@@ -2530,6 +2530,11 @@ pre {
   padding-bottom: 0;
 }
 
+/* Portal edit button */
+#editPortal.btn:hover {
+  color: var(--portal-secondary-color)
+}
+
 /* ============================================================
   *  OVERWRITES FOR SMITHSONIAN THEME
   * ============================================================ */

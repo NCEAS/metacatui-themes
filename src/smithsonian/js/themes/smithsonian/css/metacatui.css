@@ -806,7 +806,7 @@ select {
 
 .btn-primary:hover {
   background-color: var(--col-button-primary-hover-bkg);
-  border-color: var(--col-button-primary-bkg);
+  border-color: var(--col-button-primary-hover-bkg);
   color: var(--col-button-primary-hover-text);
 }
 .btn-primary,
@@ -2523,7 +2523,7 @@ pre {
 ********************************************/
 
 .Portal.Editor, .PortalView {
-  --nav-height: 30px;
+  --nav-height: 40px;
 }
 
 /* The portal nav bar should be more minimal */
@@ -2536,7 +2536,9 @@ pre {
 
 /* Portal edit button */
 #editPortal.btn:hover {
-  color: var(--portal-secondary-color)
+  color: var(--col-button-primary-hover-text);
+  background-color: var(--col-button-primary-hover-bkg);
+  border-color: var(--col-button-primary-hover-bkg);
 }
 
 /* ============================================================

@@ -1015,6 +1015,12 @@ nav#Navbar {
   width: 5px;
 }
 
+/* Keep logged-in nav dropdown from going off page right */
+.navbar-inner .dropdown-menu {
+  left: unset;
+  right: 0;
+}
+
 #Navbar .dropdown-menu:before,
 #Navbar .dropdown-menu:after {
   left: 80%;
@@ -1117,6 +1123,7 @@ nav#Navbar {
   margin-left: 20px;
   font-size: 12px;
   text-transform: uppercase;
+  color: var(--portal-primary-color);
 }
 
 
@@ -2521,6 +2528,11 @@ pre {
   color: var(--col-nav-muted-text);
   padding-top: 0;
   padding-bottom: 0;
+}
+
+/* Portal edit button */
+#editPortal.btn:hover {
+  color: var(--portal-secondary-color)
 }
 
 /* ============================================================

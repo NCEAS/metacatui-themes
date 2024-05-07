@@ -798,13 +798,17 @@ select {
 }
 
 .btn-primary,
-.data-package-item .btn-primary,
-.btn-primary:hover {
+.data-package-item .btn-primary {
   background-color: var(--col-button-primary-bkg);
   border-color: var(--col-button-primary-bkg);
   color: var(--col-button-primary-bkg);
 }
 
+.btn-primary:hover {
+  background-color: var(--col-button-primary-hover-bkg);
+  border-color: var(--col-button-primary-hover-bkg);
+  color: var(--col-button-primary-hover-text);
+}
 .btn-primary,
 .data-package-item .btn-primary {
   color: var(--col-button-primary-text);
@@ -868,7 +872,7 @@ nav#Navbar {
   top: 0px;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   height: var(--nav-height);
 }
 
@@ -2519,7 +2523,7 @@ pre {
 ********************************************/
 
 .Portal.Editor, .PortalView {
-  --nav-height: 30px;
+  --nav-height: 40px;
 }
 
 /* The portal nav bar should be more minimal */
@@ -2532,7 +2536,9 @@ pre {
 
 /* Portal edit button */
 #editPortal.btn:hover {
-  color: var(--portal-secondary-color)
+  color: var(--col-button-primary-hover-text);
+  background-color: var(--col-button-primary-hover-bkg);
+  border-color: var(--col-button-primary-hover-bkg);
 }
 
 /* ============================================================

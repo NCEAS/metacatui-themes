@@ -798,13 +798,17 @@ select {
 }
 
 .btn-primary,
-.data-package-item .btn-primary,
-.btn-primary:hover {
+.data-package-item .btn-primary {
   background-color: var(--col-button-primary-bkg);
   border-color: var(--col-button-primary-bkg);
   color: var(--col-button-primary-bkg);
 }
 
+.btn-primary:hover {
+  background-color: var(--col-button-primary-hover-bkg);
+  border-color: var(--col-button-primary-bkg);
+  color: var(--col-button-primary-hover-text);
+}
 .btn-primary,
 .data-package-item .btn-primary {
   color: var(--col-button-primary-text);

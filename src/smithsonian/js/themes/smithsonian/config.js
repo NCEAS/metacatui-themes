@@ -18,9 +18,9 @@ MetacatUI.AppConfig = Object.assign({
 
     catalogSearchMapOptions: {
         "homePosition": {
-          "longitude": -79.54379128281369,
-          "latitude": 8.962437979242821,
-          "height": 1000000,
+          "longitude": -96.0,
+          "latitude": 32.5,
+          "height": 10000000,
           "heading": 0,
           "pitch": -90,
           "roll": 0

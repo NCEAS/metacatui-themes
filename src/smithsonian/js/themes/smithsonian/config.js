@@ -12,7 +12,7 @@ MetacatUI.AppConfig = Object.assign({
     useDeprecatedDataCatalogView: false,
     enableCesium: true,
     // temporary token restricted to smithsonian, for testing
-    cesiumToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzZDVkZjdhMi04YzBmLTQ1ODktODUwOS01MzFkYWU0ZTE0YjAiLCJpZCI6NjkzOTcsImlhdCI6MTcxNDY4MzU3OX0.xfhLge9St8YmpUgKL8XFqkHVOrMVRZFDoebASOqZsu0",
+    cesiumToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiMWU2ZWEwNS1jNjY1LTQ0ZTQtOWM2NC1mM2NlNGE2NzNmYWQiLCJpZCI6MTI5OTcxLCJpYXQiOjE2Nzk1MjYzMzV9.Hlv9HsNs5UMENIYxonCAWYfxuAiNexpWGGhvYWL0LPg",
     mapKey: "AIzaSyDGzLLaG3iiTUA8CQ1hLvgmekQOsEZ94ac",
     googleAnalyticsKey: "G-Z4Z285RHKC",
 
@@ -32,122 +32,132 @@ MetacatUI.AppConfig = Object.assign({
             "layers": [
               {
                 "label": "Alfagia 01",
+                "layerId": "alfagia-01",
                 "type": "Cesium3DTileset",
                 "description": "",
                 "visible": false,
-                "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
-                "downloadLink": "https://smithsonian.dataone.org/tiles/",
+                "moreInfoLink": "/view/urn%3Auuid%3Ad368fe15-3fff-4bf7-9a45-2fdfb9f12e37",
+                "downloadLink": "https://smithsonian.dataone.org/datasets/ALS_Panama_2023/",
                 "attribution": "Smithsonian Tropical Research Institute",
                 "cesiumOptions": {
-                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/01_alfagia_01/tileset.json"
+                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/01_Agua_Salud_Alfagia/tileset.json"
                 }
               },
               {
                 "label": "Alfagia 02",
+                "layerId": "alfagia-02",
                 "type": "Cesium3DTileset",
                 "description": "",
                 "visible": false,
-                "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
-                "downloadLink": "https://smithsonian.dataone.org/tiles/",
+                "moreInfoLink": "/view/urn%3Auuid%3Ad368fe15-3fff-4bf7-9a45-2fdfb9f12e37",
+                "downloadLink": "https://smithsonian.dataone.org/datasets/ALS_Panama_2023/",
                 "attribution": "Smithsonian Tropical Research Institute",
                 "cesiumOptions": {
-                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/02_alfagia_02/tileset.json"
+                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/02_Gamboa_Pipeline/tileset.json"
                 }
               },
               {
                 "label": "Barro Colorado Island",
+                "layerId": "barro-colorado-island",
                 "type": "Cesium3DTileset",
                 "description": "",
                 "visible": false,
-                "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
-                "downloadLink": "https://smithsonian.dataone.org/tiles/",
+                "moreInfoLink": "/view/urn%3Auuid%3Ad368fe15-3fff-4bf7-9a45-2fdfb9f12e37",
+                "downloadLink": "https://smithsonian.dataone.org/datasets/ALS_Panama_2023/",
                 "attribution": "Smithsonian Tropical Research Institute",
                 "cesiumOptions": {
-                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/03_barro_colorado_island/tileset.json"
+                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/03_Barro_Colorado_Island/tileset.json"
                 }
               },
               {
                 "label": "Gigante",
+                "layerId": "gigante",
                 "type": "Cesium3DTileset",
                 "description": "",
                 "visible": false,
-                "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
-                "downloadLink": "https://smithsonian.dataone.org/tiles/",
+                "moreInfoLink": "/view/urn%3Auuid%3Ad368fe15-3fff-4bf7-9a45-2fdfb9f12e37",
+                "downloadLink": "https://smithsonian.dataone.org/datasets/ALS_Panama_2023/",
                 "attribution": "Smithsonian Tropical Research Institute",
                 "cesiumOptions": {
-                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/04_gigante/tileset.json"
+                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/04_Gigante_Peninsula/tileset.json"
                 }
               },
               {
                 "label": "Parque Metropolitano",
+                "layerId": "parque-metropolitano",
                 "type": "Cesium3DTileset",
                 "description": "",
                 "visible": false,
-                "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
-                "downloadLink": "https://smithsonian.dataone.org/tiles/",
+                "moreInfoLink": "/view/urn%3Auuid%3Ad368fe15-3fff-4bf7-9a45-2fdfb9f12e37",
+                "downloadLink": "https://smithsonian.dataone.org/datasets/ALS_Panama_2023/",
                 "attribution": "Smithsonian Tropical Research Institute",
                 "cesiumOptions": {
-                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/05_parque_metropolitano/tileset.json"
+                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/05_Parque_Natural_Metropolitano/tileset.json"
                 }
               },
               {
                 "label": "Panama Pacifico",
+                "layerId": "panama-pacifico",
                 "type": "Cesium3DTileset",
                 "description": "",
                 "visible": false,
-                "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
-                "downloadLink": "https://smithsonian.dataone.org/tiles/",
+                "moreInfoLink": "/view/urn%3Auuid%3Ad368fe15-3fff-4bf7-9a45-2fdfb9f12e37",
+                "downloadLink": "https://smithsonian.dataone.org/datasets/ALS_Panama_2023/",
                 "attribution": "Smithsonian Tropical Research Institute",
                 "cesiumOptions": {
-                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/06_panama_pacifico/tileset.json"
+                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/06_Panama_Pacifico/tileset.json"
                 }
               },
               {
                 "label": "San Lorenzo",
+                "layerId": "san-lorenzo",
                 "type": "Cesium3DTileset",
                 "description": "",
                 "visible": false,
-                "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
-                "downloadLink": "https://smithsonian.dataone.org/tiles/",
+                "moreInfoLink": "/view/urn%3Auuid%3Ad368fe15-3fff-4bf7-9a45-2fdfb9f12e37",
+                "downloadLink": "https://smithsonian.dataone.org/datasets/ALS_Panama_2023/",
                 "attribution": "Smithsonian Tropical Research Institute",
                 "cesiumOptions": {
-                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/07_san_lorenzo/tileset.json"
+                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/07_San_Lorenzo/tileset.json"
                 }
               },
               {
                 "label": "Santa Rita",
+                "layerId": "santa-rita",
                 "type": "Cesium3DTileset",
                 "description": "",
                 "visible": false,
-                "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
-                "downloadLink": "https://smithsonian.dataone.org/tiles/",
+                "moreInfoLink": "/view/urn%3Auuid%3Ad368fe15-3fff-4bf7-9a45-2fdfb9f12e37",
+                "downloadLink": "https://smithsonian.dataone.org/tiles/ALS_Panama_2023/",
                 "attribution": "Smithsonian Tropical Research Institute",
                 "cesiumOptions": {
-                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/08_santa_rita/tileset.json"
+                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/08_Santa_Rita/tileset.json"
                 }
               },
               {
                 "label": "Soberania el Charco 01",
+                "layerId": "soberania-el-charco-01",
                 "type": "Cesium3DTileset",
                 "description": "",
                 "visible": false,
-                "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
-                "downloadLink": "https://smithsonian.dataone.org/tiles/",
+                "moreInfoLink": "/view/urn%3Auuid%3Ad368fe15-3fff-4bf7-9a45-2fdfb9f12e37",
+                "downloadLink": "https://smithsonian.dataone.org/datasets/ALS_Panama_2023/",
                 "attribution": "Smithsonian Tropical Research Institute",
                 "cesiumOptions": {
-                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/09_soberania_el_charco/tileset.json"
+                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/09_Soberania_El_Charco/tileset.json"
                 }
               },
               {
                 "label": "Soberania el Charco 02",
+                "layerId": "soberania-el-charco-02",
                 "type": "Cesium3DTileset",
                 "description": "",
                 "visible": false,
-                "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
-                "downloadLink": "https://smithsonian.dataone.org/tiles/",
+                "moreInfoLink": "/view/urn%3Auuid%3Ad368fe15-3fff-4bf7-9a45-2fdfb9f12e37",
+                "downloadLink": "https://smithsonian.dataone.org/datasets/ALS_Panama_2023/",
                 "attribution": "Smithsonian Tropical Research Institute",
                 "cesiumOptions": {
-                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/10_soberania_02/tileset.json"
+                  "url": "https://smithsonian.dataone.org/tiles/3dtiles/10_Soberania_p02/tileset.json"
                 }
               }
             ]

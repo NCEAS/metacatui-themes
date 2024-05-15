@@ -199,7 +199,7 @@ MetacatUI.AppConfig = Object.assign({
           }
         ],
         "showToolbar": true,
-        "toolbarOpen": true,
+        "toolbarOpen": false,
         "showScaleBar": true,
         "showFeatureInfo": true,
         "showViewfinder": true

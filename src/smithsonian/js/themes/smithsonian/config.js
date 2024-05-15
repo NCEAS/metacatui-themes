@@ -224,6 +224,41 @@ MetacatUI.AppConfig = Object.assign({
             }
           }
         ],
+        "zoomPresets": [
+          {
+            "title": "Barro Colorado Island",
+            "latitude": 9.15217,
+            "longitude": -79.84791,
+            "height": 10000,
+            "description": "The 15-square-kilometer island is home to one of the oldest tropical research stations in the world, where studies have been carried out for more than 100 years.",
+            "layerIds": [
+              "barro-colorado-island",
+              "satellite-imagery"
+            ]
+          },
+          {
+            "title": "Parque Natural Metropolitano",
+            "latitude": 8.99443,
+            "longitude": -79.53458,
+            "height": 4000,
+            "description": "Parque Natural Metropolitano comprises an area of 270 ha and is the only natural, undisturbed park in tropical Latin America located adjacent to a capital city.",
+            "layerIds": [
+              "parque-metropolitano",
+              "open-street-maps"
+            ]
+          },
+          {
+            "title": "Sherman Field Station",
+            "latitude": 9.28288,
+            "longitude": -79.97435,
+            "height": 1500,
+            "description": "Located 100 km north of Panama City, the Sherman Field Station at Parque Nacional San Lorenzo hosts one of STRI’s crane facilities. This field station was conceived to conduct research in a wet evergreen forest on the Caribbean coast of Panama.",
+            "layerIds": [
+              "san-lorenzo",
+              "satellite-imagery"
+            ]
+          }
+        ],
         "showToolbar": true,
         "toolbarOpen": false,
         "showScaleBar": true,

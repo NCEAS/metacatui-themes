@@ -266,6 +266,104 @@ MetacatUI.AppConfig = Object.assign({
         "showViewfinder": true
     },
 
+    /* Filters */
+
+    defaultFilterGroups: [
+      {
+        label: "",
+        filters: [
+          {
+            fields: ["attribute"],
+            label: "Data attribute",
+            placeholder: "density, length, etc.",
+            icon: "table",
+            description: "Measurement type, e.g. density, temperature, species",
+          },
+          {
+            fields: ["sem_annotation"],
+            label: "Annotation",
+            placeholder: "Search for class...",
+            icon: "tag",
+            description: "Semantic annotations",
+          },
+          {
+            fields: ["originText"],
+            label: "Creator",
+            placeholder: "Name",
+            icon: "user",
+            description: "The name of the creator or originator of a dataset",
+          },
+          {
+            filterType: "DateFilter",
+            fields: ["datePublished", "dateUploaded"],
+            label: "Publish year",
+            rangeMin: 1924,
+            icon: "calendar",
+            description:
+              "Only show results that were published within the year range",
+          },
+          {
+            filterType: "DateFilter",
+            fields: ["beginDate"],
+            label: "Year of data coverage",
+            rangeMin: 1924,
+            icon: "calendar",
+            description:
+              "Only show results with data collected within the year range",
+          },
+          {
+            fields: ["identifier", "documents", "resourceMap", "seriesId"],
+            label: "Identifier",
+            placeholder: "DOI or ID",
+            icon: "bullseye",
+            description:
+              "Find datasets if you have all or part of its DOI or ID",
+            operator: "OR",
+            fieldsOperator: "OR",
+          },
+          {
+            fields: [
+              "kingdom",
+              "phylum",
+              "class",
+              "order",
+              "family",
+              "genus",
+              "species",
+            ],
+            label: "Taxon",
+            placeholder: "Class, family, etc.",
+            icon: "sitemap",
+            description: "Find data about any taxonomic rank",
+            matchSubstring: true,
+            fieldsOperator: "OR",
+          },
+          {
+            fields: ["siteText"],
+            label: "Location",
+            placeholder: "Geographic region",
+            icon: "globe",
+            description:
+              "The geographic region or study site, as described by the submitter",
+          },
+          {
+            fields: ["isPublic"],
+            label: "Access",
+            icon: "lock",
+            description:
+              "Check this to only show private datasets. You need to be loggied in to view private datasets.",
+            filterType: "ToggleFilter",
+            placeholder: "Private datasets only",
+            falseLabel: null,
+            trueValue: "true",
+            trueLabel: "Private datasets only",
+            matchSubstring: false,
+            exclude: true,
+          },
+        ],
+      },
+    ],
+
     /* Metadata View */
 
     // /* Metrics */

@@ -6,7 +6,7 @@ MetacatUI.AppConfig = Object.assign({
     nodeId: "urn:node:SI",
     description: "The Smithsonian Research Data Repository is intended to facilitate open and discoverable reuse of Smithsonian research data products.",
     baseUrl: "https://smithsonian.dataone.org/",
-    emailContact: "support@dataone.org",
+    emailContact: "WhiteAE@si.edu",
 
     /* Map */
     useDeprecatedDataCatalogView: false,

@@ -19,6 +19,8 @@ MetacatUI.AppConfig = Object.assign({
     "showScaleBar": true,
     "showFeatureInfo": true,
     "showViewfinder": true,
+    "showZoomPresets": true,
+    "showShareUrl": true,
     "homePosition": {
       "longitude": -151.0,
       "latitude": 63.5,
@@ -48,6 +50,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "Site1 LiDAR",
             "type": "Cesium3DTileset",
+            "layerId": "Site2",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D74W2T/' target='_blank'>https://arcticdata.io/data/10.57902/D74W2T/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
@@ -64,6 +67,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "Site2 LiDAR",
             "type": "Cesium3DTileset",
+            "layerId": "Site2",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D71599/' target='_blank'>https://arcticdata.io/data/10.57902/D71599/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3Ac7a9df72-9d6b-41ac-a9fd-4f9549cc96f0",
@@ -80,6 +84,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "Site3 LiDAR",
             "type": "Cesium3DTileset",
+            "layerId": "Site3",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D7WC7C/' target='_blank'>https://arcticdata.io/data/10.57902/D7WC7C/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3A35a11c8f-e02a-4e91-937f-2bb5cf2ad129",
@@ -96,6 +101,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "Site4 LiDAR",
             "type": "Cesium3DTileset",
+            "layerId": "Site4",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D7RP43/' target='_blank'>https://arcticdata.io/data/10.57902/D7RP43/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3A768e037e-5e1f-42ad-8840-3e72c09b379b",
@@ -112,6 +118,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "Site5 LiDAR",
             "type": "Cesium3DTileset",
+            "layerId": "Site5",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D7MW25/' target='_blank'>https://arcticdata.io/data/10.57902/D7MW25/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3Aa74e1cb3-5209-4e46-8188-56c0d75e01ff",
@@ -128,6 +135,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "Site6 LiDAR",
             "type": "Cesium3DTileset",
+            "layerId": "Site6",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D7H59N/' target='_blank'>https://arcticdata.io/data/10.57902/D7H59N/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3A12d2bc61-ca26-4132-91cb-374d8ddd2021",
@@ -144,6 +152,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "Site7 LiDAR",
             "type": "Cesium3DTileset",
+            "layerId": "Site7",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D7CC7Q/' target='_blank'>https://arcticdata.io/data/10.57902/D7CC7Q/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3A265af36f-6ebc-4bae-b5b9-0f72182caca0",
@@ -160,6 +169,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "Site8 LiDAR",
             "type": "Cesium3DTileset",
+            "layerId": "Site8",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D77P4F/' target='_blank'>https://arcticdata.io/data/10.57902/D77P4F/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3Abce333af-2f6c-46ba-933b-cf3ba77f14fa",
@@ -176,6 +186,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "SiteV_1 LiDAR",
             "type": "Cesium3DTileset",
+            "layerId": "SiteV_1",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D73W2H/' target='_blank'>https://arcticdata.io/data/10.57902/D73W2H/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3A9d62d50c-e8dd-4af8-9319-a2216b27bf5a",
@@ -192,6 +203,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "SiteV_2 LiDAR",
             "type": "Cesium3DTileset",
+            "layerId": "SiteV_2",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D70590/' target='_blank'>https://arcticdata.io/data/10.57902/D70590/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3A48ba68da-1e82-409c-bde3-8cf99e1291bc",
@@ -214,6 +226,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Radar Base Reflectivity",
+            "layerId": "bref",
             "description": "Quality Controlled 1km x 1km CONUS Radar Base Reflectivity. This data is provided by the Multi-Radar-Multi-Sensor (MRMS) algorithm.",
             "visible": false,
             "opacity": 0.6,
@@ -232,6 +245,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Satellite IR",
+            "layerId": "sir",
             "description": "10.3 µm - \"Clean\" Longwave IR Window Band - 2 km resolution - GOES Band 13 at 10.3 µm is an infrared window, meaning it is not strongly affected by atmospheric water vapor. This channel is useful for detecting clouds all times of day and night and is particularly useful in retrievals of cloud top height.",
             "visible": false,
             "opacity": 0.4,
@@ -250,6 +264,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "NWS Watches/Warnings/Advisories",
+            "layerId": "wwa",
             "description": "A <b>watch</b> is used when the risk of a hazardous weather or hydrologic event has increased significantly, but its occurrence, location, and/or timing is still uncertain. It is intended to provide enough lead time so that those who need to set their plans in motion can do so.<br><br>A <b>warning</b> is issued when a hazardous weather or hydrologic event is occurring, is imminent, or has a very high probability of occurring. A warning is used for conditions posing a threat to life or property.<br><br>In an <b>advisory</b>, the expected weather condition has a pretty good chance of occurring, even a likely chance of occurring, but typically an advisory is used for less severe type of weather conditions. A Wind Advisory might be issued or a Freezing Rain Advisory issued instead of a High Wind Warning or an ice Storm Warning.",
             "visible": false,
             "opacity": 0.4,
@@ -281,6 +296,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Wind Speed",
+            "layerId": "wind",
             "description": "This nowCOAST time-enabled map service provides maps depicting the forecast of wind speed. Generated by the weather forecasters at regional NWS Weather Forecast Offices (WFOs) and the National Centers for Environmental Prediction (NCEP). The NDFD is a seamless composite or mosaic of gridded forecasts from individual NWS Weather Forecast Offices (WFOs) from around the U.S. as well as the NCEP Ocean Prediction Center and National Hurricane Center/TAFB. The time resolution of forecast projections varies by variable (element) based on user needs, forecast skill, and forecaster workload. Each WFO prepares gridded NDFD forecasts for their specific geographic area of responsibility. When these locally generated forecasts are merged into a national mosaic, occasionally areas of discontinuity will be evident. Staff at NWS forecast offices attempt to resolve discontinuities along the boundaries of the forecasts by coordinating with forecasters at surrounding WFOs and using workstation forecast tools that identify and resolve some of these differences. The NWS is making progress in this area, and recognizes that this is a significant issue in which improvements are still needed. The NDFD was developed by NWS Meteorological Development Laboratory. The spatial resolution is about 2.5 km (1.6 mi) for CONUS, HI, and Guam, 1.25 km (0.8) for PR and 3km (1.9 mi) for Alaska. The latest wind speed and wind velocity forecasts are available hourly out to +36 hours from 00:00 UTC on Day 1 (current day), at 3-hour intervals out to +72 hours, and at 6-hour intervals from +72 to +168 hours (7 days). The wind gust forecasts are available hourly out to +36 hours from 0000 UTC on Day 1 (current day) and at 3-hour intervals out to +72 hours (3 days). Day 1-3 forecasts are updated hourly from 00Z to 23Z and Day 4-7 forecasts are updated at 00, 06, 12, 18, and 22Z. Data Source: NWS National Digital Forecast Database (NDFD).",
             "visible": false,
             "opacity": 0.7,
@@ -298,6 +314,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Temperature",
+            "layerId": "temp",
             "description": "This nowCOAST time-enabled map service provides maps depicting the forecast of surface air temperature, generated by the weather forecasters at regional NWS Weather Forecast Offices (WFOs) and the National Centers for Environmental Prediction (NCEP). The NDFD is a seamless composite or mosaic of gridded forecasts from individual NWS Weather Forecast Offices (WFOs) from around the U.S. as well as the NCEP Ocean Prediction Center and National Hurricane Center/TAFB. The time resolution of forecast projections varies by variable (element) based on user needs, forecast skill, and forecaster workload. Each WFO prepares gridded NDFD forecasts for their specific geographic area of responsibility. When these locally generated forecasts are merged into a national mosaic, occasionally areas of discontinuity will be evident. Staff at NWS forecast offices attempt to resolve discontinuities along the boundaries of the forecasts by coordinating with forecasters at surrounding WFOs and using workstation forecast tools that identify and resolve some of these differences. The NWS is making progress in this area, and recognizes that this is a significant issue in which improvements are still needed. The NDFD was developed by NWS Meteorological Development Laboratory. The spatial resolution is about 2.5 km (1.6 mi) for CONUS, HI, and Guam, 1.25 km (0.8) for PR and 3km (1.9 mi) for Alaska. The latest maximum and minimum air temperature forecasts are each available every 24 hours out to +168 hours (7 days) from 0000 UTC on Day 1 (current day). The latest apparent and surface air temperature forecasts are available every hour out to +36 hours from forecast issuance time, at 3-hour intervals from +36 to +72 hours, and at 6-hour intervals from +72 to +168 hours (7 days). Day 1-3 forecasts are updated hourly from 00Z to 23Z and Day 4-7 forecasts are updated at 00, 06, 12, 18, and 22Z. Data Source: NWS National Digital Forecast Database (NDFD).",
             "visible": false,
             "opacity": 0.7,
@@ -315,6 +332,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "6 hr Snow Forecast",
+            "layerId": "snow6h",
             "description": "This nowCOAST time-enabled map service provides maps depicting the forecast of 6-hr snowfall amount. Generated by the weather forecasters at regional NWS Weather Forecast Offices (WFOs) and the National Centers for Environmental Prediction (NCEP). The NDFD is a seamless composite or mosaic of gridded forecasts from individual NWS Weather Forecast Offices (WFOs) from around the U.S. as well as the NCEP Ocean Prediction Center and National Hurricane Center/TAFB. The time resolution of forecast projections varies by variable (element) based on user needs, forecast skill, and forecaster workload. Each WFO prepares gridded NDFD forecasts for their specific geographic area of responsibility. When these locally generated forecasts are merged into a national mosaic, occasionally areas of discontinuity will be evident. Staff at NWS forecast offices attempt to resolve discontinuities along the boundaries of the forecasts by coordinating with forecasters at surrounding WFOs and using workstation forecast tools that identify and resolve some of these differences. The NWS is making progress in this area, and recognizes that this is a significant issue in which improvements are still needed. The NDFD was developed by NWS Meteorological Development Laboratory. The spatial resolution is about 2.5 km (1.6 mi) for CONUS, HI, and Guam, 1.25 km (0.8) for PR and 3km (1.9 mi) for Alaska. The probability of precipitation forecasts are available or each 12-hour period out to +72 hours (3 days) from 0000 UTC on Day 1 (current day). Precipitation forecasts are available for each 6-hour period out to +72 hours (3 days) from 0000 UTC on Day 1 (current day). Snowfall forecasts are available for each 6-hour period out to +48 hours (2 days) from 0000 UTC on Day 1 (current day). Day 1-3 forecasts are updated hourly from 00Z to 23Z and for 12-hr precipitation probability Day 4-7 forecasts are updated at 00, 06, 12, 18, and 22Z. Data Source: NWS National Digital Forecast Database (NDFD).",
             "visible": false,
             "opacity": 0.7,
@@ -332,6 +350,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "6 hr Precipitation Forecast",
+            "layerId": "precip6h",
             "description": "This nowCOAST time-enabled map service provides maps depicting the forecast of 6-hr precipitation amount. Generated by the weather forecasters at regional NWS Weather Forecast Offices (WFOs) and the National Centers for Environmental Prediction (NCEP). The NDFD is a seamless composite or mosaic of gridded forecasts from individual NWS Weather Forecast Offices (WFOs) from around the U.S. as well as the NCEP Ocean Prediction Center and National Hurricane Center/TAFB. The time resolution of forecast projections varies by variable (element) based on user needs, forecast skill, and forecaster workload. Each WFO prepares gridded NDFD forecasts for their specific geographic area of responsibility. When these locally generated forecasts are merged into a national mosaic, occasionally areas of discontinuity will be evident. Staff at NWS forecast offices attempt to resolve discontinuities along the boundaries of the forecasts by coordinating with forecasters at surrounding WFOs and using workstation forecast tools that identify and resolve some of these differences. The NWS is making progress in this area, and recognizes that this is a significant issue in which improvements are still needed. The NDFD was developed by NWS Meteorological Development Laboratory. The spatial resolution is about 2.5 km (1.6 mi) for CONUS, HI, and Guam, 1.25 km (0.8) for PR and 3km (1.9 mi) for Alaska. The probability of precipitation forecasts are available or each 12-hour period out to +72 hours (3 days) from 0000 UTC on Day 1 (current day). Precipitation forecasts are available for each 6-hour period out to +72 hours (3 days) from 0000 UTC on Day 1 (current day). Snowfall forecasts are available for each 6-hour period out to +48 hours (2 days) from 0000 UTC on Day 1 (current day). Day 1-3 forecasts are updated hourly from 00Z to 23Z and for 12-hr precipitation probability Day 4-7 forecasts are updated at 00, 06, 12, 18, and 22Z. Data Source: NWS National Digital Forecast Database (NDFD).",
             "visible": false,
             "opacity": 0.7,
@@ -349,6 +368,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "12 hr Precipitation Probability",
+            "layerId": "precip12h",
             "description": "This nowCOAST time-enabled map service provides maps depicting the forecast of 12-hr precipitation probability. Generated by the weather forecasters at regional NWS Weather Forecast Offices (WFOs) and the National Centers for Environmental Prediction (NCEP). The NDFD is a seamless composite or mosaic of gridded forecasts from individual NWS Weather Forecast Offices (WFOs) from around the U.S. as well as the NCEP Ocean Prediction Center and National Hurricane Center/TAFB. The time resolution of forecast projections varies by variable (element) based on user needs, forecast skill, and forecaster workload. Each WFO prepares gridded NDFD forecasts for their specific geographic area of responsibility. When these locally generated forecasts are merged into a national mosaic, occasionally areas of discontinuity will be evident. Staff at NWS forecast offices attempt to resolve discontinuities along the boundaries of the forecasts by coordinating with forecasters at surrounding WFOs and using workstation forecast tools that identify and resolve some of these differences. The NWS is making progress in this area, and recognizes that this is a significant issue in which improvements are still needed. The NDFD was developed by NWS Meteorological Development Laboratory. The spatial resolution is about 2.5 km (1.6 mi) for CONUS, HI, and Guam, 1.25 km (0.8) for PR and 3km (1.9 mi) for Alaska. The probability of precipitation forecasts are available or each 12-hour period out to +72 hours (3 days) from 0000 UTC on Day 1 (current day). Precipitation forecasts are available for each 6-hour period out to +72 hours (3 days) from 0000 UTC on Day 1 (current day). Snowfall forecasts are available for each 6-hour period out to +48 hours (2 days) from 0000 UTC on Day 1 (current day). Day 1-3 forecasts are updated hourly from 00Z to 23Z and for 12-hr precipitation probability Day 4-7 forecasts are updated at 00, 06, 12, 18, and 22Z. Data Source: NWS National Digital Forecast Database (NDFD).",
             "visible": false,
             "opacity": 0.7,
@@ -366,6 +386,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Active Fire Perimeters",
+            "layerId": "af",
             "description": "Wildland fire history data is made up of wildland fire locations (fire occurrence points) and wildland fire perimeter polygons. Alaska Statewide Fire History Perimeters is a time series of areas burned in each calendar year across Alaska. The polygons in this dataset represent perimeters of wildfires that occur naturally (e.g., lightning) or by humans accidentally (e.g., escaped campfire) or maliciously across Alaska. NOTE: Not all recorded wildland fires are associated with a perimeter polygon. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution). Although this is a comprehensive dataset, it is not complete and is subject to revision. Data are available as ArcGIS Server Map and Feature Services <a href='https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices' target='_blank'>https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices</a> or for download from <a href='https://fire.ak.blm.gov/predsvcs/maps.php' target='_blank'>https://fire.ak.blm.gov/predsvcs/maps.php</a>.",
             "visible": false,
             "opacity": 0.7,
@@ -388,6 +409,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Out Fires (current year)",
+            "layerId": "of",
             "description": "Wildland fire history data is made up of wildland fire locations (fire occurrence points) and wildland fire perimeter polygons. Alaska Statewide Fire History Perimeters is a time series of areas burned in each calendar year across Alaska. The polygons in this dataset represent perimeters of wildfires that occur naturally (e.g., lightning) or by humans accidentally (e.g., escaped campfire) or maliciously across Alaska. NOTE: Not all recorded wildland fires are associated with a perimeter polygon. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution). Although this is a comprehensive dataset, it is not complete and is subject to revision. Data are available as ArcGIS Server Map and Feature Services <a href='https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices' target='_blank'>https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices</a> or for download from <a href='https://fire.ak.blm.gov/predsvcs/maps.php' target='_blank'>https://fire.ak.blm.gov/predsvcs/maps.php</a>.",
             "visible": false,
             "opacity": 0.7,
@@ -410,6 +432,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Active Prescribed Fires",
+            "layerId": "apf",
             "description": "Wildland fire history data is made up of wildland fire locations (fire occurrence points) and wildland fire perimeter polygons. Alaska Statewide Fire History Perimeters is a time series of areas burned in each calendar year across Alaska. The polygons in this dataset represent perimeters of wildfires that occur naturally (e.g., lightning) or by humans accidentally (e.g., escaped campfire) or maliciously across Alaska. NOTE: Not all recorded wildland fires are associated with a perimeter polygon. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution). Although this is a comprehensive dataset, it is not complete and is subject to revision. Data are available as ArcGIS Server Map and Feature Services <a href='https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices' target='_blank'>https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices</a> or for download from <a href='https://fire.ak.blm.gov/predsvcs/maps.php' target='_blank'>https://fire.ak.blm.gov/predsvcs/maps.php</a>.",
             "visible": false,
             "opacity": 0.7,
@@ -432,6 +455,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Out Prescribed Fires",
+            "layerId": "opf",
             "description": "Wildland fire history data is made up of wildland fire locations (fire occurrence points) and wildland fire perimeter polygons. Alaska Statewide Fire History Perimeters is a time series of areas burned in each calendar year across Alaska. The polygons in this dataset represent perimeters of wildfires that occur naturally (e.g., lightning) or by humans accidentally (e.g., escaped campfire) or maliciously across Alaska. NOTE: Not all recorded wildland fires are associated with a perimeter polygon. The delineations range in quality from hand sketched perimeters drawn on topographic maps to heads-up interpretation of fine scale satellite imagery (e.g., Sentinel-2 imagery, 10 meter resolution). Although this is a comprehensive dataset, it is not complete and is subject to revision. Data are available as ArcGIS Server Map and Feature Services <a href='https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices' target='_blank'>https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices</a> or for download from <a href='https://fire.ak.blm.gov/predsvcs/maps.php' target='_blank'>https://fire.ak.blm.gov/predsvcs/maps.php</a>.",
             "visible": false,
             "opacity": 0.7,
@@ -454,6 +478,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Initial Spread Index (today)",
+            "layerId": "isi",
             "description": "These features represent forecast values for Fire Danger Ratings - Initial Spread Index (ISI). Visit <a href='https://akff.mesowest.org/about/' target='_blank'>https://akff.mesowest.org/about/</a> for more information.",
             "visible": false,
             "opacity": 0.7,
@@ -481,6 +506,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Snow and Ice Extent",
+            "layerId": "snowice",
             "description": "The Interactive Multisensor Snow and Ice Mapping System (IMS) is an operational software package used to demarcate the presence of snow and ice across the entire northern hemisphere. This software enables qualified analysts to access multiple sets of remotely sensed data in order to create and distribute 1 km resolution maps of snow and ice used primarily as a data assimilation observation by numerical environmental modeling. IMS creates a North American analysis valid at 18 UTC as well as the entire northern hemisphere analysis visualized within this service, valid at 00 UTC. Imagery utilized includes synthetic aperture radar (SAR), geostationary imagery such as GOES, polar orbiting imagery such as VIIRS, other optical or infrared sensors prioritized by recency and image quality, and application of an understanding of conditions gained from surface stations, radar, and forecast weather conditions in order to create a product valid at approximately 00 UTC. More information on IMS as well as access to products can be found at <a href='https://usicecenter.gov/Products/ImsHome' target='_blank'>https://usicecenter.gov/Products/ImsHome</a> or from the IMS FTP archival partners at the National Snow and Ice Data Center (NSIDC) at <a href='https://nsidc.org/data/g02156/' target='_blank'>https://nsidc.org/data/g02156/</a>. The Digital Object Identifier (DOI) for IMS information is <a href='https://doi.org/10.7265/N52R3PMC' target='_blank'>10.7265/N52R3PMC</a>.",
             "visible": false,
             "opacity": 0.85,
@@ -499,6 +525,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "Soil Saturation %",
+            "layerId": "soilsat",
             "description": "The Interactive Multisensor Snow and Ice Mapping System (IMS) is an operational software package used to demarcate the presence of snow and ice across the entire northern hemisphere. This software enables qualified analysts to access multiple sets of remotely sensed data in order to create and distribute 1 km resolution maps of snow and ice used primarily as a data assimilation observation by numerical environmental modeling. IMS creates a North American analysis valid at 18 UTC as well as the entire northern hemisphere analysis visualized within this service, valid at 00 UTC. Imagery utilized includes synthetic aperture radar (SAR), geostationary imagery such as GOES, polar orbiting imagery such as VIIRS, other optical or infrared sensors prioritized by recency and image quality, and application of an understanding of conditions gained from surface stations, radar, and forecast weather conditions in order to create a product valid at approximately 00 UTC. More information on IMS as well as access to products can be found at <a href='https://usicecenter.gov/Products/ImsHome' target='_blank'>https://usicecenter.gov/Products/ImsHome</a> or from the IMS FTP archival partners at the National Snow and Ice Data Center (NSIDC) at <a href='https://nsidc.org/data/g02156/' target='_blank'>https://nsidc.org/data/g02156/</a>. The Digital Object Identifier (DOI) for IMS information is <a href='https://doi.org/10.7265/N52R3PMC' target='_blank'>10.7265/N52R3PMC</a>.",
             "visible": false,
             "opacity": 0.85,
@@ -517,6 +544,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "type": "WebMapServiceImageryProvider",
             "label": "River Ice Breakup Status",
+            "layerId": "ribs",
             "description": "The ice breakup/flood status of major rivers in Alaska",
             "visible": false,
             "opacity": 0.99,
@@ -557,6 +585,7 @@ MetacatUI.AppConfig = Object.assign({
         "layers": [
           {
             "label": "Ice-Wedge Polygons",
+            "layerId": "iwp",
             "type": "WebMapTileServiceImageryProvider",
             "visible": false,
             "description": "Ice-wedge polygons are ubiquitous ground features in landscapes underlain by ice-rich permafrost. Ice-wedge polygons are bounded by wedges of ice, which develop from millenia of repeated frost-cracking during cold winters and snowmelt water infiltrating into the cracks in spring. High resolution satellite imagery combined with deep learning tools were used to detect ice-wedge polygons across the Arctic tundra. To learn more about how this data was produced, see this publication: <a href='https://arcticdata.io/catalog/view/doi:10.18739/A2KW57K57' target='_blank'>https://arcticdata.io/catalog/view/doi:10.18739/A2KW57K57</a>",
@@ -574,6 +603,7 @@ MetacatUI.AppConfig = Object.assign({
           },
           {
             "label": "Permafrost Zones",
+            "layerId": "permafrost",
             "icon": "urn:uuid:25d227f8-bc97-403f-a64d-5b76e741f31a",
             "type": "Cesium3DTileset",
             "visible": false,
@@ -678,6 +708,7 @@ MetacatUI.AppConfig = Object.assign({
             "visible": false,
             "type": "WebMapTileServiceImageryProvider",
             "label": "Alaska 50cm Imagery 2022",
+            "layerId": "ak-maxar",
             "description": "A detailed and accurate color imagery of the State of Alaska, featuring a resolution of 50cm with images having less than 10% cloud cover.",
             "attribution": "Alaska High Resolution Imagery (RGB). 2022. Maxar Products. Maxar Technologies Inc., Alaska Geospatial Office, USGS.",
             "moreInfoLink": "https://gis.data.alaska.gov/pages/imagery",
@@ -689,6 +720,7 @@ MetacatUI.AppConfig = Object.assign({
           },
           {
             "label": "Satellite imagery",
+            "layerId": "bingmaps-satellite",
             "icon": "urn:uuid:ff153eab-490b-46a4-b11e-47e0592735f6",
             "type": "IonImageryProvider",
             "description": "Global satellite imagery down to 15 cm resolution in urban areas",
@@ -701,6 +733,30 @@ MetacatUI.AppConfig = Object.assign({
         ]
       }
     ],
+    "zoomPresets": [
+      {
+        "title": "Nome Shoreline LiDAR",
+        "latitude": 64.49291,
+        "longitude": -165.37379,
+        "height": 1000,
+        "description": "Remote sensing makes it possible to gather data rapidly, accurately, and non-destructively, allowing for access to remote areas in near real-time. Road and surrounding infrastructure data was collected using LiDAR sensor in remote areas outside of Nome, Alaska, as part of continuing research on permafrost thaw-related subsidence. The survey was conducted in the autumn of 2022, during the period when the remnants of Typhoon Merbok hit Nome. Some of the data shows damage caused by Typhoon Merbok before initial repairs were carried out. The high-quality data provides a data point of relevance to research in cold regions, permafrost studies, and infrastructure detection. It also lends its use as reference information to object classification of remotely sensed imagery in this region.",
+        "layerIds": [
+          "SiteV_2",
+          "bingmaps-satellite"
+        ]
+      },
+      {
+        "title": "Dexter Bypass LiDAR",
+        "latitude": 64.54533,
+        "longitude": -165.36042,
+        "height": 1000,
+        "description": "Remote sensing makes it possible to gather data rapidly, accurately, and non-destructively, allowing for access to remote areas in near real-time. Road and surrounding infrastructure data was collected using LiDAR sensor in remote areas outside of Nome, Alaska, as part of continuing research on permafrost thaw-related subsidence. The survey was conducted in the autumn of 2022, during the period when the remnants of Typhoon Merbok hit Nome. Some of the data shows damage caused by Typhoon Merbok before initial repairs were carried out. The high-quality data provides a data point of relevance to research in cold regions, permafrost studies, and infrastructure detection. It also lends its use as reference information to object classification of remotely sensed imagery in this region.",
+        "layerIds": [
+          "Site7",
+          "bingmaps-satellite"
+        ]
+      }
+    ]
   },
 
   /* API keys */

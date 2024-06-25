@@ -637,11 +637,11 @@ MetacatUI.AppConfig = Object.assign({
                 },
                 {
                   "value": 1,
-                  "color": "#75f68f4d",
+                  "color": "#1bfac44c",
                 },
                 {
                   "value": "max",
-                  "color": "#75f68f",
+                  "color": "#1bfa8f",
                 },
               ],
             },

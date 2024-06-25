@@ -648,6 +648,33 @@ MetacatUI.AppConfig = Object.assign({
             },
           },
           {
+            "label": "Open Topographic Map",
+            "layerId": "open-topographic-map",
+            "type": "OpenStreetMapImageryProvider",
+            "visible": false,
+            "description": "OpenTopoMap is a free topographic map generated from OpenStreetMap and SRTM elevation data. The map style is based on the official maps and relies on good readability through high contrast and balanced signatures.",
+            "attribution": "Stefan Erhardt",
+            "moreInfoLink": "https://opentopomap.org/credits",
+            "cesiumOptions": {
+              "url": "https://a.tile.opentopomap.org/"
+            },
+            "opacity": 0.4,
+            "saturation": 0.1,
+            "notification": { "badge": "New", "style": "green" }
+          },
+          {
+            "label": "Open Street Maps",
+            "layerId": "open-street-maps",
+            "type": "OpenStreetMapImageryProvider",
+            "visible": false,
+            "description": "OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.",
+            "attribution": "OpenStreetMap's community is diverse, passionate, and growing every day. Our contributors include enthusiast mappers, GIS professionals, engineers running the OSM servers, humanitarians mapping disaster-affected areas, and many more.",
+            "moreInfoLink": "https://www.openstreetmap.org/about",
+            "opacity": 0.6,
+            "saturation": 0.1,
+            "notification": { "badge": "New", "style": "green" }
+          },
+          {
             "visible": false,
             "type": "WebMapTileServiceImageryProvider",
             "label": "Alaska 50cm Imagery 2022",

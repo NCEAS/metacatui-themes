@@ -283,6 +283,7 @@ MetacatUI.AppConfig = Object.assign({
             ]
           }
         ],
+        "globeBaseColor": "#110066",
         "showToolbar": true,
         "toolbarOpen": false,
         "showScaleBar": true,

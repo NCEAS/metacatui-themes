@@ -742,7 +742,7 @@ MetacatUI.AppConfig = Object.assign({
         "description": "Remote sensing makes it possible to gather data rapidly, accurately, and non-destructively, allowing for access to remote areas in near real-time. Road and surrounding infrastructure data was collected using LiDAR sensor in remote areas outside of Nome, Alaska, as part of continuing research on permafrost thaw-related subsidence. The survey was conducted in the autumn of 2022, during the period when the remnants of Typhoon Merbok hit Nome. Some of the data shows damage caused by Typhoon Merbok before initial repairs were carried out. The high-quality data provides a data point of relevance to research in cold regions, permafrost studies, and infrastructure detection. It also lends its use as reference information to object classification of remotely sensed imagery in this region.",
         "layerIds": [
           "SiteV_2",
-          "bingmaps-satellite"
+          "sat"
         ]
       },
       {
@@ -753,7 +753,7 @@ MetacatUI.AppConfig = Object.assign({
         "description": "Remote sensing makes it possible to gather data rapidly, accurately, and non-destructively, allowing for access to remote areas in near real-time. Road and surrounding infrastructure data was collected using LiDAR sensor in remote areas outside of Nome, Alaska, as part of continuing research on permafrost thaw-related subsidence. The survey was conducted in the autumn of 2022, during the period when the remnants of Typhoon Merbok hit Nome. Some of the data shows damage caused by Typhoon Merbok before initial repairs were carried out. The high-quality data provides a data point of relevance to research in cold regions, permafrost studies, and infrastructure detection. It also lends its use as reference information to object classification of remotely sensed imagery in this region.",
         "layerIds": [
           "Site7",
-          "bingmaps-satellite"
+          "sat"
         ]
       }
     ]

@@ -257,7 +257,7 @@ MetacatUI.AppConfig = Object.assign({
             "description": "The 15-square-kilometer island is home to one of the oldest tropical research stations in the world, where studies have been carried out for more than 100 years.",
             "layerIds": [
               "barro-colorado-island",
-              "satellite-imagery"
+              "sat"
             ]
           },
           {
@@ -268,7 +268,7 @@ MetacatUI.AppConfig = Object.assign({
             "description": "Parque Natural Metropolitano comprises an area of 270 ha and is the only natural, undisturbed park in tropical Latin America located adjacent to a capital city.",
             "layerIds": [
               "parque-natural-metropolitano",
-              "open-street-maps"
+              "osm"
             ]
           },
           {
@@ -279,7 +279,7 @@ MetacatUI.AppConfig = Object.assign({
             "description": "Located 100 km north of Panama City, the Sherman Field Station at Parque Nacional San Lorenzo hosts one of STRI’s crane facilities. This field station was conceived to conduct research in a wet evergreen forest on the Caribbean coast of Panama.",
             "layerIds": [
               "san-lorenzo",
-              "satellite-imagery"
+              "sat"
             ]
           }
         ],

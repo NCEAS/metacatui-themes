@@ -873,7 +873,7 @@ nav#Navbar {
   width: 100%;
   position: fixed;
   z-index: 5;
-  height: var(--nav-height);
+  z-index: calc(var(--map-z-index-top-shadow) + 1);
 }
 
 #Navbar .logo {

@@ -50,7 +50,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "Site1 LiDAR",
             "type": "Cesium3DTileset",
-            "layerId": "Site2",
+            "layerId": "Site1",
             "description": "Data are available for download at: <a href='https://arcticdata.io/data/10.57902/D74W2T/' target='_blank'>https://arcticdata.io/data/10.57902/D74W2T/</a>",
             "visible": false,
             "moreInfoLink": "/view/urn%3Auuid%3A028790ad-4ebf-4870-85ac-e72ae9b8db26",
@@ -679,7 +679,7 @@ MetacatUI.AppConfig = Object.assign({
           },
           {
             "label": "Open Topographic Map",
-            "layerId": "open-topographic-map",
+            "layerId": "otm",
             "type": "OpenStreetMapImageryProvider",
             "visible": false,
             "description": "OpenTopoMap is a free topographic map generated from OpenStreetMap and SRTM elevation data. The map style is based on the official maps and relies on good readability through high contrast and balanced signatures.",
@@ -694,7 +694,7 @@ MetacatUI.AppConfig = Object.assign({
           },
           {
             "label": "Open Street Maps",
-            "layerId": "open-street-maps",
+            "layerId": "osm",
             "type": "OpenStreetMapImageryProvider",
             "visible": false,
             "description": "OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.",
@@ -720,7 +720,7 @@ MetacatUI.AppConfig = Object.assign({
           },
           {
             "label": "Satellite imagery",
-            "layerId": "bingmaps-satellite",
+            "layerId": "sat",
             "icon": "urn:uuid:ff153eab-490b-46a4-b11e-47e0592735f6",
             "type": "IonImageryProvider",
             "description": "Global satellite imagery down to 15 cm resolution in urban areas",

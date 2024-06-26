@@ -192,7 +192,7 @@ MetacatUI.AppConfig = Object.assign({
               },
               {
                 "label": "Open Topographic Map",
-                "layerId": "open-topographic-map",
+                "layerId": "otm",
                 "type": "OpenStreetMapImageryProvider",
                 "visible": false,
                 "description": "OpenTopoMap is a free topographic map generated from OpenStreetMap and SRTM elevation data. The map style is based on the official maps and relies on good readability through high contrast and balanced signatures.",
@@ -206,7 +206,7 @@ MetacatUI.AppConfig = Object.assign({
               },
               {
                 "label": "Open Street Maps",
-                "layerId": "open-street-maps",
+                "layerId": "osm",
                 "type": "OpenStreetMapImageryProvider",
                 "visible": false,
                 "description": "OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.",
@@ -217,7 +217,7 @@ MetacatUI.AppConfig = Object.assign({
               },
               {
                 "label": "Satellite imagery",
-                "layerId": "satellite-imagery",
+                "layerId": "sat",
                 "icon": "urn:uuid:ff153eab-490b-46a4-b11e-47e0592735f6",
                 "type": "IonImageryProvider",
                 "description": "Global satellite imagery down to 15 cm resolution in urban areas",

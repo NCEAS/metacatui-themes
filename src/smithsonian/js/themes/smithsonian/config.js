@@ -430,14 +430,14 @@ MetacatUI.AppConfig = Object.assign({
         alternateIdentifier: false,
         funding: false,
         generalTaxonomicCoverage: false,
-        geoCoverage: true,
+        geoCoverage: false,
         intellectualRights: true,
         keywordSets: false,
         methods: false,
         samplingDescription: false,
         studyExtentDescription: false,
         taxonCoverage: false,
-        temporalCoverage: true,
+        temporalCoverage: false,
         title: true
     },
     enableSolrJoins: true

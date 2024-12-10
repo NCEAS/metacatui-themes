@@ -611,6 +611,10 @@ nav#Navbar {
   margin-bottom: 4px;
 }
 
+#Navbar .logo a:hover {
+  color: transparent;
+}
+
 #Navbar .title {
   margin-left: 0.8rem;
 }

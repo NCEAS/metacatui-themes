@@ -762,6 +762,11 @@ nav#Navbar {
   border-left-color: var(--col-nav-bkg);
 }
 
+/* Keep logged-in nav dropdown from going off page right */
+.navbar-inner .dropdown-menu {
+  left: unset;
+  right: 0;
+}
 
 /* Search/ID Input bar in nav bar */
 .nav>.input>form>input[type="text"],

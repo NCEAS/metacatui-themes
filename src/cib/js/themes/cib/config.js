@@ -10,12 +10,22 @@ MetacatUI.AppConfig = Object.assign({
 
     /* Metadata View */
 
-    /* Metrics */
-    displayDatasetQualityMetric: true,
-    hideSummaryMetadataAssessment: false,
-    hideSummaryDownloadsChart: false,
-    hideSummaryCitationsChart: false,
-    hideSummaryViewsChart: false,
+  /* Metrics */
+  displayDatasetQualityMetric: true,
+  hideSummaryMetadataAssessment: false,
+  hideSummaryDownloadsChart: false,
+  hideSummaryCitationsChart: false,
+  hideSummaryViewsChart: false,
+  
+  /* Portals */
+  portalDefaults: {
+    primaryColor: "#73c6fd",
+    primaryColorTransparent: "rgba(115, 198, 253, .7)",
+    secondaryColor: "#0e49a1",
+    secondaryColorTransparent: "rgba(14, 73, 161, .7)",
+    accentColor: "#05ab8f",
+    accentColorTransparent: "rgba(5, 171, 143, .7)"
+  },
 
     /* Editor */
     defaultAccessPolicy: [
@@ -26,11 +36,31 @@ MetacatUI.AppConfig = Object.assign({
             changePermission: true
         },
         {
+            subject: "CN=cib-curators,DC=dataone,DC=org",
+            read: true,
+            write: true,
+            changePermission: true
+        },
+        {
+            subject: "CN=cib-admins,DC=dataone,DC=org",
+            read: true,
+            write: true,
+            changePermission: true
+        },
+        {
             subject: "public",
             read: true
         }
     ],
-    hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org"],
+    hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org","CN=cib-curators,DC=dataone,DC=org","CN=cib-admins,DC=dataone,DC=org"],
+    enablePublishDOI: true,
+    enablePublishDOIForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org"],
+    allowAccessPolicyChangesDatasets: true,
+    allowAccessPolicyChangesDatasetsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org", "CN=cib-admins,DC=dataone,DC=org"],
+    allowAccessPolicyChangesPortals: true,
+    allowAccessPolicyChangesPortalsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org"],
+    showDatasetPublicToggle: true,
+    showDatasetPublicToggleForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org", "CN=cib-admins,DC=dataone,DC=org"],
     emlEditorRequiredFields: {
         abstract: true,
         alternateIdentifier: false,

@@ -13,12 +13,12 @@
   --col-neutral-8: #2a2a2a;
   --col-neutral-9: #222222;
 
-  --col-primary: #23487A;
-  --col-secondary: #0E69A1;
+  --col-primary: #73c6fd;
+  --col-secondary: #0e49a1;
   --col-tertiary: #05ab8f;
   --col-error: #c5351c;
 
-  --col-primary-muted: #597F99;
+  --col-primary-muted: #526674;
   --col-primary-transparent-70: color-mix(in srgb, var(--col-primary) 70%, transparent);
   --col-primary-transparent-20: color-mix(in srgb, var(--col-primary) 20%, transparent);
 
@@ -34,7 +34,7 @@
   --col-text-muted: var(--col-neutral-6);
   --col-text-emphasis: var(--col-neutral-8);
   --col-text-on-primary: var(--col-neutral-2);
-  --col-text-on-primary-emphasis: var(--col-neutral-1);
+  --col-text-on-primary-emphasis: var(--col-neutral-7);
   --col-text-on-inactive: var(--col-neutral-2);
 
   --col-link: var(--col-secondary);
@@ -99,7 +99,7 @@
   /* NON-COLOR VARS */
   --font-family-main: 'Source Sans Pro', 'Arial', sans-serif;
   --font-family-title: 'Source Sans Pro', 'Arial', sans-serif;
-  --home-page-bkg-img: url('../img/home-page-bkg.jpg');
+  --home-page-bkg-img: url('../img/cib_background.jpg');
   --box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
   --border-radius: 10px;
   --footer-height: 1.25rem;
@@ -596,7 +596,7 @@ nav#Navbar {
   top: 0px;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   height: var(--nav-height);
 }
 

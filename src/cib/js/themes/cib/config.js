@@ -50,10 +50,6 @@ MetacatUI.AppConfig = Object.assign({
             read: true,
             write: true,
             changePermission: true
-        },
-        {
-            subject: "public",
-            read: true
         }
     ],
     hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org","CN=cib-curators,DC=dataone,DC=org","CN=cib-admins,DC=dataone,DC=org"],

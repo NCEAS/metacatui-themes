@@ -58,7 +58,7 @@ MetacatUI.AppConfig = Object.assign({
     allowAccessPolicyChangesDatasets: true,
     allowAccessPolicyChangesDatasetsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org", "CN=cib-admins,DC=dataone,DC=org"],
     allowAccessPolicyChangesPortals: true,
-    allowAccessPolicyChangesPortalsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org"],
+    allowAccessPolicyChangesPortalsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org", "CN=cib-admins,DC=dataone,DC=org"],
     showDatasetPublicToggle: true,
     showDatasetPublicToggleForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org", "CN=cib-admins,DC=dataone,DC=org"],
     emlEditorRequiredFields: {

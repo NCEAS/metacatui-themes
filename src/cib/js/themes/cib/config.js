@@ -54,7 +54,7 @@ MetacatUI.AppConfig = Object.assign({
     ],
     hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org","CN=cib-curators,DC=dataone,DC=org","CN=cib-admins,DC=dataone,DC=org"],
     enablePublishDOI: true,
-    enablePublishDOIForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org"],
+    enablePublishDOIForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org","CN=cib-admins,DC=dataone,DC=org"],
     allowAccessPolicyChangesDatasets: true,
     allowAccessPolicyChangesDatasetsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org", "CN=cib-admins,DC=dataone,DC=org"],
     allowAccessPolicyChangesPortals: true,

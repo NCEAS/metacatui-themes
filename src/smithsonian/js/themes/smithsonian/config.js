@@ -8,6 +8,13 @@ MetacatUI.AppConfig = Object.assign({
     baseUrl: "https://smithsonian.dataone.org/",
     emailContact: "WhiteAE@si.edu",
 
+    //Temporary Message
+    temporaryMessage: "The Smithsonian Research Data Repository will be unavailable between 6 a.m. and 10 a.m. PT on Monday, December 23 due to upgrades. We apologize for the inconvenience.",
+    temporaryMessageStartTime: null,
+    temporaryMessageEndTime: new Date("2024-12-23T23:59:00"),
+    temporaryMessageClasses: "warning",
+    temporaryMessageContainer: "#Navbar",
+
     /* Map */
     useDeprecatedDataCatalogView: false,
     enableCesium: true,

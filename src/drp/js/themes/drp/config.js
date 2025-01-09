@@ -798,12 +798,6 @@ MetacatUI.AppConfig = Object.assign({
         changePermission: true
     },
     {
-        subject: "CN=drp-crrel-team,DC=dataone,DC=org",
-        read: true,
-        write: false,
-        changePermission: false
-    },
-    {
       subject: "CN=drp-data-admins,DC=dataone,DC=org",
       read: true,
       write: true,

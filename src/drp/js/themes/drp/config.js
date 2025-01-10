@@ -791,12 +791,12 @@ MetacatUI.AppConfig = Object.assign({
 
   /* Editor */
   defaultAccessPolicy: [
-    {
-        subject: "CN=drp-pis,DC=dataone,DC=org",
-        read: true,
-        write: true,
-        changePermission: true
-    },
+    // {
+    //     subject: "CN=drp-pis,DC=dataone,DC=org",
+    //     read: true,
+    //     write: true,
+    //     changePermission: true
+    // },
     {
       subject: "CN=drp-data-admins,DC=dataone,DC=org",
       read: true,

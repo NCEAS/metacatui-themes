@@ -6,7 +6,7 @@ MetacatUI.AppConfig = Object.assign({
     repositoryURL: "https://cib.dataone.org",
     nodeId: "urn:node:CIB",
     emailContact: "support@dataone.org",
-    description: "The California Institute for Biodiversity (CIB) Data Repository is intended to preserve and share critical biodiversity data collected by CIB grantees and to support efforts to understand and sustain the great diversity of life in California.",
+    description: "The California ATBI Data Repository aggregates, integrates, and shares biodiversity data collected by partners, to understand and sustain the great diversity of life in California.",
 
     /* Metadata View */
 

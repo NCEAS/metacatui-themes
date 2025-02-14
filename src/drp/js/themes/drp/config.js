@@ -3,6 +3,7 @@ MetacatUI.AppConfig = Object.assign({
   theme: "drp",
   baseUrl: "https://drp.dataone.org",
   nodeId: "urn:node:DRP",
+  dataoneHostedRepos: ["urn:node:DRP"],
   title: "Defense Resiliency Platform Against Extreme Cold Weather",
   repositoryName: "Defense Resiliency Platform Against Extreme Cold Weather",
   emailContact: "timothy.pasch@und.edu",

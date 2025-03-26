@@ -13,8 +13,8 @@
   --col-neutral-8: #2a2a2a;
   --col-neutral-9: #222222;
 
-  --col-primary: #23487A;
-  --col-secondary: #0E69A1;
+  --col-primary: #F9CCFF;
+  --col-secondary: #DF00FF;
   --col-tertiary: #05ab8f;
   --col-error: #c5351c;
 
@@ -33,9 +33,9 @@
   --col-text: var(--col-neutral-7);
   --col-text-muted: var(--col-neutral-6);
   --col-text-emphasis: var(--col-neutral-8);
-  --col-text-on-primary: var(--col-neutral-2);
-  --col-text-on-primary-emphasis: var(--col-neutral-1);
-  --col-text-on-inactive: var(--col-neutral-2);
+  --col-text-on-primary: var(--col-neutral-9);
+  --col-text-on-primary-emphasis: var(--col-neutral-6);
+  --col-text-on-inactive: var(--col-neutral-5);
 
   --col-link: var(--col-secondary);
 
@@ -416,9 +416,19 @@ select {
   border-width: 0px;
 }
 
-.side-nav-item .active {
-  background-color: var(--col-bkg-highlight);
-  color: var(--col-font-on-highlight);
+.side-nav-item>a {
+  color: var(--col-text-on-primary);
+}
+
+.side-nav-item>a:hover {
+  background-color: var(--col-bkg-muted);
+  color: var(--col-link);
+  text-decoration: none;
+}
+
+.side-nav-item>a.active {
+  background-color: var(--col-bkg-muted);
+  color: var(--col-link);
 }
 
 
@@ -526,8 +536,7 @@ select {
 }
 
 .btn-primary,
-.data-package-item .btn-primary,
-.btn-primary:hover {
+.data-package-item .btn-primary {
   background-color: var(--col-button-primary-bkg);
   border-color: var(--col-button-primary-bkg);
   color: var(--col-button-primary-bkg);
@@ -536,6 +545,10 @@ select {
 .btn-primary,
 .data-package-item .btn-primary {
   color: var(--col-button-primary-text);
+}
+
+.btn-primary:hover {
+  color: var(--col-secondary);
 }
 
 .btn-primary a, .btn-info a, .btn-success a, .btn-warning a, .btn-danger a, .btn-inverse a {
@@ -710,7 +723,7 @@ nav#Navbar {
 
 .navbar .nav>li>a:focus,
 .navbar .nav>li>a:hover {
-  color: var(--col-text-on-primary);
+  color: var(--col-secondary);
   text-decoration: none;
   text-shadow: none;
 }
@@ -753,6 +766,7 @@ nav#Navbar {
 }
 
 #Navbar .dropdown-menu>li>a:hover {
+  color: var(--col-secondary);
   background-color: var(--col-nav-bkg);
   background-image: none;
 }
@@ -1191,8 +1205,8 @@ aside>div {
   width: 35px;
 }
 
-.filter.btn>i:hover {
-  color: var(--col-button-primary-hover-text);
+.filter.btn:hover {
+  color: var(--col-secondary);
 }
 
 /*-- Inputs for search filters --*/
@@ -2155,6 +2169,11 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
 #search_btn_main {
   border-color: var(--col-button-primary-bkg);
   background-color: var(--col-button-primary-bkg);
+}
+
+#search_btn_main:hover {
+  background-color: var(--col-secondary);
+  border-color: var(--col-secondary);
 }
 
 .table .table-header {

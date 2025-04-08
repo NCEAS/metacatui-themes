@@ -15,7 +15,7 @@
 
   --col-primary: #F9CCFF;
   --col-secondary: #DF00FF;
-  --col-tertiary: #05ab8f;
+  --col-tertiary: #700080;
   --col-error: #c5351c;
 
   --col-primary-muted: #597F99;
@@ -99,7 +99,7 @@
   /* NON-COLOR VARS */
   --font-family-main: 'Source Sans Pro', 'Arial', sans-serif;
   --font-family-title: 'Source Sans Pro', 'Arial', sans-serif;
-  --home-page-bkg-img: url('../img/home-page-bkg.jpg');
+  --home-page-bkg-img: url('../img/collage.png');
   --box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
   --border-radius: 10px;
   --footer-height: 1.25rem;
@@ -139,8 +139,8 @@ a {
 }
 
 a:hover {
-  color: var(--col-link);
-  text-decoration: underline;
+  color: var(--col-tertiary);
+  text-decoration: none;
 }
 
 .obvious-link {
@@ -256,6 +256,23 @@ thead a {
 .table thead th {
   vertical-align: middle;
   border: 0px;
+}
+
+.table {
+  max-width: 92%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+.tablehead {
+  background-color: var(--col-primary);
+}
+.hr-about-table th {
+  color: var(--col-tertiary);
+  border-top: 1px solid var(--col-border);
+  border-bottom: 1px solid var(--col-border);
+}
+.table-stripe tbody > tr:nth-child(2n+1) > td {
+  background-color: var(--col-primary-transparent-20);
 }
 
 div.row-fluid>a[name] {

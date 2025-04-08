@@ -259,9 +259,9 @@ thead a {
 }
 
 .table {
-  max-width: 92%;
-  margin-right: 4%;
-  margin-left: 4%;
+  max-width: 96%;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 .tablehead {
   background-color: var(--col-primary);

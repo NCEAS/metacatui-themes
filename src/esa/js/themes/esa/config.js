@@ -15,6 +15,9 @@ MetacatUI.AppConfig = Object.assign(
 
     useDeprecatedDataCatalogView: false,
 
+    /* API Keys */
+    googleAnalyticsKey: "G-BWFTGR3WSD",
+
     /* Metadata View */
 
     /* Metrics */

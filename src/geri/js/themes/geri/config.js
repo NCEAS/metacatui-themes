@@ -5,6 +5,7 @@ MetacatUI.AppConfig = Object.assign({
     repositoryName: "GERI",
     emailContact: "support@dataone.org",
     repositoryURL: "https://geri.dataone.org",
+    baseUrl: "https://geri.dataone.org",
     nodeId: "urn:node:GERI",
     dataoneHostedRepos: ["urn:node:GERI"],
     description: "The GERI repository provides harmonized global ecological drought data from key ecosystem research infrastructures, enabling seamless and federated access for cross-regional global-scale analysis, research, and decision-making.",

@@ -102,7 +102,7 @@
   --home-page-bkg-img: url('../img/collage.png');
   --box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
   --border-radius: 10px;
-  --footer-height: 1.25rem;
+  --footer-height: 6.5rem;
   --nav-height: 2.7rem;
   --padding: 1.25rem;
 
@@ -521,6 +521,7 @@ select {
   padding-left: var(--padding);
   padding-right: var(--padding);
   color: var(--col-footer-text-emphasis);
+  margin-bottom: 0.5rem;
 }
 
 #Footer a {
@@ -538,6 +539,34 @@ select {
   margin-right: .5em;
   vertical-align: top;
 }
+
+/* The div that contains the logos in the footer */
+#Footer .help-items + div {
+  background: var(--col-neutral-1);
+  border-top: 1px solid #22487acc;
+  border-bottom: 1px solid #22487acc;
+  box-shadow: 0px 0px 10px #22487acc;
+}
+
+#Footer .footer-logos-list{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-logos-list li{
+  display: flex;
+  align-items: center;
+}
+
+#Footer .footer-logos-list img{
+  max-width: 211px;
+  max-height: 44px;
+  width: 100%;
+}
+
 
 
 /* BUTTONS CSS

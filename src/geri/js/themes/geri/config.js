@@ -39,7 +39,7 @@ MetacatUI.AppConfig = Object.assign({
         }
     ],
     hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org","CN=geri-curators,DC=dataone,DC=org"],
-    enablePublishDOI: false,
+    enablePublishDOI: true,
     enablePublishDOIForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=geri-curators,DC=dataone,DC=org"],
     allowAccessPolicyChangesDatasets: true,
     allowAccessPolicyChangesDatasetsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=geri-curators,DC=dataone,DC=org"],

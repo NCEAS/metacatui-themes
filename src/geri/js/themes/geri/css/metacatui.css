@@ -760,7 +760,7 @@ nav#Navbar {
 .mapMode .navbar .nav>li>a:focus,
 .mapMode .navbar .nav>li>a:hover {
   text-shadow: none;
-  color: var(--col-text-on-primary);
+  color: var(--col-secondary);
 }
 
 #Navbar form {

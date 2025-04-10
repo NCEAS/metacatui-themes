@@ -12,6 +12,9 @@ MetacatUI.AppConfig = Object.assign(
     d1CNBaseUrl: "https://cn.dataone.org/",
     emailContact: "knb-help@nceas.ucsb.edu",
 
+    /* API Keys */
+    googleAnalyticsKey: "G-N7RYX7H5H1",
+
     useDeprecatedDataCatalogView: false,
 
     catalogSearchMapOptions: {

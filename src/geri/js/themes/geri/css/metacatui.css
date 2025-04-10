@@ -529,6 +529,7 @@ select {
 }
 
 .mapMode #Footer {
+  display: none;
   height: var(--footer-height);
   position: inherit;
 }

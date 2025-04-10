@@ -1651,7 +1651,7 @@ li.ui-menu-item>a:hover,
 }
 
 .result-row .citation a:hover {
-  color: var(--col-link);
+  color: var(--col-tertiary);
 }
 
 .result-row .dropdown-menu {
@@ -1660,10 +1660,6 @@ li.ui-menu-item>a:hover,
 
 .result-row .tooltip {
   z-index: 999999999;
-}
-
-cite>span.title>a:hover {
-  color: var(--col-tertiary);
 }
 
 /*-- Results List Icons --*/

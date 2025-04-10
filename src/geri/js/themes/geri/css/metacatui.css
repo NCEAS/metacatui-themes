@@ -18,9 +18,9 @@
   --col-tertiary: #700080;
   --col-error: #c5351c;
 
-  --col-primary-muted: #597F99;
   --col-primary-transparent-70: color-mix(in srgb, var(--col-primary) 70%, transparent);
   --col-primary-transparent-20: color-mix(in srgb, var(--col-primary) 20%, transparent);
+  --col-primary-muted: var(--col-primary-transparent-20);
 
   /* CONTENT BACKGROUNDS */
   --col-bkg: var(--col-neutral-1);
@@ -566,6 +566,7 @@ select {
 
 .btn-primary:hover {
   color: var(--col-secondary);
+  background-color: var(--col-button-primary-hover-bkg);
 }
 
 .btn-primary a, .btn-info a, .btn-success a, .btn-warning a, .btn-danger a, .btn-inverse a {
@@ -1659,6 +1660,10 @@ li.ui-menu-item>a:hover,
 
 .result-row .tooltip {
   z-index: 999999999;
+}
+
+cite>span.title>a:hover {
+  color: var(--col-tertiary);
 }
 
 /*-- Results List Icons --*/

@@ -298,7 +298,8 @@ MetacatUI.AppConfig = Object.assign({
         "showFeatureInfo": true,
         "showViewfinder": true,
         "showZoomPresets": true,
-        "showShareUrl": true
+        "showShareUrl": true,
+        "showDownloadPanel": true
     },
 
     /* Filters */

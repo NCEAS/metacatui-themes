@@ -28,6 +28,7 @@ MetacatUI.AppConfig = Object.assign({
         "showViewfinder": true,
         "showZoomPresets": false,
         "showShareUrl": true,
+        "showDownloadPanel": true,
         "homePosition": {
           "longitude": 18.47,
           "latitude": -2.2,

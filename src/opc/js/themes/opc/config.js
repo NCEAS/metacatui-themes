@@ -11,7 +11,7 @@ MetacatUI.AppConfig = Object.assign({
   //Temporary Message
   temporaryMessage: "The California OPC Data Repository will be unavailable between 11 p.m. PT on Monday, June 15 and 6:30 a.m. PT on Tuesday, June 16 due to upgrades. We apologize for the inconvenience.",
   temporaryMessageStartTime: null,
-  temporaryMessageEndTime: new Date("2020-06-16T13:30:00"),
+  temporaryMessageEndTime: new Date("2020-06-16T13:30:00Z"),
   temporaryMessageClasses: "warning",
   temporaryMessageContainer: "#Navbar",
 

@@ -18,6 +18,15 @@ MetacatUI.AppConfig = Object.assign({
     hideSummaryCitationsChart: false,
     hideSummaryViewsChart: false,
 
+    portalDefaults: {
+        primaryColor: "#494b4c",
+        primaryColorTransparent: "rgba(73, 75, 76, .7)",
+        secondaryColor: "#f1f7f6",
+        secondaryColorTransparent: "rgba(241, 247, 246, .7)",
+        accentColor: "#ccc",
+        accentColorTransparent: "rgba(204, 204, 204, .7)"
+    },    
+
     /* Editor */
     defaultAccessPolicy: [
         {

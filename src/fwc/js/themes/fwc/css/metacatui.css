@@ -13,9 +13,9 @@
   --col-neutral-8: #2a2a2a;
   --col-neutral-9: #222222;
 
-  --col-primary: #23487A;
-  --col-secondary: #0E69A1;
-  --col-tertiary: #05ab8f;
+  --col-primary: #494b4c;
+  --col-secondary: #286da8;
+  --col-tertiary: #ccc;
   --col-error: #c5351c;
 
   --col-primary-muted: #597F99;
@@ -36,8 +36,10 @@
   --col-text-on-primary: var(--col-neutral-2);
   --col-text-on-primary-emphasis: var(--col-neutral-1);
   --col-text-on-inactive: var(--col-neutral-2);
+  --col-text-on-primary-hover: var(--col-neutral-3);
 
   --col-link: var(--col-secondary);
+  --col-link-hover: #0056b3;
 
   /* BORDERS */
   --col-border: var(--col-neutral-4);
@@ -139,8 +141,8 @@ a {
 }
 
 a:hover {
-  color: var(--col-link);
-  text-decoration: underline;
+  color: var(--col-link-hover);
+  text-decoration: none;
 }
 
 .obvious-link {
@@ -526,11 +528,15 @@ select {
 }
 
 .btn-primary,
-.data-package-item .btn-primary,
-.btn-primary:hover {
+.data-package-item .btn-primary {
   background-color: var(--col-button-primary-bkg);
   border-color: var(--col-button-primary-bkg);
   color: var(--col-button-primary-bkg);
+}
+
+.btn-primary:hover {
+  background-color: var(--col-button-primary-hover-bkg);
+  border-color: var(--col-button-primary-bkg);
 }
 
 .btn-primary,
@@ -710,7 +716,7 @@ nav#Navbar {
 
 .navbar .nav>li>a:focus,
 .navbar .nav>li>a:hover {
-  color: var(--col-text-on-primary);
+  color: var(--col-text-on-primary-hover);
   text-decoration: none;
   text-shadow: none;
 }
@@ -1618,8 +1624,8 @@ li.ui-menu-item>a:hover,
   font-family: var(--font-family-title);
 }
 
-.result-row .citation a:hover {
-  color: var(--col-link);
+.result-row .citation .title:hover {
+  color: var(--col-link-hover);
 }
 
 .result-row .dropdown-menu {

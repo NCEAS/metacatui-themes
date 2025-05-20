@@ -1499,7 +1499,6 @@ li.ui-menu-item>a:hover,
   width: 100vw;
   padding-top: var(--nav-height);
   padding-left: 0px;
-  padding-bottom: var(--footer-height);
 }
 
 /*-- Results header --*/

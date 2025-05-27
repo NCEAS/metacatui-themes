@@ -282,9 +282,25 @@ div.row-fluid>a[name] {
 
 #mainContent .container {
   max-width: 70rem;
-  background-color: color-mix(in srgb, var(--col-neutral-9) 80%, transparent);
+  background-color: color-mix(in srgb, var(--col-neutral-9) 40%, transparent);
   padding: 30px 40px;
   border-radius: var(--border-radius);
+}
+
+input#search_txt_main {
+  background-color: color-mix(in srgb, var(--col-neutral-1) 40%, transparent);
+  color: var(--col-neutral-9);
+  width: 97.5%;
+  border: none;
+}
+
+input#search_txt_main:hover {
+  background-color: color-mix(in srgb, var(--col-neutral-1) 50%, transparent);
+  color: var(--col-neutral-9)
+}
+
+input#search_txt_main:active, input#search_txt_main:focus {
+  background-color: var(--col-neutral-1);
 }
 
 #mainContent h1 {
@@ -2158,8 +2174,19 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
 
 
 #search_btn_main {
-  border-color: var(--col-button-primary-bkg);
+  border: none;
+  background-color: color-mix(in srgb, var(--col-button-primary-bkg) 40%, transparent);
+  color: color-mix(in srgb, var(--col-button-primary-text) 40%, transparent);
+}
+
+#search_btn_main:hover {
+  background-color: color-mix(in srgb, var(--col-button-primary-bkg) 50%, transparent);
+  color: color-mix(in srgb, var(--col-button-primary-text) 50%, transparent);
+}
+
+#search_btn_main:focus {
   background-color: var(--col-button-primary-bkg);
+  color: var(--col-button-primary-text);
 }
 
 .table .table-header {

@@ -6,7 +6,7 @@ MetacatUI.AppConfig = Object.assign({
     repositoryURL: "https://cib.dataone.org",
     nodeId: "urn:node:CIB",
     dataoneHostedRepos: ["urn:node:CIB"],
-    emailContact: "support@dataone.org",
+    emailContact: "robert@drivendata.org",
     description: "The California ATBI Data Repository aggregates, integrates, and shares biodiversity data collected by partners, to understand and sustain the great diversity of life in California.",
 
     /* Metadata View */
@@ -59,7 +59,7 @@ MetacatUI.AppConfig = Object.assign({
     enablePublishDOI: true,
     enablePublishDOIForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org","CN=cib-admins,DC=dataone,DC=org"],
     allowAccessPolicyChangesDatasets: true,
-    allowAccessPolicyChangesDatasetsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org", "CN=cib-admins,DC=dataone,DC=org"],
+    // allowAccessPolicyChangesDatasetsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org", "CN=cib-admins,DC=dataone,DC=org"],
     allowAccessPolicyChangesPortals: true,
     allowAccessPolicyChangesPortalsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cib-curators,DC=dataone,DC=org", "CN=cib-admins,DC=dataone,DC=org"],
     showDatasetPublicToggle: true,

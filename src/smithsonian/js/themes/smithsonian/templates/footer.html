@@ -1,16 +1,19 @@
 <div class="help-items">
-    <a href="mailto:<%=MetacatUI.appModel.get('emailContact')%>">
+    <nobr>
+        <a href="mailto:<%=MetacatUI.appModel.get('emailContact')%>">
                 Contact: <%=MetacatUI.appModel.get('emailContact')%>
-    </a>
+        </a>
+    </nobr>
 
-    <a href="https://www.si.edu/privacy" target="_blank">
+    <a style="padding-left:10px; padding-right:10px; margin-right:auto;" href="https://www.si.edu/privacy" target="_blank">
         Privacy
     </a>
 
-    <a href="https://dataone.org/hosted-repo/" target="offline">
-        Powered by
-        <img alt="DataONE" src="<%= MetacatUI.root %>/js/themes/<%= MetacatUI.theme %>/img/dataone_logo_white.png" class="dataone-logo" />
-        Hosted Repositories
-    </a>
-
+    <nobr>
+        <a href="https://dataone.org/hosted-repo/" target="offline">
+            Powered by
+            <img alt="DataONE" src="<%= MetacatUI.root %>/js/themes/<%= MetacatUI.theme %>/img/dataone_logo_white.png" class="dataone-logo" />
+            Hosted Repositories
+        </a>
+    </nobr>
 </div>

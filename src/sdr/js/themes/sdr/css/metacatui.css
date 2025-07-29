@@ -72,7 +72,7 @@
   --col-button-reverse-text: var(--col-primary);
   --col-button-reverse-icon: var(--col-primary-muted);
   --col-button-reverse-hover-text: var(--col-primary);
-  --col-button-primary-hover-bkg: var(--col-primary-muted);
+  --col-button-primary-hover-bkg: var(--col-secondary);
   --col-button-primary-hover-text: var(--col-primary);
 
   --col-toggle: var(--col-primary-transparent-20);
@@ -2155,6 +2155,10 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
 #search_btn_main {
   border-color: var(--col-button-primary-bkg);
   background-color: var(--col-button-primary-bkg);
+}
+#search_btn_main:hover, #search_btn_main :hover, #search_btn_main.btn :focus {
+  border-color: var(--col-button-primary-hover-bkg);
+  background-color: var(--col-button-primary-hover-bkg);
 }
 
 .table .table-header {

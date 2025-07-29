@@ -1,0 +1,51 @@
+<%
+var rootUrl = MetacatUI.root;
+var logoUrl = rootUrl + '/js/themes/' + MetacatUI.theme + '/img/metacat_logo.png?v=' + MetacatUI.metacatUIVersion;
+var repositoryName = MetacatUI.appModel.get('repositoryName');
+var signInUrl = rootUrl + '/signin';
+var signOutUrl = rootUrl + '/signout';
+%>
+
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="logo home">
+            <a href="<%= rootUrl  || '/' %>">
+                <img alt="Metacat" src="<%= logoUrl %>">
+            </a>
+            <span class="title"><%= repositoryName %></span>
+        </div>
+        <a id="nav-trigger">
+            <i class="icon-reorder icon"></i>
+            <i class="icon-remove icon hidden"></i>
+        </a>
+        <ul class="nav" id="main-nav">
+            <li><a class="show-new-search" href="<%= rootUrl %>/data">Search Data</a></li>
+            <li><a class="show-new-editor" href="<%= rootUrl %>/submit">Submit Data</a></li>
+            <li><a href="<%= rootUrl %>/profile">Data Summary</a></li>
+            <li><a href="<%= rootUrl %>/support">Support</a></li>
+            <li><a href="<%= rootUrl %>/about">About</a></li>
+            <% if (loggedIn && username) { %>
+                <li class="dropdown minimal-nav user-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon icon-on-left icon-user"></i>
+                        <%= firstName || formattedName %>
+                        <i class="icon icon-caret-down icon-on-right"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header"><%= formattedName %></li>
+                        <li class="divider"></li>
+                        <li><a href="<%= rootUrl %>/submit" class="show-new-editor">Submit Data</a></li>
+                        <li><a href="<%= rootUrl %>/profile/<%= username %>">My Profile</a></li>
+                        <li><a href="<%= rootUrl %>/data/my-data">My Datasets</a></li>
+                        <li class="divider"></li>
+                        <li><a href="<%= signOutUrl %>">Sign Out</a></li>
+                    </ul>
+                </li>
+            <% } else { %>
+                <li id="SignIn" class="share-feature minimal-nav">
+                    <a href="<%= signInUrl %>">Sign In</a>
+                </li>
+            <% } %>
+        </ul>
+    </div><!-- /.navbar-inner -->
+</div><!-- /.navbar -->

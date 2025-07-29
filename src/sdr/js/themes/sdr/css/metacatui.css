@@ -710,7 +710,7 @@ nav#Navbar {
 
 .navbar .nav>li>a:focus,
 .navbar .nav>li>a:hover {
-  color: var(--col-text-on-primary);
+  color: var(--col-secondary);
   text-decoration: none;
   text-shadow: none;
 }

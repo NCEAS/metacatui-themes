@@ -11,7 +11,7 @@ MetacatUI.AppConfig = Object.assign({
     description: "The purpose of the Seafloor Data Repository is to catalog and make available seafloor datasets in U.S. Atlantic waters collected by a variety of entities and purposes that can eventually be used to develop regional-scale seafloor habitat data products (e.g., bathymetry maps, benthic habitat maps, surficial seafloor geology maps) for wider use and dissemination via the <a href='https://portal.midatlanticocean.org/' target='_blank'>Mid-Atlantic Ocean Data Portal</a> and <a href='https://www.northeastoceandata.org/' target='_blank'>Northeast Ocean Data Portal</a>, and other mapping platforms.",
 
     /* API Keys */
-    mapKey: "",
+    mapKey: "AIzaSyC0S2s2N7WIxjLIkE_usE5I5ZbxHXUMWpQ",
     googleAnalyticsKey: "G-D2CJSR94FZ",
 
     /* Metadata View */

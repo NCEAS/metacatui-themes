@@ -46,7 +46,7 @@ MetacatUI.AppConfig = Object.assign({
             changePermission: true
         },
         {
-            subject: "CN=fwc-team,DC=dataone,DC=org",
+            subject: "CN=fwc-staff,DC=dataone,DC=org",
             read: true,
             write: true,
             changePermission: false

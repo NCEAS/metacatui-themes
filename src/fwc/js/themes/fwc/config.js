@@ -60,7 +60,7 @@ MetacatUI.AppConfig = Object.assign({
     enablePublishDOI: true,
     enablePublishDOIForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=fwc-curators,DC=dataone,DC=org"],  
     allowAccessPolicyChangesDatasets: true,
-    allowAccessPolicyChangesDatasetsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=fwc-curators,DC=dataone,DC=org"],
+    allowAccessPolicyChangesDatasetsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=fwc-curators,DC=dataone,DC=org", "CN=fwc-staff,DC=dataone,DC=org"],
     allowAccessPolicyChangesPortals: true,
     allowAccessPolicyChangesPortalsForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=fwc-curators,DC=dataone,DC=org"],
     showDatasetPublicToggle: true,

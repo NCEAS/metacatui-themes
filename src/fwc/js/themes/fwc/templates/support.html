@@ -1,6 +1,9 @@
 <article id="Support">
     <div class="container">
         <ol id="SupportNav" class="nav nav-list span4">
+            <li><a href="#fwc-instructions">FWC Instructions</a></li>
+            <li><a href="#fwc-user-guide">FWC User Guide</a></li>
+            <li><a href="#fwc-login">FWC DataONE Login and Data Access</a></li>
             <li><a href="#organizing-your-data">Organizing Your Data</a></li>
             <li><a href="#what-is-a-data-package-">What is a Data Package?</a></li>
             <li><a href="#file-organization-guidelines">File Organization Guidelines</a></li>
@@ -29,26 +32,26 @@
             </p>
 
 
-            <h3 id="fwc-instructions">FWC Instructions <a href="#fwc-instructions">#</a></h3>
+            <h3 id="fwc-instructions">FWC Instructions <a class="headerlink" href="#fwc-instructions">¶</a></h3>
             <p>
                 The Florida Fish and Wildlife Conservation Commission (FWC) has specific guidelines for submitting data packages. Please ensure that you follow the guidelines carefully to facilitate the review and approval process.
             </p>
 
-            <h4 id="fwc-user-guide">FWC User Guide <a href="#fwc-user-guide">#</a></h4>
+            <h4 id="fwc-user-guide">FWC User Guide <a class="headerlink" href="#fwc-user-guide">¶</a></h4>
             <p>
                 For details and instructions, consult the <a href="https://fwcc.sharepoint.com/:b:/r/sites/fwri/ric/ISMDOCS/ResearchInfoCenter/DataONE_FWC_User_Guide_20250818.pdf?csf=1&web=1&e=9vhUfy" target="_blank">FWC DataONE User Guide</a>.
             </p>
 
-            <h4 id="fwc-login">FWC DataONE Login and Data Access <a href="#fwc-login">#</a></h4>
+            <h4 id="fwc-login">FWC DataONE Login and Data Access <a class="headerlink" href="#fwc-login">¶</a></h4>
             <p>
                 Upon your initial login, you can submit data packages, however; to search, view, and edit other FWC records, please email your <a href="https://orcid.org/" target="_blank">ORCID number</a> to FWC’s curators at <a href="mailto:<%= MetacatUI.appModel.get('emailContact') %>"><%= MetacatUI.appModel.get('emailContact') %></a> who will add your name to the FWC user list.
             </p>
 
 
-            <h3 id="organizing-your-data">Organizing Your Data <a href="#organizing-your-data">#</a></h3>
+            <h3 id="organizing-your-data">Organizing Your Data <a class="headerlink" href="#organizing-your-data">¶</a></h3>
 
 
-            <h4 id="what-is-a-data-package-">What is a Data Package? <a href="#what-is-a-data-package-">#</a></h4>
+            <h4 id="what-is-a-data-package-">What is a Data Package? <a class="headerlink" href="#what-is-a-data-package-">¶</a></h4>
             <p>
                 The <%= MetacatUI.appModel.get('title') %> primarily archives data packages. Data packages are simply defined as a collection of related data and metadata files. Each data package should contain, when possible, all of the relevant data and metadata from a specific research project (or sub-project/project component).
             </p>
@@ -58,7 +61,7 @@
             </p>
 
 
-            <h4 id="file-organization-guidelines">File Organization Guidelines <a href="#file-organization-guidelines">#</a></h4>
+            <h4 id="file-organization-guidelines">File Organization Guidelines <a class="headerlink" href="#file-organization-guidelines">¶</a></h4>
             <p>
                 In order to optimally document and share a project's output, quality data file management is necessary. Some resources for best practices for managing data files can be found <a href="https://www.dataone.org/best-practices">here</a> and <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9623-90.2.205">here</a>.
                 The following are a few guidelines that are encouraged for file organization for projects that plan to submit to the <%= MetacatUI.appModel.get('title') %>. Following these guidelines should help ensure a project's outputs are easy to access and understand.
@@ -68,9 +71,9 @@
                 <li>All files should have short, descriptive names.</li>
                 <li>Only letters, numbers, hyphens ("-"), and underscores ("_")
                     should be used in file names. Always avoid using spaces and specialized ASCII characters when naming files.</li>
-                <li>All files should be stored in open, ubiquitous, and easy-to-read file formats (see <a href="#file-format-guidelines">File Format Guidelines</a>).</li>
+                <li>All files should be stored in open, ubiquitous, and easy-to-read file formats (see <a class="headerlink" href="#file-format-guidelines">File Format Guidelines</a>).</li>
                 <li>Tabular data should be submitted in a long (versus wide) format if possible. Long file formats will make documentation of attributes (variables), as well as access to the data, much easier.</li>
-                <li>For models/scripts, all files necessary to run the code should be included and organized in a manner that makes running the code as accessible as possible. If outside dependencies (software, hardware, or otherwise) are needed to run code which cannot be submitted to the <%= MetacatUI.appModel.get('title') %>, details of these dependencies should be made clear within the metadata description of the code files as well as within the method's metadata. For large models see <a href="#guidelines-for-large-models">Guidelines for Large Models</a>.</li>
+                <li>For models/scripts, all files necessary to run the code should be included and organized in a manner that makes running the code as accessible as possible. If outside dependencies (software, hardware, or otherwise) are needed to run code which cannot be submitted to the <%= MetacatUI.appModel.get('title') %>, details of these dependencies should be made clear within the metadata description of the code files as well as within the method's metadata. For large models see <a class="headerlink" href="#guidelines-for-large-models">Guidelines for Large Models</a>.</li>
             </ul>
             
             <figure>
@@ -95,7 +98,7 @@
             </figure>
 
 
-            <h4 id="file-format-guidelines">File Format Guidelines <a href="#file-format-guidelines">#</a></h4>
+            <h4 id="file-format-guidelines">File Format Guidelines <a class="headerlink" href="#file-format-guidelines">¶</a></h4>
             <p>
                 The <%= MetacatUI.appModel.get('title') %> primarily supports and encourages the upload of open, ubiquitous, and easy-to-read file formats. Examples of such formats are Comma Separated Values (CSV) files, text (TXT) files, PNG, JPEG or TIFF image files, R or Python scripts, and NetCDF files, among many others.
             </p>
@@ -113,7 +116,7 @@
             </ul>
 
 
-            <h4 id="metadata-guidelines">Metadata Guidelines <a href="#metadata-guidelines">#</a></h4>
+            <h4 id="metadata-guidelines">Metadata Guidelines <a class="headerlink" href="#metadata-guidelines">¶</a></h4>
             <p>
                 The <%= MetacatUI.appModel.get('title') %> primarily stores metadata in a structured, XML-based files. Transformation of plain text documentation into a structured metadata format for archiving is done automatically when submitting through the  website. Prior to submitting documentation to the <%= MetacatUI.appModel.get('title') %>, we recommend projects create complete, plain text metadata records. Ideally, plans to create and store metadata records should be made during the initial stages of project development (i.e., within the data management plan of the project proposal).
             </p>
@@ -125,7 +128,7 @@
                 <li>A descriptive title that includes the topic, geographic location, dates, and, if applicable, the scale of the data.</li>
                 <li>A descriptive data package abstract that provides a brief overview summarizing the specific contents and purpose of the data package.</li>
                 <li>Funding information (typically the NSF award number).</li>
-                <li>A list of all people or organizations associated with the data package with at least one person or organization acting as a creator and one acting as a contact (these can be the same). See the <a href="#identification-guidelines">Identification
+                <li>A list of all people or organizations associated with the data package with at least one person or organization acting as a creator and one acting as a contact (these can be the same). See the <a class="headerlink" href="#identification-guidelines">Identification
                         Guidelines</a> for more information about listing people within <%= MetacatUI.appModel.get('title') %> metadata records.</li>
                 <li>Full records of field and laboratory sampling times and locations, including a geographic description interpretable by a general scientific audience.</li>
                 <li>Full records of taxonomic coverage within the data package (if applicable).</li>
@@ -141,14 +144,14 @@
             </p>
 
 
-            <h4 id="metadata-guidelines-for-tabular-and-spatial-data">Metadata Guidelines for Tabular and Spatial Data <a href="#metadata-guidelines-for-tabular-and-spatial-data">#</a></h4>
+            <h4 id="metadata-guidelines-for-tabular-and-spatial-data">Metadata Guidelines for Tabular and Spatial Data <a class="headerlink" href="#metadata-guidelines-for-tabular-and-spatial-data">¶</a></h4>
             <p>
                 Submitted metadata should contain detailed metadata for <strong>every</strong> attribute collected.
             </p>
             
             <p>
                 Attributes in tabular data (e.g. age, sex, length of fish encoded in a CSV file) are often referred to as variables and are arranged in either columns or rows. Note that storage of data in a long versus wide format will allow for more succinct
-                metadata (see <a href="#file-organization-guidelines">File Organization Guidelines</a>).
+                metadata (see <a class="headerlink" href="#file-organization-guidelines">File Organization Guidelines</a>).
             </p>
             
             <p>
@@ -174,7 +177,7 @@
             </ul>
 
 
-            <h4 id="metadata-guidelines-for-software">Metadata Guidelines for Software <a href="#metadata-guidelines-for-software">#</a></h4>
+            <h4 id="metadata-guidelines-for-software">Metadata Guidelines for Software <a class="headerlink" href="#metadata-guidelines-for-software">¶</a></h4>
             <p>
                 For data packages with software (including models), submitted metadata should contain the following components, among others:
             </p>
@@ -191,31 +194,31 @@
             </ul>
 
 
-            <h3 id="guidelines-for-large-data-packages">Guidelines for Large Data Packages <a href="#guidelines-for-large-data-packages">#</a></h3>
+            <h3 id="guidelines-for-large-data-packages">Guidelines for Large Data Packages <a class="headerlink" href="#guidelines-for-large-data-packages">¶</a></h3>
             <p>
                 The <%= MetacatUI.appModel.get('title') %> does not have data package or file size limitations during upload, and multi-gigabyte uploads are possible.  If your data are in the terabyte range, contact <a href="mailto:<%= MetacatUI.appModel.get('emailContact') %>"><%= MetacatUI.appModel.get('emailContact') %></a> before submitting.
             </p>
 
 
-            <h4 id="guidelines-for-large-models">Guidelines for Large Models <a href="#guidelines-for-large-models">#</a></h4>
+            <h4 id="guidelines-for-large-models">Guidelines for Large Models <a class="headerlink" href="#guidelines-for-large-models">¶</a></h4>
             <p>
                 Models with extensive outputs are a case where data package sizes can become substantially large. In general, we recommend that researchers archive the model output if it is relevant to the project. That being stated, sometimes model output can be regenerated from archived input data and model code. Accordingly, depending on the specifics of a project, it may be reasonable to archive only the code and model inputs as well as a clear workflow on how to recompute the model output (rather than the output itself). However, if re-running the model would require prohibitive amounts of compute cycles or other resources (such as access to specialized or expensive software or hardware), then we recommend researchers archive the output, especially if the output is a valuable data package that others may want to analyze and use in their own work. For example, many climate model outputs are difficult for the average scientist to recompute but are valuable for a myriad of downstream uses. Additionally, some models are stochastic and the interpretation of subsequent products depends on specific model runs. In these (and most related cases) archival of model outputs is recommended.
             </p>
 
 
-            <h3 id="the-submission-process">The Submission Process <a href="#the-submission-process">#</a></h3>
+            <h3 id="the-submission-process">The Submission Process <a class="headerlink" href="#the-submission-process">¶</a></h3>
             <p>
                 The following sections provide details on logging into the <%= MetacatUI.appModel.get('title') %> using an ORCID account, the licensing requirements for distributing data and metadata, the publication process, and the currently available tools for submission.
             </p>
 
 
-            <h4 id="identification-guidelines">Identification Guidelines <a href="#identification-guidelines">#</a></h4>
+            <h4 id="identification-guidelines">Identification Guidelines <a class="headerlink" href="#identification-guidelines">¶</a></h4>
             <p>
                 The <%= MetacatUI.appModel.get('title') %> uses <a href="https://ORCID.org/">ORCID iDs</a> to identify individuals associated with each data package. When submitting to the <%= MetacatUI.appModel.get('title') %>, an ORCID is required for the submitter of each data package. ORCIDs are not required for all associated parties (contacts, additional creators, etc.), but are strongly encouraged, especially for the primary creator, so that proper identification and attribution can be given. Additionally, access to edit each data package can only be granted to individuals using ORCIDs. Therefore, we recommend that researchers <a href="https://ORCID.org/register/">register</a> and record ORCID iDs for each individual involved with the project during the initial stages of project development (i.e., within the data management plan of the project proposal).
             </p>
 
 
-            <h4 id="licensing-and-data-distribution">Licensing and Data Distribution <a href="#licensing-and-data-distribution">#</a></h4>
+            <h4 id="licensing-and-data-distribution">Licensing and Data Distribution <a class="headerlink" href="#licensing-and-data-distribution">¶</a></h4>
 
             <p>
             <a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License" />   </a><a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0" /></a>
@@ -230,7 +233,7 @@
             </p>
 
 
-            <h4 id="publication">Publication <a href="#publication">#</a></h4>
+            <h4 id="publication">Publication <a class="headerlink" href="#publication">¶</a></h4>
             <p>
                 Each data package can be given a unique Digital Object Identifier (DOI) that will assist with attribution and discovery. The DOI is registered with <a href="http://www.datacite.org/">DataCite</a> using the <a href="http://ezid.cdlib.org/">EZID</a> service, and will be discoverable through multiple data citation networks, including <a href="http://dataone.org/">DataONE</a> and others.
             </p>
@@ -248,7 +251,7 @@
             </p>
 
 
-            <h4 id="submission-tools">Submission Tools <a href="#submission-tools">#</a></h4>
+            <h4 id="submission-tools">Submission Tools <a class="headerlink" href="#submission-tools">¶</a></h4>
 
             <p>
                 Most researchers submit to the <%= MetacatUI.appModel.get('title') %> through the website. However, there are several alternative tools to submit data packages to the repository.
@@ -263,7 +266,7 @@
             </p>
 
 
-            <h4 id="developers-rest-api">Developers: REST API <a href="#developers-rest-api">#</a></h4>
+            <h4 id="developers-rest-api">Developers: REST API <a class="headerlink" href="#developers-rest-api">¶</a></h4>
             <p>
                 In addition to the web and data tools shown above, the <%= MetacatUI.appModel.get('title') %> provides the ability to access and submit data via the <a href="/api">DataONE REST API</a>. This allows the community to use many programming languages to add data and metadata to the repository, search for and access data, and automate any process that might otherwise be highly time consuming. Most useful to groups with repetitive tasks to perform, such as submitting many data files of the same type, the REST API can be a real time saver. For more details, please contact us at <a href="mailto:<%= MetacatUI.appModel.get('emailContact') %>"><%= MetacatUI.appModel.get('emailContact') %></a>.
             </p>
@@ -272,7 +275,7 @@
             </p>
 
 
-            <h3 id="submission-support">Submission Support <a href="#submission-support">#</a></h3>
+            <h3 id="submission-support">Submission Support <a class="headerlink" href="#submission-support">¶</a></h3>
             <p>
                 If, for whatever reason, support with a submission is needed, contact <a href="mailto:<%= MetacatUI.appModel.get('emailContact') %>"><%= MetacatUI.appModel.get('emailContact') %></a>.
             </p>

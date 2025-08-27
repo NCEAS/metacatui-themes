@@ -1,0 +1,10 @@
+@media only screen and (max-width : 960px) {
+
+    .support-doc {
+        --doc-width: 12rem;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "img" "content";
+    }
+
+}

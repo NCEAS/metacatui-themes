@@ -120,7 +120,7 @@ html {
 
 body {
   font-family: var(--font-family-main);
-  min-height: 100vh;
+  min-height: calc(100vh - 106px);
   position: relative;
   color: var(--col-text);
 }
@@ -493,11 +493,40 @@ select {
   justify-content: space-between;
   padding-left: var(--padding);
   padding-right: var(--padding);
+  padding-bottom: calc(var(--padding)/2);
   color: var(--col-footer-text-emphasis);
 }
 
 #Footer a {
   color: var(--col-footer-text-emphasis);
+}
+
+#Footer .footer-logos-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-logos-list li{
+    display: flex;
+    align-items: center;
+}
+
+/* The div that contains the logos in the footer */
+#Footer .help-items + div {
+    background: #eef5f3;
+    border-top: 1px solid #22487acc;
+    border-bottom: 1px solid #22487acc;
+    box-shadow: 0px 0px 10px #22487acc;
+}
+
+
+#Footer .footer-logos-list img{
+    max-width: 300px;
+    max-height: 64px;
+    width: 100%;
 }
 
 .mapMode #Footer {
@@ -1494,6 +1523,11 @@ li.ui-menu-item>a:hover,
   padding-top: var(--nav-height);
   padding-left: 0px;
   padding-bottom: var(--footer-height);
+}
+
+.mapMode #Footer {
+  display: none;
+  position: relative;
 }
 
 /*-- Results header --*/

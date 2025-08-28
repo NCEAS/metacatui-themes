@@ -3,7 +3,7 @@ MetacatUI.AppConfig = Object.assign({
     theme: "sdr",
     title: "Seafloor Data Repository",
     repositoryName: "Seafloor Data Repository",
-    emailContact: "support@dataone.org",
+    emailContact: "rachael@intertidal.agency",
     repositoryURL: "https://seafloor.dataone.org",
     baseUrl: "https://seafloor.dataone.org",
     nodeId: "urn:node:SDR",

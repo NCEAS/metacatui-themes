@@ -151,6 +151,7 @@ MetacatUI.AppConfig = Object.assign({
             changePermission: true
         }
     ],
+    inheritAccessPolicy: true,
     hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org","CN=geri-curators,DC=dataone,DC=org"],
     enablePublishDOI: true,
     enablePublishDOIForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=geri-curators,DC=dataone,DC=org"],

@@ -37,6 +37,7 @@ MetacatUI.AppConfig = Object.assign({
           read: true
       }
   ],
+inheritAccessPolicy: true,
   hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cerp-sfwmd-admins,DC=dataone,DC=org"],
   enablePublishDOIForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cerp-sfwmd-admins,DC=dataone,DC=org"],
   showDatasetPublicToggleForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cerp-sfwmd-admins,DC=dataone,DC=org"],

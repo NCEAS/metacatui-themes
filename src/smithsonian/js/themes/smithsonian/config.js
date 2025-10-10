@@ -429,6 +429,7 @@ MetacatUI.AppConfig = Object.assign({
             changePermission: false
         }
     ],
+    inheritAccessPolicy: true,
     hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=smithsonian-admins,DC=dataone,DC=org", "CN=smithsonian-curators,DC=dataone,DC=org"],
     emlEditorRequiredFields: {
         abstract: true,

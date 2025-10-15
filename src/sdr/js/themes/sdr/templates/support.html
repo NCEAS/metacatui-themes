@@ -52,10 +52,10 @@
             </div>
 
 
-            <h3 id="organizing-your-data">Organizing Your Data</h3>
-            
-            
-            <h4 id="what-is-a-data-package-">What is a Data Package?</h4>
+            <h3 id="organizing-your-data">Organizing Your Data <a class="headerlink" href="#organizing-your-data">¶</a></h3>
+
+
+            <h4 id="what-is-a-data-package-">What is a Data Package? <a class="headerlink" href="#what-is-a-data-package-">¶</a></h4>
             <p>
                 The <%= MetacatUI.appModel.get('title') %> primarily archives data packages. Data packages are simply defined as a collection of related data and metadata files. Each data package should contain, when possible, all of the relevant data and metadata from a specific research project (or sub-project/project component).
             </p>
@@ -63,9 +63,9 @@
                 Depending on the size of a research project, multiple data packages may be associated with a single research project. For example, if a research project consists of field sampling at several distinct sites or over several distinct sampling
                 seasons, each site/season may have its own unique data package. When submitting to the <%= MetacatUI.appModel.get('title') %>, it is up to the best judgement of the submitting researcher how his/her research should be grouped.
             </p>
-            
-            
-            <h4 id="file-organization-guidelines">File Organization Guidelines</h4>
+
+
+            <h4 id="file-organization-guidelines">File Organization Guidelines <a class="headerlink" href="#file-organization-guidelines">¶</a></h4>
             <p>
                 In order to optimally document and share a project's output, quality data file management is necessary. Some resources for best practices for managing data files can be found <a href="https://www.dataone.org/best-practices">here</a> and <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9623-90.2.205">here</a>.
                 The following are a few guidelines that are encouraged for file organization for projects that plan to submit to the <%= MetacatUI.appModel.get('title') %>. Following these guidelines should help ensure a project's outputs are easy to access and understand.
@@ -101,8 +101,8 @@
                 </figcaption>
             </figure>
 
-            
-            <h4 id="file-format-guidelines">File Format Guidelines</h4>
+
+            <h4 id="file-format-guidelines">File Format Guidelines <a class="headerlink" href="#file-format-guidelines">¶</a></h4>
             <p>
                 The <%= MetacatUI.appModel.get('title') %> primarily supports and encourages the upload of open, ubiquitous, and easy-to-read file formats. Examples of such formats are Comma Separated Values (CSV) files, text (TXT) files, PNG, JPEG or TIFF image files, R or Python scripts, and NetCDF files, among many others.
             </p>
@@ -118,9 +118,9 @@
                 <li>We encourage researchers to use the NetCDF format when large numbers of uniform matrices or arrays are being archived. See <a href="https://www.unidata.ucar.edu/software/netcdf/docs/index.html">here</a> for more information about NetCDF files.</li>
                 <li>For transparency and ease of automated parsing, we recommend researchers upload files individually as opposed to zipped archives. Zipped archives are difficult for researchers to use as they don't easily allow researchers to examine whatis in an archive and/or access singular objects within an archive. Often researchers don't want to download everything in an archive at once. Additionally, just as it is difficult to examine what is in a zipped archive, it is difficult to sufficiently ascribe metadata to nested files. The exceptions to this guideline are when ubiquitous software expects zipped formats and where the co-existence of the files is required, such as in shapefiles.</li>
             </ul>
-            
-            
-            <h4 id="metadata-guidelines">Metadata Guidelines</h4>
+
+
+            <h4 id="metadata-guidelines">Metadata Guidelines <a class="headerlink" href="#metadata-guidelines">¶</a></h4>
             <p>
                 The <%= MetacatUI.appModel.get('title') %> primarily stores metadata in a structured, XML-based files. Transformation of plain text documentation into a structured metadata format for archiving is done automatically when submitting through the  website. Prior to submitting documentation to the <%= MetacatUI.appModel.get('title') %>, we recommend projects create complete, plain text metadata records. Ideally, plans to create and store metadata records should be made during the initial stages of project development (i.e., within the data management plan of the project proposal).
             </p>
@@ -147,8 +147,8 @@
                 Additional guidance for specific metadata cases is included below.
             </p>
 
-            
-            <h4 id="metadata-guidelines-for-tabular-and-spatial-data">Metadata Guidelines for Tabular and Spatial Data</h4>
+
+            <h4 id="metadata-guidelines-for-tabular-and-spatial-data">Metadata Guidelines for Tabular and Spatial Data <a class="headerlink" href="#metadata-guidelines-for-tabular-and-spatial-data">¶</a></h4>
             <p>
                 Submitted metadata should contain detailed metadata for <strong>every</strong> attribute collected.
             </p>
@@ -179,9 +179,9 @@
                 <li>For text data, full descriptions for all patterns/codes are needed if the text is constrained to a list of patterns or codes (e.g. a phone number would be constrained to a certain pattern and abbreviations for site locations may be
                     constrained to a list of codes).</li>
             </ul>
-            
-            
-            <h4 id="metadata-guidelines-for-software">Metadata Guidelines for Software</h4>
+
+
+            <h4 id="metadata-guidelines-for-software">Metadata Guidelines for Software <a class="headerlink" href="#metadata-guidelines-for-software">¶</a></h4>
             <p>
                 For data packages with software (including models), submitted metadata should contain the following components, among others:
             </p>
@@ -197,33 +197,32 @@
                 <li>Any methods used to evaluate models.</li>
             </ul>
 
-            
-            <h3 id="guidelines-for-large-data-packages">Guidelines for Large Data Packages</h3>
+
+            <h3 id="guidelines-for-large-data-packages">Guidelines for Large Data Packages <a class="headerlink" href="#guidelines-for-large-data-packages">¶</a></h3>
             <p>
                 The <%= MetacatUI.appModel.get('title') %> does not have data package or file size limitations during upload, and multi-gigabyte uploads are possible.  If your data are in the terabyte range, contact <a href="mailto:<%= MetacatUI.appModel.get('emailContact') %>"><%= MetacatUI.appModel.get('emailContact') %></a> before submitting.
             </p>
-            
-            
-            <h4 id="guidelines-for-large-models">Guidelines for Large Models</h4>
+
+
+            <h4 id="guidelines-for-large-models">Guidelines for Large Models <a class="headerlink" href="#guidelines-for-large-models">¶</a></h4>
             <p>
                 Models with extensive outputs are a case where data package sizes can become substantially large. In general, we recommend that researchers archive the model output if it is relevant to the project. That being stated, sometimes model output can be regenerated from archived input data and model code. Accordingly, depending on the specifics of a project, it may be reasonable to archive only the code and model inputs as well as a clear workflow on how to recompute the model output (rather than the output itself). However, if re-running the model would require prohibitive amounts of compute cycles or other resources (such as access to specialized or expensive software or hardware), then we recommend researchers archive the output, especially if the output is a valuable data package that others may want to analyze and use in their own work. For example, many climate model outputs are difficult for the average scientist to recompute but are valuable for a myriad of downstream uses. Additionally, some models are stochastic and the interpretation of subsequent products depends on specific model runs. In these (and most related cases) archival of model outputs is recommended.
             </p>
 
-            
-            <h3 id="the-submission-process">The Submission Process</h3>
+
+            <h3 id="the-submission-process">The Submission Process <a class="headerlink" href="#the-submission-process">¶</a></h3>
             <p>
                 The following sections provide details on logging into the <%= MetacatUI.appModel.get('title') %> using an ORCID account, the licensing requirements for distributing data and metadata, the publication process, and the currently available tools for submission.
             </p>
 
-            
-            <h4 id="identification-guidelines">Identification Guidelines</h4>
+
+            <h4 id="identification-guidelines">Identification Guidelines <a class="headerlink" href="#identification-guidelines">¶</a></h4>
             <p>
                 The <%= MetacatUI.appModel.get('title') %> uses <a href="https://ORCID.org/">ORCID iDs</a> to identify individuals associated with each data package. When submitting to the <%= MetacatUI.appModel.get('title') %>, an ORCID is required for the submitter of each data package. ORCIDs are not required for all associated parties (contacts, additional creators, etc.), but are strongly encouraged, especially for the primary creator, so that proper identification and attribution can be given. Additionally, access to edit each data package can only be granted to individuals using ORCIDs. Therefore, we recommend that researchers <a href="https://ORCID.org/register/">register</a> and record ORCID iDs for each individual involved with the project during the initial stages of project development (i.e., within the data management plan of the project proposal).
             </p>
-            
-            
-            <h4 id="licensing-and-data-distribution">Licensing and Data Distribution</h4>
-            
+
+
+            <h4 id="licensing-and-data-distribution">Licensing and Data Distribution <a class="headerlink" href="#licensing-and-data-distribution">¶</a></h4>
             <p>
             <a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License" />   </a><a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0" /></a>
                 All data and metadata will be released under either the <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC-0 Public Domain Dedication</a> or the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. In cases where legal (e.g., contractual) or ethical (e.g., human subjects, endangered species) restrictions to data sharing exist, contact 
@@ -236,8 +235,8 @@
                 As a repository dedicated to helping researchers increase collaboration and the pace of science, this repository needs certain rights to copy, store, and redistribute data and metadata. By uploading data, metadata, and any other content to the <%= MetacatUI.appModel.get('title') %>, users warrant that they own any rights to the content and are authorized to do so under copyright or any other right that might pertain to the content. <a href="http://www.bitlaw.com/copyright/database.html">Data and facts themselves are not covered under copyright</a> in the US and most countries, since facts in and of themselves are not eligible for copyright. That said, some associated metadata and some particular compilations of data could potentially be covered by copyright in some jurisdictions. By uploading content, users grant the <%= MetacatUI.appModel.get('title') %> repository and UCSB all rights needed to copy, store, redistribute, and share data, metadata, and any other content. By marking content as publicly available, users grant the <%= MetacatUI.appModel.get('title') %> repository, UCSB, and any other users the right to copy the content and redistribute it to the public without restriction under the terms of the <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC-0 Public Domain Dedication</a> or the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>, depending on which license users choose at the time of upload.
             </p>
 
-            
-            <h4 id="publication">Publication</h4>
+
+            <h4 id="publication">Publication <a class="headerlink" href="#publication">¶</a></h4>
             <p>
                 Each data package can be given a unique Digital Object Identifier (DOI) that will assist with attribution and discovery. The DOI is registered with <a href="http://www.datacite.org/">DataCite</a> using the <a href="http://ezid.cdlib.org/">EZID</a> service, and will be discoverable through multiple data citation networks, including <a href="http://dataone.org/">DataONE</a> and others.
             </p>
@@ -254,9 +253,8 @@
                 <a href="http://www.doi.org/driven_by_doi/DOI_Marketing_Brochure.pdf">Learn more about DOIs</a>
             </p>
 
-            
-            <h4 id="submission-tools">Submission Tools</h4>
-            
+
+            <h4 id="submission-tools">Submission Tools <a class="headerlink" href="#submission-tools">¶</a></h4>
             <p>
                 Most researchers submit to the <%= MetacatUI.appModel.get('title') %> through the website. However, there are several alternative tools to submit data packages to the repository.
             </p>
@@ -268,9 +266,9 @@
                 <img src="https://arcticdata.io/wp-content/uploads/matlab.png" class="float-left" style="width: 50px;margin: 10px" alt="The DataONE MATLAB library" />
                 Researchers can also submit data inside a MATLAB workflow using the <a href="https://github.com/DataONEorg/matlab-dataone">MATLAB DataONE library</a>.
             </p>
-            
-            
-            <h4 id="developers-rest-api">Developers: REST API</h4>
+
+
+            <h4 id="developers-rest-api">Developers: REST API <a class="headerlink" href="#developers-rest-api">¶</a></h4>
             <p>
                 In addition to the web and data tools shown above, the <%= MetacatUI.appModel.get('title') %> provides the ability to access and submit data via the <a href="/api">DataONE REST API</a>. This allows the community to use many programming languages to add data and metadata to the repository, search for and access data, and automate any process that might otherwise be highly time consuming. Most useful to groups with repetitive tasks to perform, such as submitting many data files of the same type, the REST API can be a real time saver. For more details, please contact us at <a href="mailto:<%= MetacatUI.appModel.get('emailContact') %>"><%= MetacatUI.appModel.get('emailContact') %></a>.
             </p>
@@ -278,8 +276,8 @@
                 The <%= MetacatUI.appModel.get('title') %> currently encodes science metadata in the <a href="https://eml.ecoinformatics.org/">Ecological Metadata Language (EML)</a>. Packaging information (how metadata files are associated with data files) is currently encoded in resource maps using the <a href="http://www.openarchives.org/ore">Open Archives Initiative Object Reuse and Exchange specification</a>.
             </p>
 
-            
-            <h3 id="submission-support">Submission Support</h3>
+
+            <h3 id="submission-support">Submission Support <a class="headerlink" href="#submission-support">¶</a></h3>
             <p>
                 If, for whatever reason, support with a submission is needed, contact <a href="mailto:<%= MetacatUI.appModel.get('emailContact') %>"><%= MetacatUI.appModel.get('emailContact') %></a>.
             </p>

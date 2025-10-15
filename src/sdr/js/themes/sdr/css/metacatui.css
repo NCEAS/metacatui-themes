@@ -943,6 +943,21 @@ nav#Navbar {
   pointer-events: none;
 }
 
+h3 a.headerlink, h4 a.headerlink {
+  visibility: hidden;
+}
+
+h3:hover > a.headerlink, h4:hover > a.headerlink {
+  visibility: visible;
+  color: var(--col-link);
+  text-decoration: none;
+}
+
+a.headerlink:hover {
+  color: var(--col-link-hover);
+}
+
+
 /* METADATA INDEX VIEW CSS
 -------------------------------------------------- */
 #Content.no-stylesheet.container>.breadcrumb {

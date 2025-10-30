@@ -281,7 +281,10 @@ div.row-fluid>a[name] {
 #mainContent .container {
   max-width: 70rem;
   background-color: color-mix(in srgb, var(--col-neutral-9) 80%, transparent);
-  padding: 30px 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
   border-radius: var(--border-radius);
 }
 

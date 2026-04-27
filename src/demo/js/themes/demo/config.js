@@ -2,10 +2,10 @@ MetacatUI.AppConfig = Object.assign(
   {
     root: "/",
     theme: "demo",
-    title: "Gulf of Alaska Data Portal (DEMO)",
-    repositoryName: "Gulf of Alaska Data Portal (DEMO)",
+    title: "Gulf of Alaska Repository (DEMO)",
+    repositoryName: "Gulf of Alaska Repository (DEMO)",
     description:
-      "The Gulf of Alaska Data Portal archives environmental observations arising from monitoring and experimentation in the Gulf of Alaska and related regions, and particularly in oil-impacted regions of Prince William Sound and locations on the southern coast of Alaska. Many data sets are time series data spanning multiple decades and continuing through the present. The Gulf of Alaska Data Portal provides long-term, consistent, scientific data that is critical to allow us to detect and understand ecosystem changes and shifts that directly or indirectly (e.g. through food web relationships) influence the species and ecosystem services of the Gulf of Alaska.",
+      "The Gulf of Alaska Repository archives environmental observations arising from monitoring and experimentation in the Gulf of Alaska and related regions, and particularly in oil-impacted regions of Prince William Sound and locations on the southern coast of Alaska. Many data sets are time series data spanning multiple decades and continuing through the present. The Gulf of Alaska Data Portal provides long-term, consistent, scientific data that is critical to allow us to detect and understand ecosystem changes and shifts that directly or indirectly (e.g. through food web relationships) influence the species and ecosystem services of the Gulf of Alaska.",
     baseUrl: "https://demo.dataone.org/",
     metacatContext: "demo",
     nodeId: "urn:node:DEMO",

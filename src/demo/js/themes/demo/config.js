@@ -1,10 +1,28 @@
 MetacatUI.AppConfig = Object.assign({
     root: "/",
-    theme: "hosted-repository",
-    title: "Hosted Repository",
-    repositoryName: "Hosted Repository",
+    theme: "demo",
+    title: "Hosted Repository Demo",
+    repositoryName: "Hosted Repository Demo",
+    repositoryURL: "https://demo.dataone.org",
+    baseUrl: "https://demo.dataone.org",
+    nodeId: "urn:node:DEMO",
+    dataoneHostedRepos: ["urn:node:DEMO"],
     emailContact: "support@dataone.org",
 
+    useDeprecatedDataCatalogView: false,
+
+    catalogSearchMapOptions: {
+      showLayerList: false,
+      clickFeatureAction: "zoom",
+      homePosition: {
+        longitude: -144.022494,
+        latitude: 57.005571,
+        height: 5352085,
+        heading: 1,
+        pitch: -90,
+        roll: 0,
+      },
+    },
     /* Metadata View */
 
     /* Metrics */

@@ -13,8 +13,8 @@
   --col-neutral-8: #2a2a2a;
   --col-neutral-9: #222222;
 
-  --col-primary: #2e485b;
-  --col-secondary: #467ca3;
+  --col-primary: #23487A;
+  --col-secondary: #0E69A1;
   --col-tertiary: #05ab8f;
   --col-error: #c5351c;
 
@@ -99,7 +99,7 @@
   /* NON-COLOR VARS */
   --font-family-main: 'Source Sans Pro', 'Arial', sans-serif;
   --font-family-title: 'Source Sans Pro', 'Arial', sans-serif;
-  --home-page-bkg-img: url('../img/gerda-6Ern9u4liJM-unsplash.jpg');
+  --home-page-bkg-img: url('../img/home-page-bkg.jpg');
   --box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
   --border-radius: 10px;
   --footer-height: 1.25rem;
@@ -280,7 +280,7 @@ div.row-fluid>a[name] {
 
 #mainContent .container {
   max-width: 70rem;
-  background-color: transparent;
+  background-color: color-mix(in srgb, var(--col-neutral-9) 80%, transparent);
   padding: 30px 40px;
   border-radius: var(--border-radius);
 }

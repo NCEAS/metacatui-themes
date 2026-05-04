@@ -839,6 +839,10 @@ section#mainContent a.btn-info:hover {
           left: -6px;
     }
 
+    .alert-container a.close {
+        top: 10px;
+    }
+
     .dropdown-header {
     margin-left: 20px;
     font-size: 12px;

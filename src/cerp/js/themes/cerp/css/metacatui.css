@@ -804,6 +804,10 @@ select {
           left: -6px;
     }
 
+    .alert-container a.close {
+        top: 8px;
+    }
+
     .dropdown-header {
     margin-left: 20px;
     font-size: 12px;

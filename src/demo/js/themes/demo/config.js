@@ -9,6 +9,13 @@ MetacatUI.AppConfig = Object.assign({
     dataoneHostedRepos: ["urn:node:DEMO"],
     emailContact: "support@dataone.org",
 
+    /* Temporary Message */
+    temporaryMessage: "This repository is a demo of the Hosted Repository system! Any data submitted is for demonstration purposes only and may be deleted at any time.",
+    temporaryMessageStartTime: null,
+    temporaryMessageEndTime: new Date("2099-10-24T00:00:00"),
+    temporaryMessageClasses: "success",
+    temporaryMessageContainer: "#Navbar",
+
     useDeprecatedDataCatalogView: false,
 
     catalogSearchMapOptions: {

@@ -8,6 +8,13 @@ MetacatUI.AppConfig = Object.assign({
   mapKey: "AIzaSyDDxRQM8mcIocEgczfnG3M6FnAU5IvVEw0",
   googleAnalyticsKey: "G-3Z04WNN10H",
 
+  /* Temporary Message */
+  temporaryMessage: "The CERP repository will be unavailable between 9am and 1pm ET on Saturday, May 9, 2026 for maintenance. We apologize for the inconvenience.",
+  temporaryMessageStartTime: null,
+  temporaryMessageEndTime: new Date("2026-05-09T19:00:00Z"),
+  temporaryMessageClasses: "warning",
+  temporaryMessageContainer: "#Navbar",
+
   /* Metadata View */
 
 

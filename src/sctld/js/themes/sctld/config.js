@@ -9,6 +9,13 @@ MetacatUI.AppConfig = Object.assign({
   mapKey: "AIzaSyBOotcxktBCRVUbbRTQoyy1d4IdA57S8cg",
   googleAnalyticsKey: "G-D7L4MVTNYX",
 
+  /* Temporary Message */
+  temporaryMessage: "The SCTLD repository will be unavailable between 9am and 1pm ET on Saturday, May 9, 2026 for maintenance. We apologize for the inconvenience.",
+  temporaryMessageStartTime: null,
+  temporaryMessageEndTime: new Date("2026-05-09T19:00:00Z"),
+  temporaryMessageClasses: "warning",
+  temporaryMessageContainer: "#Navbar",
+
   /* Metadata View */
 
   /* Metrics */

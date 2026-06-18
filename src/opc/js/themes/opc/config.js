@@ -32,7 +32,7 @@ MetacatUI.AppConfig = Object.assign({
     }
   ],
   hiddenSubjectsInAccessPolicy: ["CN=opc-data-admins,DC=dataone,DC=org", "CN=DataONE-Support,DC=dataone,DC=org"],
-  showDatasetPublicToggleForSubjects: ["CN=opc-data-admins,DC=dataone,DC=org", "CN=DataONE-Support,DC=dataone,DC=org"],
+  showDatasetPublicToggleForSubjects: ["CN=opc-data-admins,DC=dataone,DC=org", "CN=DataONE-Support,DC=dataone,DC=org", "CN=opc-submitters,DC=dataone,DC=org"],
 
   // Metrics Falgs for the /profile view (summary view)
   hideSummaryCitationsChart: false,

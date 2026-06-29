@@ -43,10 +43,41 @@ MetacatUI.AppConfig = Object.assign({
             "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d='M160 32c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H160zM396 138.7l96 144c4.9 7.4 5.4 16.8 1.2 24.6S480.9 320 472 320H328 280 200c-9.2 0-17.6-5.3-21.6-13.6s-2.9-18.2 2.9-25.4l64-80c4.6-5.7 11.4-9 18.7-9s14.2 3.3 18.7 9l17.3 21.6 56-84C360.5 132 368 128 376 128s15.5 4 20 10.7zM192 128a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120V344c0 75.1 60.9 136 136 136H456c13.3 0 24-10.7 24-24s-10.7-24-24-24H136c-48.6 0-88-39.4-88-88V120z'/></svg>",
             "layers": [
               {
+                  "label": "Monitoring Sites",
+                  "type": "GeoJsonDataSource",
+                  "visible": true,
+                  "layerId": "sites",
+                  "description": "Contains a list of field sites monitored by the GERI network.",
+                  "moreInfoLink": "https://geri-globalecosystemri.org/about/",
+                  "downloadLink": "https://geri.dataone.org/metacat/d1/mn/v2/object/urn:uuid:ea7430d2-534e-4310-a8b3-c0326bcd04d2",
+                  "attribution": "Global Ecosystem Research Infrastructure (GERI) Monitoring Sites",
+                  "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#fff' d='M12 0a12 12 0 1 1 0 24 12 12 0 0 1 0-24Zm6.3 8.3c-.5 0-1 0-1.5.3-.3 0-.6.3-.9.6a2 2 0 0 0-.6 1c-.3.4-.4 1-.4 1.8 0 1 .3 2 1 2.6.6.6 1.4 1 2.5 1 1 0 1.8-.4 2.4-1 .6-.7 1-1.5 1-2.7a4 4 0 0 0-1-2.7c-.6-.6-1.4-1-2.5-1ZM4 8.5H2.5v7h5v-1.3H3.8V8.5Zm9.9-.1H8.5v7H14v-1.2h-4v-1.9h3.6v-1.2H10V9.6h3.8V8.4Zm4.6 1c.5 0 1 .3 1.4.7.3.4.5 1 .5 1.8s-.2 1.4-.6 1.8c-.3.4-.8.6-1.3.6-.6 0-1-.2-1.5-.6-.3-.4-.5-1-.5-1.8s.2-1.4.5-1.8a2 2 0 0 1 1.5-.6Z'/></svg>",
+                  "notification": {
+                      "style": "blue"
+                  },
+                  "opacity": 0.75,
+                  "colorPalette": {
+                      "paletteType": "continuous",
+                      "property": "name",
+                      "colors": [
+                          {
+                              "color": "#70B24E",
+                          }
+                      ]
+                  },
+                  "featureTemplate": {
+                      "template": "story",
+                      "label": "name",
+                  },
+                  "cesiumOptions": {
+                      "data": "https://geri.dataone.org/metacat/d1/mn/v2/object/urn:uuid:ea7430d2-534e-4310-a8b3-c0326bcd04d2"
+                  }
+              },
+              {
                 "label": "Dataset counts",
                 "layerId": "geohashes",
                 "type": "CesiumGeohash",
-                "visible": true,
+                "visible": false,
                 "colorPalette": {
                   "paletteType": "continuous",
                   "property": "count",
@@ -57,11 +88,11 @@ MetacatUI.AppConfig = Object.assign({
                     },
                     {
                       "value": 1,
-                      "color": "#DF00FF4d",
+                      "color": "#0F3049",
                     },
                     {
                       "value": "max",
-                      "color": "#DF00FF",
+                      "color": "#70B24E",
                     },
                   ],
                 },
@@ -125,6 +156,98 @@ MetacatUI.AppConfig = Object.assign({
           }
         ]
     },
+
+
+    /* Filters */
+
+        defaultFilterGroups: [
+      {
+        label: "",
+        filters: [
+          {
+            fields: ["attribute"],
+            label: "Data attribute",
+            placeholder: "density, length, etc.",
+            icon: "table",
+            description: "Measurement type, e.g. density, temperature, species",
+          },
+          {
+            fields: ["sem_annotation"],
+            label: "Annotation",
+            placeholder: "Search for class...",
+            icon: "tag",
+            description: "Semantic annotations",
+          },
+          {
+            filterType: "ToggleFilter",
+            fields: ["documents"],
+            label: "Contains Data Files",
+            placeholder: "Only results with data",
+            trueLabel: "Required",
+            falseLabel: null,
+            trueValue: "*",
+            matchSubstring: false,
+            icon: "table",
+            description:
+              "Checking this option will only return packages that include data files. Leaving this unchecked may return packages that only include metadata.",
+          },
+          {
+            fields: ["author",
+                      "authorGivenNameSort",
+                      "authorSurNameSort",
+                      "originText",
+                      "authorLastName",
+                      "contactOrganization",
+                      "contactOrganizationText",
+                      "investigator",
+                      "investigatorText",
+                      "originator",
+                      "originatorText",
+                      "submitter"],
+            label: "People and organizations",
+            placeholder: "Name",
+            icon: "group",
+            description: "The name of creators, contacts, investigators, or originators of a dataset",
+          },
+          {
+            filterType: "DateFilter",
+            fields: ["datePublished", "dateUploaded"],
+            label: "Publish year",
+            rangeMin: 1924,
+            icon: "calendar",
+            description:
+              "Only show results that were published within the year range",
+          },
+          {
+            filterType: "DateFilter",
+            fields: ["beginDate"],
+            label: "Year of data coverage",
+            rangeMin: 1924,
+            icon: "calendar",
+            description:
+              "Only show results with data collected within the year range",
+          },
+          {
+            fields: ["identifier", "documents", "resourceMap", "seriesId"],
+            label: "Identifier",
+            placeholder: "DOI or ID",
+            icon: "bullseye",
+            description:
+              "Find datasets if you have all or part of its DOI or ID",
+            operator: "OR",
+            fieldsOperator: "OR",
+          },
+          {
+            fields: ["siteText"],
+            label: "Location",
+            placeholder: "Geographic region",
+            icon: "globe",
+            description:
+              "The geographic region or study site, as described by the submitter",
+          },
+        ],
+      },
+    ],
 
 
     /* Metadata View */

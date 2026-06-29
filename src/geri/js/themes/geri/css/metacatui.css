@@ -13,9 +13,9 @@
   --col-neutral-8: #2a2a2a;
   --col-neutral-9: #222222;
 
-  --col-primary: #F9CCFF;
-  --col-secondary: #DF00FF;
-  --col-tertiary: #700080;
+  --col-primary: #ccc;
+  --col-secondary: #70B24E;
+  --col-tertiary: #0A1620;
   --col-error: #c5351c;
 
   --col-primary-transparent-70: color-mix(in srgb, var(--col-primary) 70%, transparent);

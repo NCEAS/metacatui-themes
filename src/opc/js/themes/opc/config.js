@@ -32,7 +32,7 @@ MetacatUI.AppConfig = Object.assign({
     }
   ],
   hiddenSubjectsInAccessPolicy: ["CN=opc-data-admins,DC=dataone,DC=org", "CN=DataONE-Support,DC=dataone,DC=org"],
-  showDatasetPublicToggleForSubjects: ["CN=opc-data-admins,DC=dataone,DC=org", "CN=DataONE-Support,DC=dataone,DC=org"],
+  showDatasetPublicToggleForSubjects: ["CN=opc-data-admins,DC=dataone,DC=org", "CN=DataONE-Support,DC=dataone,DC=org", "CN=opc-submitters,DC=dataone,DC=org"],
 
   // Metrics Falgs for the /profile view (summary view)
   hideSummaryCitationsChart: false,
@@ -65,7 +65,8 @@ MetacatUI.AppConfig = Object.assign({
   //Only let administrators use the Publish button
   enablePublishDOIForSubjects: ["CN=opc-data-admins,DC=dataone,DC=org", "CN=California Ocean Protection Council Data Publisher,DC=dataone,DC=org"],
 
-  mapKey: "AIzaSyBlc1nrR0_LK9kpy8kMH1V7vGCQz1rCsl4"
+  mapKey: "",
+  searchMode: "map"
 }, (MetacatUI.AppConfig || {}));
 
 MetacatUI.themeMap =

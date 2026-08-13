@@ -10,7 +10,7 @@ MetacatUI.AppConfig = Object.assign({
     description: "The Florida Fish and Wildlife Conservation Commission’s (FWC) repository enables the documenting, preserving, and sharing of our research data. Our goal is to provide information for scientifically-backed decisions and to protect, conserve, and manage Florida's fish and wildlife resources.",
 
     /* API Keys */
-    mapKey: "AIzaSyBgPoSNA1SiaGJ9gRYxkxENVoBXPTU0J5M",
+    mapKey: "",
     googleAnalyticsKey: "G-G1KT0R0DL8",
 
     /* Metadata View */

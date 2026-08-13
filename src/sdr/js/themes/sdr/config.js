@@ -18,7 +18,7 @@ MetacatUI.AppConfig = Object.assign({
     temporaryMessageContainer: "#Navbar",
 
     /* API Keys */
-    mapKey: "AIzaSyC0S2s2N7WIxjLIkE_usE5I5ZbxHXUMWpQ",
+    mapKey: "",
     googleAnalyticsKey: "G-D2CJSR94FZ",
 
     /* Metadata View */

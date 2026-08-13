@@ -5,7 +5,7 @@ MetacatUI.AppConfig = Object.assign({
   repositoryName: "CERP - South Florida Water Management District",
   emailContact: "dmarley@sfwmd.gov",
   nodeId: "urn:node:CERP_SFWMD",
-  mapKey: "AIzaSyDDxRQM8mcIocEgczfnG3M6FnAU5IvVEw0",
+  mapKey: "",
   googleAnalyticsKey: "G-3Z04WNN10H",
 
   /* Temporary Message */

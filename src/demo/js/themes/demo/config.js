@@ -33,7 +33,7 @@ MetacatUI.AppConfig = Object.assign({
     /* Metadata View */
 
     /* API keys */
-    mapKey: "AIzaSyCR-baxR53T7_gvcQk9N_tOrAZLkX_DzZI",
+    mapKey: "",
 
     /* Metrics */
     displayDatasetQualityMetric: true,

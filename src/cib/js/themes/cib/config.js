@@ -13,7 +13,7 @@ MetacatUI.AppConfig = Object.assign({
 
 
   /* API keys */
-  mapKey: "AIzaSyCR-baxR53T7_gvcQk9N_tOrAZLkX_DzZI",
+  mapKey: "",
   googleAnalyticsKey: "G-L1J8J3Z581",
 
   /* Metrics */

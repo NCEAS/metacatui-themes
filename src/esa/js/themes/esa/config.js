@@ -10,6 +10,7 @@ MetacatUI.AppConfig = Object.assign(
     baseUrl: "https://data.esa.org/",
     metacatContext: "esa",
     nodeId: "urn:node:ESA",
+    dataoneHostedRepos: ["urn:node:ESA"],
     d1CNBaseUrl: "https://cn.dataone.org/",
     emailContact: "knb-help@nceas.ucsb.edu",
 

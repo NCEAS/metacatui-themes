@@ -9,6 +9,7 @@ MetacatUI.AppConfig = Object.assign(
     baseUrl: "https://goa.nceas.ucsb.edu/",
     metacatContext: "goa",
     nodeId: "urn:node:GOA",
+    dataoneHostedRepos: ["urn:node:GOA"],
     d1CNBaseUrl: "https://cn.dataone.org/",
     emailContact: "knb-help@nceas.ucsb.edu",
 

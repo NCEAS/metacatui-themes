@@ -731,6 +731,7 @@ MetacatUI.AppConfig = Object.assign({
           {
             "label": "Satellite imagery",
             "layerId": "sat",
+            "visible": true,
             "icon": "urn:uuid:ff153eab-490b-46a4-b11e-47e0592735f6",
             "type": "IonImageryProvider",
             "description": "Global satellite imagery down to 15 cm resolution in urban areas",

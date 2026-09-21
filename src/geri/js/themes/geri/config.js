@@ -11,7 +11,7 @@ MetacatUI.AppConfig = Object.assign({
     description: "The GERI repository provides harmonized global ecological drought data from key ecosystem research infrastructures, enabling seamless and federated access for cross-regional global-scale analysis, research, and decision-making.",
 
     /* API Keys */
-    // mapKey: "",
+    mapKey: "",
     googleAnalyticsKey: "G-F116GPEST0",
 
     /* Map */

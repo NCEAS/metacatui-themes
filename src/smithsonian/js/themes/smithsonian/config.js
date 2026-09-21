@@ -21,7 +21,7 @@ MetacatUI.AppConfig = Object.assign({
     enableCesium: true,
     // temporary token restricted to smithsonian, for testing
     cesiumToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiMWU2ZWEwNS1jNjY1LTQ0ZTQtOWM2NC1mM2NlNGE2NzNmYWQiLCJpZCI6MTI5OTcxLCJpYXQiOjE2Nzk1MjYzMzV9.Hlv9HsNs5UMENIYxonCAWYfxuAiNexpWGGhvYWL0LPg",
-    //mapKey: "",
+    mapKey: "",
     googleAnalyticsKey: "G-Z4Z285RHKC",
 
     catalogSearchMapOptions: {

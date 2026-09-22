@@ -50,10 +50,6 @@ MetacatUI.AppConfig = Object.assign({
             read: true,
             write: true,
             changePermission: false
-        },
-        {
-            subject: "public",
-            read: false
         }
     ],
     inheritAccessPolicy: true,

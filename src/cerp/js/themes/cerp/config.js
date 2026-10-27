@@ -46,7 +46,6 @@ MetacatUI.AppConfig = Object.assign({
   ],
 inheritAccessPolicy: true,
   hiddenSubjectsInAccessPolicy: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cerp-sfwmd-admins,DC=dataone,DC=org"],
-  enablePublishDOIForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cerp-sfwmd-admins,DC=dataone,DC=org"],
   showDatasetPublicToggleForSubjects: ["CN=DataONE-Support,DC=dataone,DC=org", "CN=cerp-sfwmd-admins,DC=dataone,DC=org"],
   emlEditorRequiredFields: {
       abstract: true,
